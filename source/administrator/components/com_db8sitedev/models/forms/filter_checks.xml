@@ -20,7 +20,7 @@
 		</field>
 
 		<field
-				name="catid"
+				name="category_id"
 				type="category"
 				label="JOPTION_FILTER_CATEGORY"
 				extension="com_db8sitedev"

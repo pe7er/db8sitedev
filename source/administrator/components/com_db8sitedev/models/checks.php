@@ -74,7 +74,7 @@ class Db8sitedevModelChecks extends JModelList
 		$this->setState('filter.checked', $checked);
 
 		// Filtering catid
-		$this->setState('filter.catid', $app->getUserStateFromRequest($this->context . '.filter.catid', 'filter_catid', '', 'string'));
+		$this->setState('filter.catid', $app->getUserStateFromRequest($this->context . '.filter.category_id', 'filter_category_id', '', 'string'));
 
 		// Load the parameters.
 		$params = JComponentHelper::getParams('com_db8sitedev');
