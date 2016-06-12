@@ -1,6 +1,6 @@
 <?php
 /**
- * @version    CVS: 0.9.0
+ * @version    CVS: 0.9.1
  * @package    Com_Db8SiteDev
  * @author     Peter Martin <joomla@db8.nl>
  * @copyright  2016 by Peter Martin
@@ -26,6 +26,12 @@ class Db8sitedevHelpersDb8sitedev
 	public static function addSubmenu($vName = '')
 	{
 		JHtmlSidebar::addEntry(
+			JText::_('COM_DB8SITEDEV_TITLE_DASHBOARD'),
+			'index.php?option=com_db8sitedev&view=dashboard',
+			$vName == 'dashboard'
+		);
+
+		JHtmlSidebar::addEntry(
 			JText::_('COM_DB8SITEDEV_TITLE_CHECKLIST'),
 			'index.php?option=com_db8sitedev&view=checklist',
 			$vName == 'checklist'
@@ -49,9 +55,9 @@ class Db8sitedevHelpersDb8sitedev
 		}
 
 		JHtmlSidebar::addEntry(
-			JText::_('COM_DB8SITEDEV_TITLE_DASHBOARD'),
-			'index.php?option=com_db8sitedev&view=dashboard',
-			$vName == 'dashboard'
+			JText::_('COM_DB8SITEDEV_TITLE_ABOUT'),
+			'index.php?option=com_db8sitedev&view=about',
+			$vName == 'about'
 		);
 	}
 

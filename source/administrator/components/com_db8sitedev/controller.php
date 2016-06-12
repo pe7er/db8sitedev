@@ -1,6 +1,6 @@
 <?php
 /**
- * @version    CVS: 0.9.0
+ * @version    CVS: 0.9.1
  * @package    Com_Db8SiteDev
  * @author     Peter Martin <joomla@db8.nl>
  * @copyright  2016 by Peter Martin
@@ -28,7 +28,7 @@ class Db8sitedevController extends JControllerLegacy
 	 */
 	public function display($cachable = false, $urlparams = false)
 	{
-		$view = JFactory::getApplication()->input->getCmd('view', 'checklist');
+		$view = JFactory::getApplication()->input->getCmd('view', 'dashboard');
 		JFactory::getApplication()->input->set('view', $view);
 
 		parent::display($cachable, $urlparams);

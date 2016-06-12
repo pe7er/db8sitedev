@@ -16,7 +16,7 @@ jimport('joomla.application.component.view');
  *
  * @since  1.6
  */
-class Db8sitedevViewDashboard extends JViewLegacy
+class Db8sitedevViewAbout extends JViewLegacy
 {
 	protected $items;
 
@@ -43,7 +43,7 @@ class Db8sitedevViewDashboard extends JViewLegacy
 			throw new Exception(implode("\n", $errors));
 		}
 
-		Db8sitedevHelpersDb8sitedev::addSubmenu('dashboard');
+		Db8sitedevHelpersDb8sitedev::addSubmenu('about');
 
 		$this->addToolbar();
 
@@ -62,7 +62,7 @@ class Db8sitedevViewDashboard extends JViewLegacy
 	{
 		$canDo = Db8sitedevHelpersDb8sitedev::getActions();
 
-		JToolbarHelper::title(JText::_('COM_DB8SITEDEV') . ": " . JText::_('COM_DB8SITEDEV_TITLE_DASHBOARD'), 'dashboard.png');
+		JToolbarHelper::title(JText::_('COM_DB8SITEDEV') . ": " . JText::_('COM_DB8SITEDEV_TITLE_ABOUT'), 'info.png');
 
 		if ($canDo->get('core.admin'))
 		{

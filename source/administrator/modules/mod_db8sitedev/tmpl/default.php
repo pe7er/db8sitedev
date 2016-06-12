@@ -1,6 +1,7 @@
 <?php
 /**
- * @package     mod_db8sitedev
+ * @version    CVS: 0.9.1
+ * @package    Mod_Db8SiteDev
  * @author      Peter Martin, www.db8.nl
  * @copyright   Copyright (C) 2016 Peter Martin. All rights reserved.
  * @license     GNU General Public License version 2 or later.

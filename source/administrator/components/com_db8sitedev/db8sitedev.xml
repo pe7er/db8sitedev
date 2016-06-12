@@ -7,7 +7,7 @@
     <author>Peter Martin</author>
     <authorEmail>joomla@db8.nl</authorEmail>
     <authorUrl>http://www.db8.nl</authorUrl>
-    <version>0.9.0</version>
+    <version>0.9.1</version>
     <description>COM_DB8SITEDEV_XML_DESCRIPTION</description>
 
     <install>
@@ -32,10 +32,11 @@
         <menu>COM_DB8SITEDEV</menu>
 
         <submenu>
+            <menu link="option=com_db8sitedev&amp;view=dashboard" view="dashboard" alt="db8sitedev/Dashboard">COM_DB8SITEDEV_TITLE_DASHBOARD</menu>
             <menu link="option=com_db8sitedev&amp;view=checklist" view="checklist" alt="db8sitedev/Checklist">COM_DB8SITEDEV_TITLE_CHECKLIST</menu>
 			<menu link="option=com_db8sitedev&amp;view=checks" view="checks" alt="db8sitedev/Checks">COM_DB8SITEDEV_TITLE_CHECKS</menu>
 			<menu link="option=com_categories&amp;extension=com_db8sitedev" view="categories" alt="db8sitedev/Categories">COM_DB8SITEDEV_CHECKS_CATID</menu>
-			<menu link="option=com_db8sitedev&amp;view=dashboard" view="dashboard" alt="db8sitedev/Dashboard">COM_DB8SITEDEV_TITLE_DASHBOARD</menu>
+            <menu link="option=com_db8sitedev&amp;view=about" view="about" alt="db8sitedev/About">COM_DB8SITEDEV_TITLE_ABOUT</menu>
         </submenu>
 
         <files folder="administrator">

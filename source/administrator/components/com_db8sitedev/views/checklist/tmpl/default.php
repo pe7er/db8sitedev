@@ -1,6 +1,6 @@
 <?php
 /**
- * @version    CVS: 0.9.0
+ * @version    CVS: 0.9.1
  * @package    Com_Db8SiteDev
  * @author     Peter Martin <joomla@db8.nl>
  * @copyright  2016 by Peter Martin
@@ -96,7 +96,7 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/');
 							<?php echo JHtml::_('grid.id', $i, $item->id); ?>
 						</td>
 						<td width="1%">
-							<?php echo JHtml::_('listhelper.toggle', $item->checked, 'checks', 'checked', $i); ?>
+							<?php echo JHtml::_('listhelper.toggle', $item->checked, 'checklist', 'checked', $i); ?>
 						</td>
 
 						<td>

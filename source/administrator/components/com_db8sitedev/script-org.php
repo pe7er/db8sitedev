@@ -11,7 +11,7 @@ defined('_JEXEC') or die();
 
 /**
  * Class Com_Db8sitedevInstallerScript
- *
+ * 
  * @since  1.0
  */
 class Com_Db8sitedevInstallerScript
@@ -19,24 +19,21 @@ class Com_Db8sitedevInstallerScript
 	/**
 	 * Method to create a sample category + some sample check items.
 	 *
-	 * @param   string $parent Parent is the class calling this method
+	 * @param   string  $parent  Parent is the class calling this method
 	 *
 	 * @return void
 	 *
 	 * @throws Exception
 	 */
-	public function postflight($parent)
+	public function nopostflight ($parent)
 	{
-		// Create default Category for db8 Site Dev component
-
 		// Initialize a new category
-		/** @type  JTableCategory $category */
-		// $category = JTable::getInstance('Category');
-		JTable::addIncludePath(JPATH_ADMINISTRATOR . '/components/com_categories/tables');
-		$category = JTableCategory::getInstance('Category', 'CategoriesTable');
+		/** @type  JTableCategory  $category  */
+		$category = JTable::getInstance('Category');
 
 		// If default category does not exist, create it and add some default items.
-		if (!$category->load(array('extension' => 'com_db8sitedev', 'title' => 'db8 Site Dev'))) {
+		if (!$category->load(array('extension' => 'com_db8sitedev', 'title' => 'db8 Site Dev')))
+		{
 			$category->extension = 'com_db8sitedev';
 			$category->title = 'db8 Site Dev';
 			$category->description = '';
@@ -57,13 +54,15 @@ class Com_Db8sitedevInstallerScript
 			$category->setLocation(1, 'last-child');
 
 			// Check to make sure our data is valid
-			if (!$category->check()) {
+			if (!$category->check())
+			{
 				JFactory::getApplication()->enqueueMessage(JText::sprintf('COM_DB8SITEDEV_ERROR_SAVING_DATA_CATEGORY',
 					$category->getError()));
 				return;
 			}
 			// Now store the category
-			if (!$category->store(true)) {
+			if (!$category->store(true))
+			{
 				JFactory::getApplication()->enqueueMessage(JText::sprintf('COM_DB8SITEDEV_ERROR_SAVING_DATA_CATEGORY',
 					$category->getError()));
 				return;
@@ -72,11 +71,11 @@ class Com_Db8sitedevInstallerScript
 			$category->rebuildPath($category->id);
 
 			$catId = $category->get('id');
-
+	
 			// Create default items for db8 Site Dev component
 			JTable::addIncludePath(JPATH_ADMINISTRATOR . '/components/com_db8sitedev/tables');
 			$myItems = JTableCategory::getInstance('Check', 'Db8sitedevTable');
-
+			
 			$checkItems[] = Array ('id' => '0', 'ordering' => '1', 'title' => 'Install db8 Site Dev Component',
 				'checked' => '1', 'catid' => $catId, 'state' => '1');
 			$checkItems[] = Array ('id' => '0', 'ordering' => '2', 'title' => 'Read the Instructions on the About page',
@@ -97,7 +96,7 @@ class Com_Db8sitedevInstallerScript
 				'checked' => '0', 'catid' => $catId, 'state' => '2');
 			$checkItems[] = Array ('id' => '0', 'ordering' => '10', 'title' => 'Some Trashed item',
 				'checked' => '0', 'catid' => $catId, 'state' => '-2');
-
+	
 			foreach ($checkItems AS $checkItem)
 			{
 				if (!$myItems->save($checkItem))

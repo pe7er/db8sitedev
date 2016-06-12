@@ -16,7 +16,7 @@ jimport('joomla.application.component.view');
  *
  * @since  1.6
  */
-class Db8sitedevViewChecks extends JViewLegacy
+class Db8sitedevViewDashboard extends JViewLegacy
 {
 	protected $items;
 
@@ -37,9 +37,9 @@ class Db8sitedevViewChecks extends JViewLegacy
 	{
 		$this->state = $this->get('State');
 		$this->items = $this->get('Items');
-		$this->pagination = $this->get('Pagination');
-		$this->filterForm    = $this->get('FilterForm');
-		$this->activeFilters = $this->get('ActiveFilters');
+//		$this->pagination = $this->get('Pagination');
+//		$this->filterForm    = $this->get('FilterForm');
+//		$this->activeFilters = $this->get('ActiveFilters');
 
 		// Check for errors.
 		if (count($errors = $this->get('Errors')))
@@ -47,7 +47,7 @@ class Db8sitedevViewChecks extends JViewLegacy
 			throw new Exception(implode("\n", $errors));
 		}
 
-		Db8sitedevHelpersDb8sitedev::addSubmenu('checks');
+		Db8sitedevHelpersDb8sitedev::addSubmenu('dashboard');
 
 		$this->addToolbar();
 
@@ -67,65 +67,7 @@ class Db8sitedevViewChecks extends JViewLegacy
 		$state = $this->get('State');
 		$canDo = Db8sitedevHelpersDb8sitedev::getActions();
 
-		JToolbarHelper::title(JText::_('COM_DB8SITEDEV') . ": " . JText::_('COM_DB8SITEDEV_TITLE_CHECKS'), 'checkbox-partial.png');
-
-		// Check if the form exists before showing the add/edit buttons
-		$formPath = JPATH_COMPONENT_ADMINISTRATOR . '/views/check';
-
-		if (file_exists($formPath))
-		{
-			if ($canDo->get('core.create'))
-			{
-				JToolbarHelper::addNew('check.add', 'JTOOLBAR_NEW');
-				JToolbarHelper::custom('checks.duplicate', 'copy.png', 'copy_f2.png', 'JTOOLBAR_DUPLICATE', true);
-			}
-
-			if ($canDo->get('core.edit') && isset($this->items[0]))
-			{
-				JToolbarHelper::editList('check.edit', 'JTOOLBAR_EDIT');
-			}
-		}
-
-		if ($canDo->get('core.edit.state'))
-		{
-			if (isset($this->items[0]->state))
-			{
-				JToolbarHelper::divider();
-				JToolbarHelper::custom('checks.publish', 'publish.png', 'publish_f2.png', 'JTOOLBAR_PUBLISH', true);
-				JToolbarHelper::custom('checks.unpublish', 'unpublish.png', 'unpublish_f2.png', 'JTOOLBAR_UNPUBLISH', true);
-			}
-			elseif (isset($this->items[0]))
-			{
-				// If this component does not use state then show a direct delete button as we can not trash
-				JToolbarHelper::deleteList('', 'checks.delete', 'JTOOLBAR_DELETE');
-			}
-
-			if (isset($this->items[0]->state))
-			{
-				JToolbarHelper::divider();
-				JToolbarHelper::archiveList('checks.archive', 'JTOOLBAR_ARCHIVE');
-			}
-
-			if (isset($this->items[0]->checked_out))
-			{
-				JToolbarHelper::custom('checks.checkin', 'checkin.png', 'checkin_f2.png', 'JTOOLBAR_CHECKIN', true);
-			}
-		}
-
-		// Show trash and delete for components that uses the state field
-		if (isset($this->items[0]->state))
-		{
-			if ($state->get('filter.state') == -2 && $canDo->get('core.delete'))
-			{
-				JToolbarHelper::deleteList('', 'checks.delete', 'JTOOLBAR_EMPTY_TRASH');
-				JToolbarHelper::divider();
-			}
-			elseif ($canDo->get('core.edit.state'))
-			{
-				JToolbarHelper::trash('checks.trash', 'JTOOLBAR_TRASH');
-				JToolbarHelper::divider();
-			}
-		}
+		JToolbarHelper::title(JText::_('COM_DB8SITEDEV') . ": " . JText::_('COM_DB8SITEDEV_TITLE_DASHBOARD'), 'dashboard.png');
 
 		if ($canDo->get('core.admin'))
 		{

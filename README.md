@@ -1,7 +1,7 @@
 db8 Site Dev (pkg_db8sitedev)
 ===============
 
-A Joomla Site Development Tool (Component + Module) to improve your workflow with Joomla website development.
+A Joomla Site Development Tool (Component + Module) to **improve your workflow** with **Joomla website development**.
 
 ### Features
 - Easily manage your own Checklist of everything you have to do before a website can be put online
@@ -23,8 +23,8 @@ A Joomla Site Development Tool (Component + Module) to improve your workflow wit
 ### Background
 With my company [db8.nl](http://www.db8.nl) I support companies with Joomla websites.
 When developing websites for customers I always have to do the same things to configure and optimize the website before putting it live.
-The awesome [Live Checklist](https://github.com/renekreijveld/livechecklist) created by
-[Rene Kreijveld](http://www.db8.nl/en/download/components-download/db8-site-dev) has proven to be a great tool
+The awesome **[Live Checklist](https://github.com/renekreijveld/livechecklist)** created by
+**[Rene Kreijveld](http://www.renekreijveld.nl/)** has proven to be a great tool
 to keep track of everything that you have to do. It's a list of things you have to do to configure and optimize your Joomla website.
 
 However, it's a list that you can use offline next to your computer. But what if such a list would be inside the website you were developing?

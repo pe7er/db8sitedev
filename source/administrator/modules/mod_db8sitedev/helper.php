@@ -1,6 +1,7 @@
 <?php
 /**
- * @package     mod_db8sitedev
+ * @version    CVS: 0.9.1
+ * @package    Mod_Db8SiteDev
  * @author      Peter Martin, www.db8.nl
  * @copyright   Copyright (C) 2016 Peter Martin. All rights reserved.
  * @license     GNU General Public License version 2 or later.
@@ -24,6 +25,13 @@ abstract class ModDb8sitedevHelper
 	public static function getItems(&$params)
 	{
 		$db = JFactory::getDbo();
+
+		if(!in_array('#__db8sitedev_checks', $db->getTableList()))
+		{
+			JFactory::getApplication()->enqueueMessage(JText::sprintf('MOD_DB8SITEDEV_ERROR_DATABASE_TABLE_NOT_EXIST'),"Error");
+			return;
+		}
+
 		$query = $db->getQuery(true);
 		$query->select('cat.title, cat.id as catid, COUNT(IF(c.checked = 1, 1, NULL)) AS checked_on, COUNT(IF(c.checked = 0, 1, NULL)) AS checked_off ')
 			->from('#__db8sitedev_checks AS c')
@@ -37,7 +45,6 @@ abstract class ModDb8sitedevHelper
 
 		return $items;
 	}
-
 
 	/**
 	 * Method to get count items in categories

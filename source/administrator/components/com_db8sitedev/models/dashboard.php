@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @version    CVS: 0.9.0
+ * @version    CVS: 0.9.1
  * @package    Com_Db8SiteDev
  * @author     Peter Martin <joomla@db8.nl>
  * @copyright  2016 by Peter Martin
@@ -83,6 +83,13 @@ class Db8sitedevModelDashboard extends JModelList
 	{
 		$db	= $this->getDbo();
 		$query	= $db->getQuery(true);
+
+		$query->select('cat.title, cat.id as catid, COUNT(IF(c.checked = 1, 1, NULL)) AS checked_on, COUNT(IF(c.checked = 0, 1, NULL)) AS checked_off ')
+			->from('#__db8sitedev_checks AS c')
+			->leftJoin('#__categories AS cat ON cat.id = c.catid')
+			->where('c.state = 1')
+			->order('cat.lft DESC')
+			->group('c.catid');
 
 		return $query;
 	}
