@@ -66,6 +66,11 @@ class Db8sitedevViewAbout extends JViewLegacy
 
 		if ($canDo->get('core.admin'))
 		{
+			JToolbarHelper::divider();
+			JToolbarHelper::custom('checklist.toggle_on', 'upload.png', 'upload_f2.png', 'COM_DB8SITEDEV_UPLOAD', true);
+			JToolbarHelper::custom('checklist.toggle_off', 'download.png', 'download_f2.png', 'COM_DB8SITEDEV_DOWNLOAD', true);
+			JToolbarHelper::divider();
+
 			JToolbarHelper::preferences('com_db8sitedev');
 		}
 
