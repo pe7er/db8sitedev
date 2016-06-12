@@ -29,7 +29,7 @@
     <scriptfile>script.php</scriptfile>
 
     <administration>
-        <menu>COM_DB8SITEDEV</menu>
+        <menu link="option=com_db8sitedev&amp;view=dashboard" view="dashboard" alt="db8sitedev/Dashboard">COM_DB8SITEDEV</menu>
 
         <submenu>
             <menu link="option=com_db8sitedev&amp;view=dashboard" view="dashboard" alt="db8sitedev/Dashboard">COM_DB8SITEDEV_TITLE_DASHBOARD</menu>
