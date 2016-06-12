@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="administrator" method="upgrade">
+	<name>mod_db8sitedev</name>
+	<author>Peter Martin</author>
+	<creationDate>June 2016</creationDate>
+	<copyright>Copyright (C) 2016 by Peter Martin. All rights reserved.</copyright>
+	<license>GNU General Public License version 2</license>
+	<authorEmail>joomla@db8.nl</authorEmail>
+	<authorUrl>www.db8.nl</authorUrl>
+	<version>0.9.0</version>
+	<description>MOD_DB8SITEDEV_XML_DESCRIPTION</description>
+
+	<scriptfile>script.php</scriptfile>
+
+	<files>
+		<filename module="mod_db8sitedev">mod_db8sitedev.php</filename>
+		<filename>mod_db8sitedev.xml</filename>
+		<filename>helper.php</filename>
+		<folder>assets</folder>
+		<folder>tmpl</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_db8sitedev.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_db8sitedev.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+
+			<fieldset
+					name="advanced">
+
+				<field
+						name="layout"
+						type="modulelayout"
+						label="JFIELD_ALT_LAYOUT_LABEL"
+						description="JFIELD_ALT_MODULE_LAYOUT_DESC"/>
+
+				<field
+						name="moduleclass_sfx"
+						type="textarea" rows="3"
+						label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+						description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"/>
+
+				<field
+						name="cache"
+						type="list"
+						default="0"
+						label="COM_MODULES_FIELD_CACHING_LABEL"
+						description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+			</fieldset>
+
+		</fields>
+	</config>
+
+	<updateservers>
+		<server type="extension" priority="1" name="mod_db8sitedev">http://www.db8.nl/updates/mod_db8sitedev.xml</server>
+	</updateservers>
+
+</extension>

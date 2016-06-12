@@ -1,0 +1,10 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PhpCSValidationInspection" enabled="false" level="ERROR" enabled_by_default="false">
+      <option name="CODING_STANDARD" value="Custom" />
+      <option name="CUSTOM_RULESET_PATH" value="/usr/share/php/coding-standards" />
+      <option name="WARNING_HIGHLIGHT_LEVEL_NAME" value="ERROR" />
+    </inspection_tool>
+  </profile>
+</component>

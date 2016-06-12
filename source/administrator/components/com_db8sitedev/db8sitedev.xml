@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_db8sitedev</name>
+    <creationDate>June 2016</creationDate>
+    <copyright>2016 by Peter Martin</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Peter Martin</author>
+    <authorEmail>joomla@db8.nl</authorEmail>
+    <authorUrl>http://www.db8.nl</authorUrl>
+    <version>0.9.0</version>
+    <description>COM_DB8SITEDEV_XML_DESCRIPTION</description>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <update>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/update.mysql.utf8.sql</file>
+        </sql>
+    </update>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <scriptfile>script.php</scriptfile>
+
+    <administration>
+        <menu>COM_DB8SITEDEV</menu>
+
+        <submenu>
+            <menu link="option=com_db8sitedev&amp;view=checklist" view="checklist" alt="db8sitedev/Checklist">COM_DB8SITEDEV_TITLE_CHECKLIST</menu>
+			<menu link="option=com_db8sitedev&amp;view=checks" view="checks" alt="db8sitedev/Checks">COM_DB8SITEDEV_TITLE_CHECKS</menu>
+			<menu link="option=com_categories&amp;extension=com_db8sitedev" view="categories" alt="db8sitedev/Categories">COM_DB8SITEDEV_CHECKS_CATID</menu>
+			<menu link="option=com_db8sitedev&amp;view=dashboard" view="dashboard" alt="db8sitedev/Dashboard">COM_DB8SITEDEV_TITLE_DASHBOARD</menu>
+        </submenu>
+
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>db8sitedev.php</filename>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+
+        <languages folder="language">
+            <language tag="en-GB">en-GB/en-GB.com_db8sitedev.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_db8sitedev.sys.ini</language>
+        </languages>
+
+    </administration>
+
+    <config>
+        <fields name="params">
+
+            <fieldset
+                    label="COM_DB8SITEDEV"
+                    name="db8sitedev">
+
+                <field
+                        name="generate_site_checklist_button"
+                        type="radio"
+                        label="COM_DB8SITEDEV_GENERATE_SITE_CHECKLIST_BUTTON"
+                        description="COM_DB8SITEDEV_GENERATE_SITE_CHECKLIST_BUTTON_DESC"
+                        buttons="true"
+                        class="btn-group btn-group-yesno"
+                        size="1"
+                        default="1"
+                >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+            </fieldset>
+
+        </fields>
+    </config>
+
+    <updateservers>
+        <server type="extension" priority="1" name="com_db8sitedev">http://www.db8.nl/updates/com_db8sitedev.xml</server>
+    </updateservers>
+
+</extension>

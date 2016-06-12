@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		label="COM_DB8SITEDEV"
+		name="db8sitedev">
+
+		<field
+			name="generate_site_checklist_button"
+			type="radio"
+			label="COM_DB8SITEDEV_GENERATE_SITE_CHECKLIST_BUTTON"
+			description="COM_DB8SITEDEV_GENERATE_SITE_CHECKLIST_BUTTON_DESC"
+			buttons="true"
+			class="btn-group btn-group-yesno"
+			size="1"
+			default="1"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+	</fieldset>
+
+	<fieldset
+		name="permissions"
+		description="JCONFIG_PERMISSIONS_DESC"
+		label="JCONFIG_PERMISSIONS_LABEL">
+
+		<field
+			name="rules"
+			type="rules"
+			component="com_db8sitedev"
+			class="inputbox"
+			filter="rules"
+			validate="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			section="component"
+		/>
+	</fieldset>
+
+</config>

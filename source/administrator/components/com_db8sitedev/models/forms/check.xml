@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+		<field name="title"
+			   type="text"
+			   label="COM_DB8SITEDEV_FORM_LBL_CHECK_TITLE"
+			   description="COM_DB8SITEDEV_FORM_DESC_CHECK_TITLE"
+			   hint="COM_DB8SITEDEV_FORM_LBL_CHECK_TITLE"
+			   required="true"
+			   filter="safehtml"
+		/>
+
+		<field name="checked"
+			   type="radio"
+			   buttons="true"
+			   class="btn-group btn-group-yesno"
+			   default="0"
+			   label="COM_DB8SITEDEV_FORM_LBL_CHECK_CHECKED"
+			   description="COM_DB8SITEDEV_FORM_DESC_CHECK_CHECKED"
+			   hint="COM_DB8SITEDEV_FORM_LBL_CHECK_CHECKED"
+		>
+			<option value="1">COM_DB8SITEDEV_CHECKS_CHECKED_OPTION_ON</option>
+			<option value="0">COM_DB8SITEDEV_CHECKS_CHECKED_OPTION_OFF</option>
+		</field>
+
+		<field name="catid"
+			   type="category"
+			   label="COM_DB8SITEDEV_FORM_LBL_CHECK_CATID"
+			   description="COM_DB8SITEDEV_FORM_DESC_CHECK_CATID"
+			   hint="COM_DB8SITEDEV_FORM_LBL_CHECK_CATID"
+			   required="true"
+			   extension="com_db8sitedev"
+		/>
+
+		<field name="filter_catid"
+			   type="category"
+			   label="COM_DB8SITEDEV_FORM_LBL_CHECK_CATID"
+			   description="COM_DB8SITEDEV_FORM_DESC_CHECK_CATID"
+			   hint="COM_DB8SITEDEV_FORM_LBL_CHECK_CATID"
+			   extension="com_db8sitedev"
+			   show_root="1"
+			   onchange="this.form.submit();"
+		/>
+
+		<field name="description"
+			   type="editor"
+			   label="COM_DB8SITEDEV_FORM_LBL_CHECK_DESCRIPTION"
+			   description="COM_DB8SITEDEV_FORM_DESC_CHECK_DESCRIPTION"
+			   hint="COM_DB8SITEDEV_FORM_LBL_CHECK_DESCRIPTION"
+			   width="300"
+			   filter="safehtml"
+			   option_on="Yes"
+			   option_off="Yes"
+		/>
+
+		<field name="created_by"
+			   type="createdby"
+			   default=""
+			   label="COM_DB8SITEDEV_FORM_LBL_CHECK_CREATED_BY"
+			   description="COM_DB8SITEDEV_FORM_DESC_CHECK_CREATED_BY"
+			   hint="COM_DB8SITEDEV_FORM_LBL_CHECK_CREATED_BY"
+		/>
+
+		<field name="modified_by"
+			   type="modifiedby"
+			   default=""
+			   label="COM_DB8SITEDEV_FORM_LBL_CHECK_MODIFIED_BY"
+			   description="COM_DB8SITEDEV_FORM_DESC_CHECK_MODIFIED_BY"
+			   hint="COM_DB8SITEDEV_FORM_LBL_CHECK_MODIFIED_BY"
+		/>
+
+		<field name="id"
+			   type="text"
+			   default="0"
+			   label="COM_DB8SITEDEV_FORM_LBL_CHECK_ID"
+			   readonly="true"
+			   class="readonly"
+			   description="JGLOBAL_FIELD_ID_DESC"
+		/>
+
+		<field name="version_note"
+			   type="text"
+			   label="JGLOBAL_FIELD_VERSION_NOTE_LABEL"
+			   description="JGLOBAL_FIELD_VERSION_NOTE_DESC"
+			   class="inputbox"
+			   size="45"
+			   labelclass="control-label"
+		/>
+
+		<field name="state"
+			   type="radio"
+			   label="JSTATUS"
+			   description="JFIELD_PUBLISHED_DESC"
+			   buttons="true"
+			   class="btn-group btn-group-yesno"
+			   size="1"
+			   default="1"
+		>
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+			<option value="2">JARCHIVED</option>
+			<option value="-2">JTRASHED</option>
+		</field>
+
+
+		<field name="checked_out"
+			   type="hidden"
+			   filter="unset"
+		/>
+
+		<field name="checked_out_time"
+			   type="hidden"
+			   filter="unset"
+		/>
+
+	</fieldset>
+
+</form>
