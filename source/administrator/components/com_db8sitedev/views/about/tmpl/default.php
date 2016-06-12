@@ -90,7 +90,7 @@ Y88b 888 888 d88P Y88b  d88P      Y88b  d88P 888 Y88b. Y8b.          888  .d88P 
 			Webdevelopers can add their own checklist or Generate a default Live Checklist.</p>
 			<br>
 			<h2>Credits & Contributions</h2>
-			I would like to thank the following fellow Joomla community members that helped me with the development of this extension:
+			I would like to thank the following fellow Joomla community members who helped me with the development of this extension:
 			Roland Dalmulder, Rene Kreijveld, Jisse Reitsma.
 
 		</form>

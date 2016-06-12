@@ -111,7 +111,7 @@ class Db8sitedevControllerChecks extends JControllerAdmin
 	 * 
 	 * @throws Exception
 	 */
-	public function toggle()
+	public function aaatoggle()
 	{
 		// Initialise variables
 		$app    = JFactory::getApplication();

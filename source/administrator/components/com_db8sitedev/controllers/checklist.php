@@ -33,10 +33,8 @@ class Db8sitedevControllerChecklist extends JControllerAdmin
 		// Get id(s)
 		$pks = $this->input->post->get('cid', array(), 'array');
 
-		try
-		{
-			if (empty($pks))
-			{
+		try {
+			if (empty($pks)) {
 				throw new Exception(JText::_('COM_DB8SITEDEV_NO_ELEMENT_SELECTED'));
 			}
 
@@ -44,9 +42,7 @@ class Db8sitedevControllerChecklist extends JControllerAdmin
 			$model = $this->getModel();
 			$model->duplicate($pks);
 			$this->setMessage(JText::_('COM_DB8SITEDEV_ITEMS_SUCCESS_DUPLICATED'));
-		}
-		catch (Exception $e)
-		{
+		} catch (Exception $e) {
 			JFactory::getApplication()->enqueueMessage($e->getMessage(), 'warning');
 		}
 
@@ -56,11 +52,11 @@ class Db8sitedevControllerChecklist extends JControllerAdmin
 	/**
 	 * Proxy for getModel.
 	 *
-	 * @param   string  $name    Optional. Model name
-	 * @param   string  $prefix  Optional. Class prefix
-	 * @param   array   $config  Optional. Configuration array for model
+	 * @param   string $name Optional. Model name
+	 * @param   string $prefix Optional. Class prefix
+	 * @param   array $config Optional. Configuration array for model
 	 *
-	 * @return  object	The Model
+	 * @return  object    The Model
 	 *
 	 * @since    1.6
 	 */
@@ -82,7 +78,7 @@ class Db8sitedevControllerChecklist extends JControllerAdmin
 	{
 		// Get the input
 		$input = JFactory::getApplication()->input;
-		$pks   = $input->post->get('cid', array(), 'array');
+		$pks = $input->post->get('cid', array(), 'array');
 		$order = $input->post->get('order', array(), 'array');
 
 		// Sanitize the input
@@ -95,8 +91,7 @@ class Db8sitedevControllerChecklist extends JControllerAdmin
 		// Save the ordering
 		$return = $model->saveorder($pks, $order);
 
-		if ($return)
-		{
+		if ($return) {
 			echo "1";
 		}
 
@@ -104,19 +99,20 @@ class Db8sitedevControllerChecklist extends JControllerAdmin
 		JFactory::getApplication()->close();
 	}
 
+
 	/**
 	 * Method to toggle fields on a list
 	 *
 	 * @return void
-	 * 
+	 *
 	 * @throws Exception
 	 */
 	public function toggle()
 	{
 		// Initialise variables
-		$app    = JFactory::getApplication();
-		$ids    = $app->input->get('cid', array(), '', 'array');
-		$field  = $app->input->get('field');
+		$app = JFactory::getApplication();
+		$ids = $app->input->get('cid', array(), '', 'array');
+		$field = 'checked';
 
 		if (empty($ids))
 		{
@@ -125,10 +121,11 @@ class Db8sitedevControllerChecklist extends JControllerAdmin
 		else
 		{
 			// Get the model
-			$model = $this->getModel('check');
 
-			foreach ($ids as $pk)
-			{
+			$model = JModelLegacy::getInstance('check', 'Db8sitedevModel');
+
+			foreach ($ids as $pk) {
+
 				// Toggle the items
 				if (!$model->toggle($pk, $field))
 				{
@@ -137,6 +134,75 @@ class Db8sitedevControllerChecklist extends JControllerAdmin
 			}
 		}
 
-	$this->setRedirect(JRoute::_('index.php?option=' . $app->input->get('option') . '&view=checklist'));
+		$this->setRedirect('index.php?option=' . $app->input->get('option') . '&view=checklist');
+	}
+
+	/**
+	 * Method to toggle fields on a list OFF
+	 *
+	 * @return void
+	 *
+	 * @throws Exception
+	 */
+	public function toggle_off()
+	{
+		// Initialise variables
+		$app = JFactory::getApplication();
+		$ids = $app->input->get('cid', array(), '', 'array');
+
+		if (empty($ids))
+		{
+			$app->enqueueMessage('warning', JText::_('JERROR_NO_ITEMS_SELECTED'));
+		}
+		else
+		{
+			JTable::addIncludePath(JPATH_ADMINISTRATOR . '/components/com_db8sitedev/tables');
+			$myItems = JTableCategory::getInstance('Check', 'Db8sitedevTable');
+
+			foreach ($ids as $pk) {
+
+				if (!$myItems->save( Array('id' => $pk, 'checked' => '0')))
+				{
+					throw new Exception(JText::_('COM_DB8SITEDEV_ERROR_SAVING_DATA_ITEM'));
+				}
+			}
+		}
+
+		$this->setRedirect('index.php?option=' . $app->input->get('option') . '&view=checklist');
+	}
+
+	/**
+	 * Method to toggle fields on a list ON
+	 *
+	 * @return void
+	 *
+	 * @throws Exception
+	 */
+	public function toggle_on()
+	{
+		// Initialise variables
+		$app = JFactory::getApplication();
+		$ids = $app->input->get('cid', array(), '', 'array');
+
+		if (empty($ids))
+		{
+			$app->enqueueMessage('warning', JText::_('JERROR_NO_ITEMS_SELECTED'));
+		}
+		else
+		{
+			JTable::addIncludePath(JPATH_ADMINISTRATOR . '/components/com_db8sitedev/tables');
+			$myItems = JTableCategory::getInstance('Check', 'Db8sitedevTable');
+
+			foreach ($ids as $pk) {
+
+				if (!$myItems->save( Array('id' => $pk, 'checked' => '1')))
+				{
+					throw new Exception(JText::_('COM_DB8SITEDEV_ERROR_SAVING_DATA_ITEM'));
+				}
+			}
+		}
+
+		$this->setRedirect('index.php?option=' . $app->input->get('option') . '&view=checklist');
 	}
 }
+

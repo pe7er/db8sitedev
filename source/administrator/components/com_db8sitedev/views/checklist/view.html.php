@@ -72,12 +72,12 @@ class Db8sitedevViewChecklist extends JViewLegacy
 		// Check if the form exists before showing the add/edit buttons
 		$formPath = JPATH_COMPONENT_ADMINISTRATOR . '/views/check';
 
-		/*if (isset($this->items[0]->checked))
+		if (isset($this->items[0]->checked))
 		{
 			JToolbarHelper::divider();
-			JToolbarHelper::custom('check.toggle', 'publish.png', 'publish_f2.png', 'COM_DB8SITEDEV_TOGGLE_ON', true);
-			JToolbarHelper::custom('check.toggle', 'unpublish.png', 'unpublish_f2.png', 'COM_DB8SITEDEV_TOGGLE_OFF', true);
-		}*/
+			JToolbarHelper::custom('checklist.toggle_on', 'publish.png', 'publish_f2.png', 'COM_DB8SITEDEV_TOGGLE_ON', true);
+			JToolbarHelper::custom('checklist.toggle_off', 'unpublish.png', 'unpublish_f2.png', 'COM_DB8SITEDEV_TOGGLE_OFF', true);
+		}
 
 		if ($canDo->get('core.admin'))
 		{
