@@ -51,38 +51,53 @@ class Mod_Db8sitedevInstallerScript
 	 */
 	public function postflight ($parent)
 	{
-		// Change Module settings to auto publish it on position cpanel
+		// Check if Module has not been published yet
 		$db = JFactory::getDbo();
-		$query = $db->getQuery(true);
-		$fields = array(
-			$db->quoteName('published') . ' = 1',
-			$db->quoteName('position') . ' = ' . $db->quote('cpanel'),
-			$db->quoteName('access') . ' = 3',
-			$db->quoteName('params') . ' = ' .
-			$db->quote('{"layout":"_:default","moduleclass_sfx":"","cache":"0","module_tag":"div",' .
-						'"bootstrap_size":"0","header_tag":"h3","header_class":"","style":"0"}'),
-		);
-		$conditions = array($db->quoteName('module') . ' = ' . $db->quote('mod_db8sitedev'));
-		$query->update($db->quoteName('#__modules'))->set($fields)->where($conditions);
-		$db->setQuery($query);
-		$db->execute();
-
-		// Get ID for module
 		$query = $db->getQuery(true);
 		$query->select($db->quoteName('id'));
 		$query->from($db->quoteName('#__modules'));
 		$query->where($db->quoteName('module') . ' = ' . $db->quote('mod_db8sitedev'));
+		$query->where($db->quoteName('published') . ' = 1');
+		$query->where($db->quoteName('position') . ' = ' . $db->quote('cpanel'));
 		$db->setQuery($query);
 		$moduleId = $db->loadResult();
+		
+		// If the Module has not been published, publish + assign it
+		if(empty($moduleId))
+		{
+			// Change Module settings to auto publish it on position cpanel
+			$query = $db->getQuery(true);
+			$fields = array(
+				$db->quoteName('published') . ' = 1',
+				$db->quoteName('position') . ' = ' . $db->quote('cpanel'),
+				$db->quoteName('access') . ' = 3',
+				$db->quoteName('params') . ' = ' .
+				$db->quote('{"layout":"_:default","moduleclass_sfx":"","cache":"0","module_tag":"div",' .
+					'"bootstrap_size":"0","header_tag":"h3","header_class":"","style":"0"}'),
+			);
+			$conditions = array($db->quoteName('module') . ' = ' . $db->quote('mod_db8sitedev'));
+			$query->update($db->quoteName('#__modules'))->set($fields)->where($conditions);
+			$db->setQuery($query);
+			$db->execute();
 
-		// Add to modules_menu
-		$query = $db->getQuery(true);
-		$fields = array(
-			$db->quoteName('moduleid') . ' = ' . $db->quote($moduleId),
-			$db->quoteName('menuid') . ' = 0',
-		);
-		$query->insert($db->quoteName('#__modules_menu'))->set($fields);
-		$db->setQuery($query);
-		$db->execute();
+			// Get ID for module
+			$query = $db->getQuery(true);
+			$query->select($db->quoteName('id'));
+			$query->from($db->quoteName('#__modules'));
+			$query->where($db->quoteName('module') . ' = ' . $db->quote('mod_db8sitedev'));
+			$db->setQuery($query);
+			$moduleId = $db->loadResult();
+
+			// Add to modules_menu
+			$query = $db->getQuery(true);
+			$fields = array(
+				$db->quoteName('moduleid') . ' = ' . $db->quote($moduleId),
+				$db->quoteName('menuid') . ' = 0',
+			);
+
+			$query->insert($db->quoteName('#__modules_menu'))->set($fields);
+			$db->setQuery($query);
+			$db->execute();
+		}
 	}
 }
