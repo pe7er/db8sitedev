@@ -30,8 +30,6 @@ class Com_Db8sitedevInstallerScript
 		// Create default Category for db8 Site Dev component
 
 		// Initialize a new category
-		/** @type  JTableCategory $category */
-		// $category = JTable::getInstance('Category');
 		JTable::addIncludePath(JPATH_ADMINISTRATOR . '/components/com_categories/tables');
 		$category = JTableCategory::getInstance('Category', 'CategoriesTable');
 
