@@ -6,7 +6,8 @@ A Joomla Site Development Tool (Component + Module) to **improve your workflow**
 ### Features
 - Easily manage your own Checklist of everything you have to do before a website can be put online
 - Manage your own Checklist of Categories and Checklist items
-- Generate a default Site Checklist with items related to Joomla website development
+- Import and export your own Checklist Categories and Checklist Items
+- Download and import a default Site Checklist with items related to Joomla website development
 - Have a full overview of everything that has been done and have to be done
 - Easily check or uncheck items to update the status of an item
 
@@ -31,16 +32,27 @@ However, it's a list that you can use offline next to your computer. But what if
 I decided to develop this extension to have such a checklist tool within the website that is under development.
 Webdevelopers can add their own checklist or Generate a default Live Checklist.
 
-The extension consists of a Component and a Module:
+If you find this extension useful, please leave a review at the [Joomla Extension Directory (JED)](http://extensions.joomla.org/extensions/extension/db8-site-dev)
+
+
+This extension consists of a Component and a Module:
 
 #### Component
 With the Admin Component a webdeveloper can easily create a checklist of all things that have to be done before the site can be put live.
-The component has an option to generate a default checklist.
+The component has an option to import or export your own checklists.
 
 #### Module
 The Admin Module is published on the Controlpanel of your /administrator back-end so that you can easily keep track of everything that still has to be done.
 The UNchecked and Checked counters and Category name can all be clicked and will navigate you to the Checklist, filtered on what you clicked.
 
 ### Credits & Contributions
-I would like to thank the following fellow Joomla community members that helped me with the development of this extension:
+I would like to thank the following fellow Joomla community members that inspired or helped me with the development of this extension:
 Roland Dalmulder, Rene Kreijveld, Jisse Reitsma.
+
+#### Language packs
+This extension is available with the following translations, thanks to my fellow international Joomla community members!
+English (en-GB)
+Danish (da-DK) by Ole Bang Ottosen
+Dutch (nl-NL)
+French (fr-FR) by Marc-Antoine Thevenet
+German (de-DE)

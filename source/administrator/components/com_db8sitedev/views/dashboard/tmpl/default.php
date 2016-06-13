@@ -1,6 +1,6 @@
 <?php
 /**
- * @version    CVS: 0.9.1
+ * @version    CVS: 0.9.2
  * @package    Com_Db8SiteDev
  * @author     Peter Martin <joomla@db8.nl>
  * @copyright  2016 by Peter Martin
@@ -18,11 +18,11 @@ $list = $this->items;
 <?php else : ?>
 	<div id="j-main-container">
 <?php endif; ?>
-<h1><?php echo JText::_('COM_DB8SITEDEV_CHECKLIST_STATUS'); ?></h1>
-<?php if (count($list)) : ?>
-	<ul class="list-striped list-condensed stats-module<?php //echo $moduleclass_sfx ?>">
-		<?php foreach ($list as $item) : ?>
-			<li>
+		<h1><?php echo JText::_('COM_DB8SITEDEV_CHECKLIST_STATUS'); ?></h1>
+		<?php if (count($list)) : ?>
+			<ul class="list-striped list-condensed stats-module<?php //echo $moduleclass_sfx ?>">
+				<?php foreach ($list as $item) : ?>
+					<li>
 			<span class="" title="<?php echo $item->title; ?>">
 				<?php if (isset($item) && property_exists($item, 'checked_off')) : ?>
 					<span class="center btns">
@@ -48,12 +48,9 @@ $list = $this->items;
 
 			<span class="" title="<?php echo $item->title; ?>">
 				<a class="label
-				<?php if ($item->checked_off == 0)
-				{
+				<?php if ($item->checked_off == 0) {
 					echo "label-success";
-				}
-				else
-				{
+				} else {
 					echo "label-warning";
 				}
 
@@ -65,26 +62,20 @@ $list = $this->items;
 					<?php echo $item->title; ?>
 				</a>
 			</span>
-			</li>
-		<?php endforeach; ?>
-	</ul>
-<?php else : ?>
-	<div class="row-fluid">
-		<div class="span12">
-			<div class="alert"><?php echo JText::_('COM_DB8SITEDEV_NO_MATCHING_RESULTS'); ?></div>
-		</div>
-	</div>
-<?php endif; ?>
-
-
-
-
+					</li>
+				<?php endforeach; ?>
+			</ul>
+		<?php else : ?>
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="alert"><?php echo JText::_('COM_DB8SITEDEV_NO_MATCHING_RESULTS'); ?></div>
+				</div>
+			</div>
+		<?php endif; ?>
 	</div>
 </div>
 
-
-<?php if (!empty($this->extra_sidebar))
-{
+<?php if (!empty($this->extra_sidebar)) {
 	$this->sidebar .= $this->extra_sidebar;
 }
 ?>

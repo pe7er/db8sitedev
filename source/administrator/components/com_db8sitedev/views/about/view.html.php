@@ -48,6 +48,7 @@ class Db8sitedevViewAbout extends JViewLegacy
 		$this->addToolbar();
 
 		$this->sidebar = JHtmlSidebar::render();
+		
 		parent::display($tpl);
 	}
 
@@ -61,16 +62,13 @@ class Db8sitedevViewAbout extends JViewLegacy
 	protected function addToolbar()
 	{
 		$canDo = Db8sitedevHelpersDb8sitedev::getActions();
+		
+		$bar = JToolbar::getInstance('toolbar');
 
 		JToolbarHelper::title(JText::_('COM_DB8SITEDEV') . ": " . JText::_('COM_DB8SITEDEV_TITLE_ABOUT'), 'info.png');
 
 		if ($canDo->get('core.admin'))
 		{
-		/*	JToolbarHelper::divider();
-			JToolbarHelper::custom('checklist.toggle_on', 'upload.png', 'upload_f2.png', 'COM_DB8SITEDEV_UPLOAD', true);
-			JToolbarHelper::custom('checklist.toggle_off', 'download.png', 'download_f2.png', 'COM_DB8SITEDEV_DOWNLOAD', true);
-			JToolbarHelper::divider();
-		*/
 			JToolbarHelper::preferences('com_db8sitedev');
 		}
 
