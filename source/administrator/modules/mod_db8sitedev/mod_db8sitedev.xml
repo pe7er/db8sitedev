@@ -23,6 +23,8 @@
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.mod_db8sitedev.ini</language>
 		<language tag="en-GB">en-GB/en-GB.mod_db8sitedev.sys.ini</language>
+		<language tag="en-GB">fr-FR/fr-FR.mod_db8sitedev.ini</language>
+		<language tag="en-GB">fr-FR/fr-FR.mod_db8sitedev.sys.ini</language>
 	</languages>
 
 	<config>
