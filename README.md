@@ -12,7 +12,7 @@ A Joomla Site Development Tool (Component + Module) to **improve your workflow**
 - Easily check or uncheck items to update the status of an item
 
 ### Getting started
-- [Download db8sitedev](http://www.db8.nl/en/download/components-download/db8-site-dev)
+- [Download db8 Site Dev](http://www.db8.nl/en/download/components-download/db8-site-dev)
 - Install the package (Component + Module) in the Extension Manager
 - The Component will be installed with one default Category "db8 Site Dev" and some default Checklist items related to the extension
 - The Dashboard has an option to generate a Live Site Checklist
@@ -32,8 +32,11 @@ However, it's a list that you can use offline next to your computer. But what if
 I decided to develop this extension to have such a checklist tool within the website that is under development.
 Webdevelopers can add their own checklist or Generate a default Live Checklist.
 
-If you find this extension useful, please leave a review at the [Joomla Extension Directory (JED)](http://extensions.joomla.org/extensions/extension/db8-site-dev)
+### Download
+You can download an installation package from [Download page at db8.nl](http://www.db8.nl/en/download/components-download/db8-site-dev)
+or get the most recent release from [github.com/pe7er/db8sitedev/releases](https://github.com/pe7er/db8sitedev/releases)
 
+If you find this extension useful, please consider leaving a review at the [Joomla Extension Directory (JED)](http://extensions.joomla.org/extensions/extension/db8-site-dev)
 
 This extension consists of a Component and a Module:
 
@@ -42,7 +45,7 @@ With the Admin Component a webdeveloper can easily create a checklist of all thi
 The component has an option to import or export your own checklists.
 
 #### Module
-The Admin Module is published on the Controlpanel of your /administrator back-end so that you can easily keep track of everything that still has to be done.
+The Admin Module is published on the Control Panel of your /administrator back-end so that you can easily keep track of everything that still has to be done.
 The UNchecked and Checked counters and Category name can all be clicked and will navigate you to the Checklist, filtered on what you clicked.
 
 ### Credits & Contributions
@@ -51,8 +54,8 @@ Roland Dalmulder, Rene Kreijveld, Jisse Reitsma.
 
 #### Language packs
 This extension is available with the following translations, thanks to my fellow international Joomla community members!
-English (en-GB)
-Danish (da-DK) by Ole Bang Ottosen
-Dutch (nl-NL)
-French (fr-FR) by Marc-Antoine Thevenet
-German (de-DE)
+- English (en-GB)
+- Danish (da-DK) by Ole Bang Ottosen
+- Dutch (nl-NL)
+- French (fr-FR) by Marc-Antoine Thevenet
+- German (de-DE)
