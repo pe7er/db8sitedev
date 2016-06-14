@@ -56,6 +56,8 @@
         <languages folder="language">
             <language tag="en-GB">en-GB/en-GB.com_db8sitedev.ini</language>
             <language tag="en-GB">en-GB/en-GB.com_db8sitedev.sys.ini</language>
+            <language tag="fr-FR">fr-FR/fr-FR.com_db8sitedev.ini</language>
+            <language tag="fr-FR">fr-FR/fr-FR.com_db8sitedev.sys.ini</language>
         </languages>
 
     </administration>
