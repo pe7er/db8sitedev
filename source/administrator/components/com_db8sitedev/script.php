@@ -25,7 +25,7 @@ class Com_Db8sitedevInstallerScript
 	 *
 	 * @throws Exception
 	 */
-	public function postflight($parent)
+	public function install($parent)
 	{
 		// Create default Category for db8 Site Dev component
 

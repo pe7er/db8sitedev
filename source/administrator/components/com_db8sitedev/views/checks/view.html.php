@@ -112,20 +112,17 @@ class Db8sitedevViewChecks extends JViewLegacy
 			}
 		}
 
-		// Show trash and delete for components that uses the state field
-		if (isset($this->items[0]->state))
-		{
-			if ($state->get('filter.state') == -2 && $canDo->get('core.delete'))
+
+			if ($state->get('filter.published') == -2 && $canDo->get('core.delete'))
 			{
-				JToolbarHelper::deleteList('', 'checks.delete', 'JTOOLBAR_EMPTY_TRASH');
-				JToolbarHelper::divider();
+				JToolbarHelper::deleteList('JGLOBAL_CONFIRM_DELETE', 'checks.delete', 'JTOOLBAR_EMPTY_TRASH');
+
 			}
 			elseif ($canDo->get('core.edit.state'))
 			{
 				JToolbarHelper::trash('checks.trash', 'JTOOLBAR_TRASH');
-				JToolbarHelper::divider();
+
 			}
-		}
 
 		if ($canDo->get('core.admin'))
 		{

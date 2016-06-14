@@ -71,7 +71,7 @@ Y88b 888 888 d88P Y88b  d88P      Y88b  d88P 888 Y88b. Y8b.          888  .d88P 
 					<?php echo JHtml::_('form.token'); ?>
 					<br>
 					For example: <a
-						href="https://github.com/pe7er/db8sitedev/blob/master/db8-site-dev-default-checklist.json"
+						href="https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist.json"
 						target="_blank">Download this default Site Checklist</a>.
 				</form>
 				<?php
