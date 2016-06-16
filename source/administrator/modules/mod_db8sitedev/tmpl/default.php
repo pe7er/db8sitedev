@@ -18,44 +18,63 @@ JHtml::_('bootstrap.tooltip');
 			<span class="" title="<?php echo $item->title; ?>">
 				<?php if (isset($item) && property_exists($item, 'checked_off')) : ?>
 					<span class="center btns">
-					<a class="badge <?php if ($item->checked_off > 0) echo "badge-important"; ?> hasTooltip"
-					   title="<?php echo JHtml::tooltipText('MOD_DB8SITEDEV_UNCHECKED_ITEMS'); ?>"
-					   href="<?php echo JRoute::_('index.php?option=com_db8sitedev&view=checklist'
-						   . '&filter[catid]=' . (int)$item->catid . '&filter[checked]=0&list[limit]=0'); ?>">
-						<?php echo $item->checked_off; ?></a>
+						<?php
+						$class = "badge hasTooltip";
+						if ($item->checked_off > 0)
+						{
+							$class .= " badge-important";
+						}
+						echo JHtml::link(JRoute::_('index.php?option=com_db8sitedev&view=checklist'
+							. '&filter[catid]=' . (int)$item->catid . '&filter[checked]=0&list[limit]=0'),
+							$item->checked_off,
+							array(
+							'class' => $class,
+							'title' => JHtml::tooltipText('MOD_DB8SITEDEV_UNCHECKED_ITEMS')
+							)
+						); ?>
 				</span>
 				<?php endif; ?>
 			</span>
 			<span class="" title="<?php echo $item->title; ?>">
 				<?php if (isset($item) && property_exists($item, 'checked_on')) : ?>
 					<span style="width:20px;" class="center btns">
-						<a class="badge <?php if ($item->checked_on > 0) echo "badge-success"; ?> hasTooltip"
-						   title="<?php echo JHtml::tooltipText('MOD_DB8SITEDEV_CHECKED_ITEMS'); ?>"
-						   href="<?php echo JRoute::_('index.php?option=com_db8sitedev&view=checklist'
-							   . '&filter[catid]=' . (int)$item->catid . '&filter[checked]=1&list[limit]=0'); ?>">
-							<?php echo $item->checked_on; ?></a>
+						<?php
+						$class = "badge hasTooltip";
+						if ($item->checked_on > 0)
+						{
+							$class .= " badge-success";
+						}
+						echo JHtml::link(JRoute::_('index.php?option=com_db8sitedev&view=checklist'
+							. '&filter[catid]=' . (int)$item->catid . '&filter[checked]=1&list[limit]=0'),
+							$item->checked_on,
+							array(
+								'class' => $class,
+								'title' => JHtml::tooltipText('MOD_DB8SITEDEV_CHECKED_ITEMS')
+							)
+						); ?>
 					</span>
 				<?php endif; ?>
 			</span>
 
 			<span class="" title="<?php echo $item->title; ?>">
-				<a class="label
-				<?php if ($item->checked_off == 0)
+				<?php
+				$class = "label hasTooltip label-";
+				if ($item->checked_off == 0)
 				{
-					echo "label-success";
+					$class .= "success";
 				}
 				else
 				{
-					echo "label-warning";
+					$class .= "default";
 				}
-
-				if ($item->checked_off > 0) echo "label-default";
-				?> hasTooltip"
-				   title="<?php echo JHtml::tooltipText('MOD_DB8SITEDEV_ALL_ITEMS'); ?>"
-				   href="<?php echo JRoute::_('index.php?option=com_db8sitedev&view=checklist'
-					   . '&filter[catid]=' . (int)$item->catid . '&filter[checked]=&list[limit]=0'); ?>">
-					<?php echo $item->title; ?>
-				</a>
+				echo JHtml::link(JRoute::_('index.php?option=com_db8sitedev&view=checklist'
+					. '&filter[catid]=' . (int)$item->catid . '&filter[checked]=&list[limit]=0'),
+					$item->title,
+					array(
+						'class' => $class,
+						'title' => JHtml::tooltipText('MOD_DB8SITEDEV_ALL_ITEMS')
+					)
+				); ?>
 			</span>
 		</li>
 	<?php endforeach; ?>

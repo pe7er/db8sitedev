@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @version    CVS: 0.9.3
+ * @version    CVS: 0.9.1
  * @package    Com_Db8SiteDev
  * @author     Peter Martin <joomla@db8.nl>
  * @copyright  2016 by Peter Martin
@@ -74,7 +74,7 @@ class Db8sitedevModelChecks extends JModelList
 		$this->setState('filter.checked', $checked);
 
 		// Filtering catid
-		$this->setState('filter.catid', $app->getUserStateFromRequest($this->context . '.filter.category_id', 'filter_category_id', '', 'string'));
+		$this->setState('filter.catid', $app->getUserStateFromRequest($this->context . '.filter.catid', 'filter_catid', '', 'string'));
 
 		// Load the parameters.
 		$params = JComponentHelper::getParams('com_db8sitedev');

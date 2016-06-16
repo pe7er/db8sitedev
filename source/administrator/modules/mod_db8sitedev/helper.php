@@ -37,6 +37,7 @@ abstract class ModDb8sitedevHelper
 			->from('#__db8sitedev_checks AS c')
 			->leftJoin('#__categories AS cat ON cat.id = c.catid')
 			->where('c.state = 1')
+			->where('cat.published = 1')
 			->order('cat.lft DESC')
 			->group('c.catid');
 
