@@ -70,9 +70,8 @@ Y88b 888 888 d88P Y88b  d88P      Y88b  d88P 888 Y88b. Y8b.          888  .d88P 
 					<input type="hidden" name="task" value="about.upload"/>
 					<?php echo JHtml::_('form.token'); ?>
 					<br>
-					For example: <a
-						href="https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist.json"
-						target="_blank">Download this default Site Checklist</a>.
+					For example: Download a default <a
+						href="https://github.com/pe7er/db8sitedev" target="_blank"> Site Checklist</a>.
 				</form>
 				<?php
 			} else { ?>

@@ -65,7 +65,7 @@
   },
   {
     "category": "Configuration",
-    "title": "Do all webforms have email handling and emailadresses setup correctly?",
+    "title": "Do all web forms have email handling and email adresses setup correctly?",
     "checked": "0",
     "description": "",
     "ordering": "23",
@@ -265,7 +265,7 @@
   },
   {
     "category": "Template",
-    "title": "Unpublished or uninstalled all unused templaes?",
+    "title": "Unpublished or uninstalled all unused templates?",
     "checked": "0",
     "description": "",
     "ordering": "32",
@@ -457,7 +457,7 @@
   },
   {
     "category": "SEO",
-    "title": "Add line to .htaccess to show OSXMAP sitemap as sitemap.xml?",
+    "title": "Add line to .htaccess to show OSMAP sitemap as sitemap.xml?",
     "checked": "0",
     "description": "",
     "ordering": "51",
@@ -521,7 +521,7 @@
   },
   {
     "category": "Extras",
-    "title": "Trainingwebsite archived and removed?",
+    "title": "Training website archived and removed?",
     "checked": "0",
     "description": "",
     "ordering": "72",
