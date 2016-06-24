@@ -1,0 +1,586 @@
+[
+  {
+    "category": "Configuratie",
+    "title": "Niet gebruikte extensies gedepubliceerd of verwijderd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "15",
+    "state": "1"
+  },
+  {
+    "category": "Configuratie",
+    "title": "Joomla up-to-date?",
+    "checked": "0",
+    "description": "",
+    "ordering": "16",
+    "state": "1"
+  },
+  {
+    "category": "Configuratie",
+    "title": "Algemeen e-mailadres website ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "17",
+    "state": "1"
+  },
+  {
+    "category": "Configuratie",
+    "title": "SMTP server ingesteld in de e-mailinstellingen?",
+    "checked": "0",
+    "description": "",
+    "ordering": "18",
+    "state": "1"
+  },
+  {
+    "category": "Configuratie",
+    "title": "Groepsmail uitgeschakeld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "19",
+    "state": "1"
+  },
+  {
+    "category": "Configuratie",
+    "title": "Tijdzone server goed ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "20",
+    "state": "1"
+  },
+  {
+    "category": "Configuratie",
+    "title": "Sessie levensduur ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "21",
+    "state": "1"
+  },
+  {
+    "category": "Configuratie",
+    "title": "Feed Email Address op `No Email` ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "22",
+    "state": "1"
+  },
+  {
+    "category": "Configuratie",
+    "title": "Alle webformulieren hebben e-mail afhandeling en de e-mailadressen goed ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "23",
+    "state": "1"
+  },
+  {
+    "category": "Configuratie",
+    "title": "HTTPS aangezet (indien nodig)?",
+    "checked": "0",
+    "description": "",
+    "ordering": "24",
+    "state": "1"
+  },
+  {
+    "category": "Configuratie",
+    "title": "Caching ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "25",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Foutrapportage uitgeschakeld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "1",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "ReCaptcha private\/public keys ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "2",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Standaard Captcha ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "3",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Onnodige Gebruikers uit Gebruikersbeheer verwijderd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "4",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Onnodige Gebruikersgroepen verwijderd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "5",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Gebruikersregistratie toestaan uitgezet? (indien niet nodig)",
+    "checked": "0",
+    "description": "",
+    "ordering": "6",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Wachtwoord complexiteit ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "7",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Redirect non-www naar www ingesteld in .htaccess?",
+    "checked": "0",
+    "description": "",
+    "ordering": "8",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Toegang blokkeren tot administrator of IP whitelist gebruiken voor administrator",
+    "checked": "0",
+    "description": "",
+    "ordering": "9",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Toegang tot administrator folder geblokkeerd met extensie met geheime URL token?",
+    "checked": "0",
+    "description": "",
+    "ordering": "10",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "HTTPS:\/\/ Certificaat opgezet (indien nodig)?",
+    "checked": "0",
+    "description": "",
+    "ordering": "11",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Backupschema actief?",
+    "checked": "0",
+    "description": "",
+    "ordering": "12",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "Backup EN restore getest?",
+    "checked": "0",
+    "description": "",
+    "ordering": "13",
+    "state": "1"
+  },
+  {
+    "category": "Veiligheid",
+    "title": "(S)FTP login aangemaakt voor beheer?",
+    "checked": "0",
+    "description": "",
+    "ordering": "14",
+    "state": "1"
+  },
+  {
+    "category": "Content",
+    "title": "Oude content opgeschoond?",
+    "checked": "0",
+    "description": "",
+    "ordering": "39",
+    "state": "1"
+  },
+  {
+    "category": "Content",
+    "title": "Onnodige bestanden en documenten verwijderd, zoals standaard Joomla afbeeldingen?",
+    "checked": "0",
+    "description": "",
+    "ordering": "40",
+    "state": "1"
+  },
+  {
+    "category": "Content",
+    "title": "Alle Lorem Ipsum \/ dummy content verwijderd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "41",
+    "state": "1"
+  },
+  {
+    "category": "Content",
+    "title": "Alle verwijderde Artikelen verwijderd uit prullebak?",
+    "checked": "0",
+    "description": "",
+    "ordering": "42",
+    "state": "1"
+  },
+  {
+    "category": "Content",
+    "title": "Alle verwijderde Categorieen verwijderd uit prullebak?",
+    "checked": "0",
+    "description": "",
+    "ordering": "43",
+    "state": "1"
+  },
+  {
+    "category": "Content",
+    "title": "Alle verwijderde Menu Items verwijderd uit prullebak?",
+    "checked": "0",
+    "description": "",
+    "ordering": "44",
+    "state": "1"
+  },
+  {
+    "category": "Content",
+    "title": "Alle verwijderde Modules verwijderd uit prullebak?",
+    "checked": "0",
+    "description": "",
+    "ordering": "45",
+    "state": "1"
+  },
+  {
+    "category": "Content",
+    "title": "Development URLs in de database vervangen naar productie URLs?",
+    "checked": "0",
+    "description": "",
+    "ordering": "46",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Niet gebruikte templates uitgezet of verwijderd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "32",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Template `Preview Module Positions` uitgezet?",
+    "checked": "0",
+    "description": "",
+    "ordering": "33",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Favicon aanwezig en getest?",
+    "checked": "0",
+    "description": "",
+    "ordering": "34",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Mobile iconen aanwezig en getest?",
+    "checked": "0",
+    "description": "",
+    "ordering": "35",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Eigen 404 error pagina ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "36",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Website getest in alle veelgebruikte browsers?",
+    "checked": "0",
+    "description": "",
+    "ordering": "37",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Mobiele template aanwezig en getest?",
+    "checked": "0",
+    "description": "",
+    "ordering": "38",
+    "state": "1"
+  },
+  {
+    "category": "Usability",
+    "title": "Overbodige zoekplugins uit gezet?",
+    "checked": "0",
+    "description": "",
+    "ordering": "63",
+    "state": "1"
+  },
+  {
+    "category": "Usability",
+    "title": "Overbodige Smart Search plugins uit gezet?",
+    "checked": "0",
+    "description": "",
+    "ordering": "64",
+    "state": "1"
+  },
+  {
+    "category": "Usability",
+    "title": "Zoekplugins in de juiste volgorde?",
+    "checked": "0",
+    "description": "",
+    "ordering": "65",
+    "state": "1"
+  },
+  {
+    "category": "Usability",
+    "title": "JCE editor - geoptimaliseerd profiel ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "66",
+    "state": "1"
+  },
+  {
+    "category": "Usability",
+    "title": "JCE editor - editors-xtd plugins uitgezet?",
+    "checked": "0",
+    "description": "",
+    "ordering": "67",
+    "state": "1"
+  },
+  {
+    "category": "Snelheid",
+    "title": "Plaatjes geoptimaliseerd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "55",
+    "state": "1"
+  },
+  {
+    "category": "Snelheid",
+    "title": "Mootools enabler\/disabler actief?",
+    "checked": "0",
+    "description": "",
+    "ordering": "56",
+    "state": "1"
+  },
+  {
+    "category": "Snelheid",
+    "title": "leegmaken cache\/tmp mappen?",
+    "checked": "0",
+    "description": "",
+    "ordering": "57",
+    "state": "1"
+  },
+  {
+    "category": "Snelheid",
+    "title": "Varnish ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "58",
+    "state": "1"
+  },
+  {
+    "category": "Snelheid",
+    "title": "CSS\/Javascript compress\/merge geinstalleerd en geconfigureerd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "59",
+    "state": "1"
+  },
+  {
+    "category": "Snelheid",
+    "title": "CDN geactiveerd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "60",
+    "state": "1"
+  },
+  {
+    "category": "Snelheid",
+    "title": "Website gecontroleerd buiten eigen network\/DNS?",
+    "checked": "0",
+    "description": "",
+    "ordering": "61",
+    "state": "1"
+  },
+  {
+    "category": "Snelheid",
+    "title": "Website snelheid gecontroleerd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "62",
+    "state": "1"
+  },
+  {
+    "category": "Zoekmachine Optimalisatie (SEO)",
+    "title": "Robots.txt ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "47",
+    "state": "1"
+  },
+  {
+    "category": "Zoekmachine Optimalisatie (SEO)",
+    "title": "URL redirects van oude site naar nieuwe site ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "48",
+    "state": "1"
+  },
+  {
+    "category": "Zoekmachine Optimalisatie (SEO)",
+    "title": "Redirect www naar non-www in .htaccess?",
+    "checked": "0",
+    "description": "",
+    "ordering": "49",
+    "state": "1"
+  },
+  {
+    "category": "Zoekmachine Optimalisatie (SEO)",
+    "title": "Sitemap voor alle menus aangemaakt?",
+    "checked": "0",
+    "description": "",
+    "ordering": "50",
+    "state": "1"
+  },
+  {
+    "category": "Zoekmachine Optimalisatie (SEO)",
+    "title": "Regel toegevoegen aan .htaccess zodat OSMAP sitemap getoond kan worden als sitemap.xml?",
+    "checked": "0",
+    "description": "",
+    "ordering": "51",
+    "state": "1"
+  },
+  {
+    "category": "Zoekmachine Optimalisatie (SEO)",
+    "title": "XML Sitemap aan Google Webmaster Tools toegevoegd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "52",
+    "state": "1"
+  },
+  {
+    "category": "Zoekmachine Optimalisatie (SEO)",
+    "title": "Search-engine friendly URLs aangezet en geconfigureerd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "53",
+    "state": "1"
+  },
+  {
+    "category": "Zoekmachine Optimalisatie (SEO)",
+    "title": "Social Share module geinstalleerd en geconfigureerd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "54",
+    "state": "1"
+  },
+  {
+    "category": "Extra",
+    "title": "Slim zoeken indexen verwijderen en opnieuw opbouwen (indien gebruikt)?",
+    "checked": "0",
+    "description": "",
+    "ordering": "68",
+    "state": "1"
+  },
+  {
+    "category": "Extra",
+    "title": "Cookie Law \/ Cookie alert?",
+    "checked": "0",
+    "description": "",
+    "ordering": "69",
+    "state": "1"
+  },
+  {
+    "category": "Extra",
+    "title": "Watchful.li ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "70",
+    "state": "1"
+  },
+  {
+    "category": "Extra",
+    "title": "myJoomla.com audit gedaan?",
+    "checked": "0",
+    "description": "",
+    "ordering": "71",
+    "state": "1"
+  },
+  {
+    "category": "Extra",
+    "title": "Trainingswebsite gearchiveerd en verwijderd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "72",
+    "state": "1"
+  },
+  {
+    "category": "Niet-standaard extensies",
+    "title": "All niet-standaard extensies up-to-date?",
+    "checked": "0",
+    "description": "",
+    "ordering": "26",
+    "state": "1"
+  },
+  {
+    "category": "Niet-standaard extensies",
+    "title": "ACL Manager geinstalleerd en geconfigureerd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "27",
+    "state": "1"
+  },
+  {
+    "category": "Niet-standaard extensies",
+    "title": "Formulierinzendingen opgeschoond?",
+    "checked": "0",
+    "description": "",
+    "ordering": "28",
+    "state": "1"
+  },
+  {
+    "category": "Niet-standaard extensies",
+    "title": "Alle test nieuwsbrieven verwijderd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "29",
+    "state": "1"
+  },
+  {
+    "category": "Niet-standaard extensies",
+    "title": "Back-end inlog beveiliging geinstalleerd en aangezet?",
+    "checked": "0",
+    "description": "",
+    "ordering": "30",
+    "state": "1"
+  },
+  {
+    "category": "Niet-standaard extensies",
+    "title": "Sitemap extensie geinstalleerd?",
+    "checked": "0",
+    "description": "",
+    "ordering": "31",
+    "state": "1"
+  },
+  {
+    "category": "Marketing",
+    "title": "Google Analytics ingesteld?",
+    "checked": "0",
+    "description": "",
+    "ordering": "73",
+    "state": "1"
+  }
+]
