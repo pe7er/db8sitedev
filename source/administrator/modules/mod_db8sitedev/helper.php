@@ -38,8 +38,12 @@ abstract class ModDb8sitedevHelper
 			->leftJoin('#__categories AS cat ON cat.id = c.catid')
 			->where('c.state = 1')
 			->where('cat.published = 1')
-			->order('cat.lft DESC')
 			->group('c.catid');
+
+		// Set ordering
+		$ordering = $params->get('ordering', 'cat.lft');
+		$direction = $params->get('direction', 0) ? 'DESC' : 'ASC';
+		$query->order($ordering . ' ' . $direction);
 
 		$db->setQuery($query);
 		$items = $db->loadObjectList();

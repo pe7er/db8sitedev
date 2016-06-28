@@ -29,6 +29,32 @@
 	<config>
 		<fields name="params">
 
+			<fieldset name="basic">
+				<field
+						name="ordering"
+						type="list"
+						default="cat.lft"
+						label="MOD_DB8SITEDEV_FIELD_ORDERING_LABEL"
+						description="MOD_DB8SITEDEV_FIELD_ORDERING_DESC"
+				>
+					<option value="cat.lft">MOD_DB8SITEDEV_VALUE_ORDERING</option>
+					<option value="cat.title">MOD_DB8SITEDEV_VALUE_ALPHA</option>
+					<option value="cat.id">MOD_DB8SITEDEV_VALUE_ID</option>
+				</field>
+
+				<field
+						name="direction"
+						type="list"
+						default="0"
+						label="JGLOBAL_ORDER_DIRECTION_LABEL"
+						description="JGLOBAL_ORDER_DIRECTION_DESC"
+				>
+					<option value="0">JGLOBAL_ORDER_ASCENDING</option>
+					<option value="1">JGLOBAL_ORDER_DESCENDING</option>
+				</field>
+
+			</fieldset>
+
 			<fieldset
 					name="advanced">
 
@@ -59,7 +85,8 @@
 	</config>
 
 	<updateservers>
-		<server type="extension" priority="1" name="mod_db8sitedev">http://www.db8.nl/updates/mod_db8sitedev.xml</server>
+		<server type="extension" priority="1" name="mod_db8sitedev">http://www.db8.nl/updates/mod_db8sitedev.xml
+		</server>
 	</updateservers>
 
 </extension>
