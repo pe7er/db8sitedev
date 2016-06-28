@@ -2,6 +2,7 @@ db8 Site Dev (pkg_db8sitedev)
 ===============
 
 A Joomla Site Development Tool (Component + Module) to **improve your workflow** with **Joomla website development**.
+Create a Checklist for your own workflow and import it on all the websites that you'll develop.
 
 ### Features
 - Easily manage your own Checklist of everything you have to do before a website can be put online
@@ -10,12 +11,14 @@ A Joomla Site Development Tool (Component + Module) to **improve your workflow**
 - Download and import a default Site Checklist with items related to Joomla website development
 - Have a full overview of everything that has been done and have to be done
 - Easily check or uncheck items to update the status of an item
+- Add a note with details to each Checklist item
+- Add hyperlinks to your notes to create short cuts to specific pages in your Joomla admin or external websites
 
 ### Getting started
 - [Download db8 Site Dev](http://www.db8.nl/en/download/components-download/db8-site-dev)
 - Install the package (Component + Module) in the Extension Manager
 - The Component will be installed with one default Category "db8 Site Dev" and some default Checklist items related to the extension
-- The Dashboard has an option to generate a Live Site Checklist
+- The About page has an option to import a Checklist
 
 ### Benefits
 - Improve your website development workflow
