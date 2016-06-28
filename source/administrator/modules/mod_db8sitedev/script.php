@@ -44,8 +44,6 @@ class Mod_Db8sitedevInstallerScript
 
 		foreach( $languageFiles AS $languageFile)
 		{
-			echo JPATH_ROOT. '/administrator/language/' . $languageFile . "<br>";
-
 			if (JFile::exists( JPATH_ROOT. '/administrator/language/' . $languageFile))
 			{
 				JFile::delete(JPATH_ROOT. '/administrator/language/' . $languageFile);
