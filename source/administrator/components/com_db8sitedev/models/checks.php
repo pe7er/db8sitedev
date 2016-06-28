@@ -174,7 +174,7 @@ class Db8sitedevModelChecks extends JModelList
 			}
 			else
 			{
-				$search = $db->Quote('%' . $db->escape($search, true) . '%');
+				$query->where('a.title LIKE ' . $db->Quote('%' . $db->escape($search, true) . '%'));
 			}
 		}
 

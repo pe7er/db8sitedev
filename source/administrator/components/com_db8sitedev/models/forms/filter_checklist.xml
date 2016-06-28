@@ -4,8 +4,8 @@
 		<field
 				name="search"
 				type="text"
-				label="COM_DB8SITEDEV_FILTER_SEARCH_DESC"
-				description="COM_DB8SITEDEV_FILTER_SEARCH_DESC"
+				label="JSEARCH_FILTER"
+				description="JSEARCH_FILTER"
 				hint="JSEARCH_FILTER"
 		/>
 
