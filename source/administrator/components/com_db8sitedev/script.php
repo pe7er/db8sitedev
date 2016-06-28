@@ -132,4 +132,51 @@ class Com_Db8sitedevInstallerScript
 			}
 		}
 	}
+
+	/**
+	 * Method to remove old language files from /administrator/language/
+	 *
+	 * @param $parent
+	 *
+	 * @return void
+	 */
+	public function update ($parent)
+	{
+		$languageFiles = Array(
+			"da-DK/da-DK.com_db8sitedev.ini",
+			"da-DK/da-DK.com_db8sitedev.sys.ini",
+			"da-DK/da-DK.mod_db8sitedev.ini",
+			"da-DK/da-DK.mod_db8sitedev.sys.ini",
+
+			"de-DE/de-DE.com_db8sitedev.ini",
+			"de-DE/de-DE.com_db8sitedev.sys.ini",
+			"de-DE/de-DE.mod_db8sitedev.ini",
+			"de-DE/de-DE.mod_db8sitedev.sys.ini",
+
+			"en-GB/en-GB.com_db8sitedev.ini",
+			"en-GB/en-GB.com_db8sitedev.sys.ini",
+			"en-GB/en-GB.mod_db8sitedev.ini",
+			"en-GB/en-GB.mod_db8sitedev.sys.ini",
+
+			"fr-FR/fr-FR.com_db8sitedev.ini",
+			"fr-FR/fr-FR.com_db8sitedev.sys.ini",
+			"fr-FR/fr-FR.mod_db8sitedev.ini",
+			"fr-FR/fr-FR.mod_db8sitedev.sys.ini",
+
+			"nl-NL/nl-NL.com_db8sitedev.ini",
+			"nl-NL/nl-NL.com_db8sitedev.sys.ini",
+			"nl-NL/nl-NL.mod_db8sitedev.ini",
+			"nl-NL/nl-NL.mod_db8sitedev.sys.ini"
+		);
+
+		foreach( $languageFiles AS $languageFile)
+		{
+			echo JPATH_ROOT. '/administrator/language/' . $languageFile . "<br>";
+
+			if (JFile::exists( JPATH_ROOT. '/administrator/language/' . $languageFile))
+			{
+				JFile::delete(JPATH_ROOT. '/administrator/language/' . $languageFile);
+			}
+		}
+	}
 }
