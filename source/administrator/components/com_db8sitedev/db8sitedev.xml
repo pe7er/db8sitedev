@@ -53,11 +53,6 @@
             <folder>views</folder>
         </files>
 
-        <languages folder="language">
-            <language tag="en-GB">en-GB/en-GB.com_db8sitedev.ini</language>
-            <language tag="en-GB">en-GB/en-GB.com_db8sitedev.sys.ini</language>
-        </languages>
-
     </administration>
 
     <config>

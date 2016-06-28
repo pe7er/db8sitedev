@@ -17,7 +17,7 @@ JHtml::_('behavior.keepalive');
 
 // Import CSS
 $document = JFactory::getDocument();
-$document->addStyleSheet(JUri::root() . 'media/com_db8sitedev/css/form.css');
+//$document->addStyleSheet(JUri::root() . 'media/com_db8sitedev/css/form.css');
 ?>
 <script type="text/javascript">
 	js = jQuery.noConflict();

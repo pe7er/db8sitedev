@@ -16,8 +16,8 @@ JHtml::_('formbehavior.chosen', 'select');
 
 // Import CSS
 $document = JFactory::getDocument();
-$document->addStyleSheet(JUri::root() . 'administrator/components/com_db8sitedev/assets/css/db8sitedev.css');
-$document->addStyleSheet(JUri::root() . 'media/com_db8sitedev/css/list.css');
+//$document->addStyleSheet(JUri::root() . 'administrator/components/com_db8sitedev/assets/css/db8sitedev.css');
+//$document->addStyleSheet(JUri::root() . 'media/com_db8sitedev/css/list.css');
 
 $user = JFactory::getUser();
 $userId = $user->get('id');
