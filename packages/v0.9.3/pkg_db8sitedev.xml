@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="package" method="upgrade">
+	<packagename>db8sitedev</packagename>
+	<packager>db8</packager>
+	<name>db8 Site Dev Package</name>
+	<author>Peter Martin</author>
+	<creationDate>June 2016</creationDate>
+	<copyright>2016 by Peter Martin</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<author>Peter Martin</author>
+	<authorEmail>joomla@db8.nl</authorEmail>
+	<authorUrl>http://www.db8.nl</authorUrl>
+	<version>0.9.3</version>
+	<description>Package to install db8 Site Dev Component + db8 Checklist Module</description>
+
+	<files>
+		<file id="com_db8sitedev" type="component">com_db8sitedev_0.9.3.zip</file>
+		<file id="mod_db8sitedev" type="module">mod_db8sitedev_0.9.3.zip</file>
+	</files>
+
+</extension>
