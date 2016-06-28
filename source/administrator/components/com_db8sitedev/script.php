@@ -96,21 +96,30 @@ class Com_Db8sitedevInstallerScript
 			                      'description' => '<p>Create your own checklist categories under <a href="index.php?option=com_categories&amp;extension=com_db8sitedev" title="Category Manager for db8 Site Dev">Categories</a></p>',
 			                      'checked'     => '0', 'catid' => $catId, 'state' => '1');
 			$checkItems[] = Array('id'          => '0', 'ordering' => '6', 'title' => 'Create some Check Items for your checklist',
-			                      'description' => 'Create some Check Items for your checklist\', 0, 75, \'<p>Create your own checklist items under <a href="index.php?option=com_db8sitedev&view=checks" title="Check Items for Checklist">Check Items</a></p>',
+			                      'description' => '<p>Create your own checklist items under <a href="index.php?option=com_db8sitedev&view=checks" title="Check Items for Checklist">Check Items</a></p>',
 			                      'checked'     => '0', 'catid' => $catId, 'state' => '1');
-			$checkItems[] = Array('id'          => '0', 'ordering' => '7', 'title' => 'Report any issues',
+			$checkItems[] = Array('id'          => '0', 'ordering' => '7', 'title' => 'Import or Export your Checklist',
+			                      'description' => '<p>Import your Checklist or Export  to use at other sites under <a href="index.php?option=com_db8sitedev&view=about" title="Import or Export your Checklist">About</a></p>',
+			                      'checked'     => '0', 'catid' => $catId, 'state' => '1');
+			$checkItems[] = Array('id'          => '0', 'ordering' => '8', 'title' => 'Use your checklist',
+			                      'description' => '<p>Start using the <a href="index.php?option=com_db8sitedev&view=checklist" title="Checklist">Checklist</a></p>',
+			                      'checked'     => '0', 'catid' => $catId, 'state' => '1');
+			$checkItems[] = Array('id'          => '0', 'ordering' => '9', 'title' => 'Check the overview',
+			                      'description' => '<p>And check the <a href="index.php?option=com_db8sitedev&view=dashboard" title="Overview of Checklist">Overview</a></p>',
+			                      'checked'     => '0', 'catid' => $catId, 'state' => '1');
+			$checkItems[] = Array('id'          => '0', 'ordering' => '10', 'title' => 'Report any issues',
 			                      'description' => '<p>If you find any issues in this Extension, please submit them at <a href="https://github.com/pe7er/db8sitedev/issues" target="_blank" title="db8 Site Dev at github.com">Github.com</a></p>',
 			                      'checked'     => '0', 'catid' => $catId, 'state' => '1');
-			$checkItems[] = Array('id'          => '0', 'ordering' => '8', 'title' => 'Rate this Extension at the Joomla Extensions Directory',
+			$checkItems[] = Array('id'          => '0', 'ordering' => '11', 'title' => 'Rate this Extension at the Joomla Extensions Directory',
 			                      'description' => '<p>If you like this Extension, please leave a positive review at the <a href="http://extensions.joomla.org/extensions/extension/db8-site-dev" target="_blank" title="db8 Site Dev at Joomla Extension Directory">Joomla Extension Directory</a></p>',
 			                      'checked'     => '0', 'catid' => $catId, 'state' => '1');
-			$checkItems[] = Array('id'          => '0', 'ordering' => '9', 'title' => 'Some Unpublished item',
+			$checkItems[] = Array('id'          => '0', 'ordering' => '12', 'title' => 'Some Unpublished item',
 			                      'description' => '',
 			                      'checked'     => '0', 'catid' => $catId, 'state' => '0');
-			$checkItems[] = Array('id'          => '0', 'ordering' => '10', 'title' => 'Some Archived item',
+			$checkItems[] = Array('id'          => '0', 'ordering' => '13', 'title' => 'Some Archived item',
 			                      'description' => '',
 			                      'checked'     => '0', 'catid' => $catId, 'state' => '2');
-			$checkItems[] = Array('id'          => '0', 'ordering' => '11', 'title' => 'Some Trashed item',
+			$checkItems[] = Array('id'          => '0', 'ordering' => '14', 'title' => 'Some Trashed item',
 			                      'description' => '',
 			                      'checked'     => '0', 'catid' => $catId, 'state' => '-2');
 
