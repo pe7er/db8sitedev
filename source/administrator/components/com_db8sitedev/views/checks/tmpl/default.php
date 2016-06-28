@@ -124,9 +124,11 @@ $sortFields = $this->getSortFields();
 							<?php echo JHtml::_('grid.sort', 'JSTATUS', 'a.`state`', $listDirn, $listOrder); ?>
 						</th>
 					<?php endif; ?>
-
-					<th class='left'>
+					<th width="25%" class='left'>
 						<?php echo JHtml::_('grid.sort', 'COM_DB8SITEDEV_CHECKS_TITLE', 'a.`title`', $listDirn, $listOrder); ?>
+					</th>
+					<th width="45%" class='left'>
+						<?php echo JHtml::_('grid.sort', 'COM_DB8SITEDEV_CHECKS_DESCRIPTION', 'a.`description`', $listDirn, $listOrder); ?>
 					</th>
 					<th class='left'>
 						<?php echo JHtml::_('grid.sort', 'COM_DB8SITEDEV_CHECKS_CATID', 'a.`catid`', $listDirn, $listOrder); ?>
@@ -198,6 +200,12 @@ $sortFields = $this->getSortFields();
 							<?php else : ?>
 								<?php echo $this->escape($item->title); ?>
 							<?php endif; ?>
+						</td>
+						<td>
+							<?php if($item->description)
+							{
+								echo $item->description;
+							} ?>
 						</td>
 						<td>
 							<?php echo $item->catid; ?>

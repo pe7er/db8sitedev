@@ -57,12 +57,12 @@ $document->addStyleSheet(JUri::root() . 'media/com_db8sitedev/css/form.css');
 					<?php echo $this->form->renderField('title'); ?>
 					<?php echo $this->form->renderField('state'); ?>
 					<?php echo $this->form->renderField('catid'); ?>
-					<?php // echo $this->form->renderField('description'); ?>
+					<?php echo $this->form->renderField('description'); ?>
 					<input type="hidden" name="jform[ordering]" value="<?php echo $this->item->ordering; ?>"/>
 					<input type="hidden" name="jform[state]" value="<?php echo $this->item->state; ?>"/>
 					<input type="hidden" name="jform[checked_out]" value="<?php echo $this->item->checked_out; ?>"/>
 					<input type="hidden" name="jform[checked_out_time]"
-						   value="<?php echo $this->item->checked_out_time; ?>"/>
+					       value="<?php echo $this->item->checked_out_time; ?>"/>
 
 					<?php
 					if (empty($this->item->created_by))
@@ -70,7 +70,9 @@ $document->addStyleSheet(JUri::root() . 'media/com_db8sitedev/css/form.css');
 						?>
 						<input type="hidden" name="jform[created_by]" value="<?php echo JFactory::getUser()->id; ?>"/>
 						<?php
-					} else {
+					}
+					else
+					{
 						?>
 						<input type="hidden" name="jform[created_by]" value="<?php echo $this->item->created_by; ?>"/>
 
@@ -85,7 +87,9 @@ $document->addStyleSheet(JUri::root() . 'media/com_db8sitedev/css/form.css');
 						<input type="hidden" name="jform[modified_by]" value="<?php echo JFactory::getUser()->id; ?>"/>
 
 						<?php
-					} else {
+					}
+					else
+					{
 						?>
 						<input type="hidden" name="jform[modified_by]" value="<?php echo $this->item->modified_by; ?>"/>
 						<?php
