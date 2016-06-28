@@ -21,6 +21,26 @@ $list = $this->items;
 		<h1><?php echo JText::_('COM_DB8SITEDEV_CHECKLIST_STATUS'); ?></h1>
 		<?php if (count($list)) : ?>
 			<ul class="list-striped list-condensed stats-module<?php //echo $moduleclass_sfx ?>">
+				<li>
+					<?php echo JHtml::link(JRoute::_('index.php?option=com_db8sitedev&view=checklist'
+					. '&filter[catid]=&filter[checked]=0&list[limit]=0'), '',
+					array(
+					'class' => 'btn btn-micro inactive btn-danger icon-remove',
+					'title' => JHtml::tooltipText('COM_DB8SITEDEV_FILTER_CHECKED_NO')
+						)
+					); ?>
+
+					<?php echo JHtml::link(JRoute::_('index.php?option=com_db8sitedev&view=checklist'
+						. '&filter[catid]=&filter[checked]=1&list[limit]=0'), '',
+						array(
+							'class' => "btn btn-micro inactive btn-success icon-checkmark",
+							'title' => JHtml::tooltipText('COM_DB8SITEDEV_FILTER_CHECKED_YES')
+						)
+					); ?>
+					<b>
+						<?php echo JText::_('COM_DB8SITEDEV_CHECKS_CATID'); ?>
+					</b>
+				</li>
 				<?php foreach ($list as $item) : ?>
 					<li>
 			<span class="" title="<?php echo $item->title; ?>">
