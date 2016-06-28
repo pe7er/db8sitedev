@@ -91,16 +91,17 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/');
 					<?php endif; ?>
 					
 					<tr class="row<?php echo $i % 2; ?>">
-
 						<td width="1%" class="hidden-phone">
 							<?php echo JHtml::_('grid.id', $i, $item->id); ?>
 						</td>
 						<td width="1%">
 							<?php echo JHtml::_('listhelper.toggle', $item->checked, 'checklist', 'checked', $i); ?>
 						</td>
-
 						<td>
 							<?php echo $this->escape($item->title); ?>
+						</td>
+						<td>
+							<?php echo $item->description; ?>
 						</td>
 						<td>
 							<?php echo $item->id; ?>

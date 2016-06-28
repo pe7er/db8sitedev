@@ -81,16 +81,16 @@ class Com_Db8sitedevInstallerScript
 			$myItems = JTableCategory::getInstance('Check', 'Db8sitedevTable');
 
 			$checkItems[] = Array('id'          => '0', 'ordering' => '1', 'title' => 'Install db8 Site Dev Component',
-			                      'description' => '<p>Use Joomla\'\'s <a href="index.php?option=com_installer" title="Joomla\'\'s Extensions Installer">installer</a> to install the db8 Site Dev Component</p>',
+			                      'description' => '<p>Use Joomla\'s <a href="index.php?option=com_installer" title="Joomla\'s Extensions Installer">installer</a> to install the db8 Site Dev Component</p>',
 			                      'checked'     => '1', 'catid' => $catId, 'state' => '1');
 			$checkItems[] = Array('id'          => '0', 'ordering' => '2', 'title' => 'Read the Instructions on the About page',
 			                      'description' => '<p>The <a title="Instructions on About page" href="index.php?option=com_db8sitedev&amp;view=about">About</a> page has some instructions about how to use this component.</p>',
 			                      'checked'     => '0', 'catid' => $catId, 'state' => '1');
 			$checkItems[] = Array('id'          => '0', 'ordering' => '3', 'title' => 'Install db8 Site Dev Module',
-			                      'description' => '<p>Use Joomla\'\'s <a href="index.php?option=com_installer" title="Joomla\'\'s Extensions Installer">installer</a> to install the db8 Site Dev Module</p>',
+			                      'description' => '<p>Use Joomla\'s <a href="index.php?option=com_installer" title="Joomla\'s Extensions Installer">installer</a> to install the db8 Site Dev Module</p>',
 			                      'checked'     => '0', 'catid' => $catId, 'state' => '1');
 			$checkItems[] = Array('id'          => '0', 'ordering' => '4', 'title' => 'Enable db8 Site Dev Module',
-			                      'description' => '<p>Under <a href="index.php?option=com_modules&client_id=1" title="Joomla\'\'s Module Manager">iExtensions &gt; Modules</a> enable the administrator Module <strong>db8 Site Dev</strong> and assign to module position <strong>cpanel</strong></p>',
+			                      'description' => '<p>Under <a href="index.php?option=com_modules&client_id=1" title="Joomla\'s Module Manager">iExtensions &gt; Modules</a> enable the administrator Module <strong>db8 Site Dev</strong> and assign to module position <strong>cpanel</strong></p>',
 			                      'checked'     => '0', 'catid' => $catId, 'state' => '1');
 			$checkItems[] = Array('id'          => '0', 'ordering' => '5', 'title' => 'Create some Categories for your checklist',
 			                      'description' => '<p>Create your own checklist categories under <a href="index.php?option=com_categories&amp;extension=com_db8sitedev" title="Category Manager for db8 Site Dev">Categories</a></p>',
