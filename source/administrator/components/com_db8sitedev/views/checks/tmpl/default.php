@@ -14,20 +14,14 @@ JHtml::_('bootstrap.tooltip');
 JHtml::_('behavior.multiselect');
 JHtml::_('formbehavior.chosen', 'select');
 
-// Import CSS
-$document = JFactory::getDocument();
-//$document->addStyleSheet(JUri::root() . 'administrator/components/com_db8sitedev/assets/css/db8sitedev.css');
-//$document->addStyleSheet(JUri::root() . 'media/com_db8sitedev/css/list.css');
-
-$user = JFactory::getUser();
-$userId = $user->get('id');
-$listOrder = $this->state->get('list.ordering');
-$listDirn = $this->state->get('list.direction');
-$canOrder = $user->authorise('core.edit.state', 'com_db8sitedev');
+$user      = JFactory::getUser();
+$userId    = $user->get('id');
+$listOrder = $this->escape($this->state->get('list.ordering'));
+$listDirn  = $this->escape($this->state->get('list.direction'));
+$canOrder  = $user->authorise('core.edit.state', 'com_db8sitedev');
 $saveOrder = $listOrder == 'a.`ordering`';
 
-
-if($saveOrder)
+if ($saveOrder)
 {
 	$saveOrderingUrl = 'index.php?option=com_db8sitedev&task=checks.saveOrderAjax&tmpl=component';
 	JHtml::_('sortablelist.sortable', 'checkList', 'adminForm', strtolower($listDirn), $saveOrderingUrl);
@@ -93,7 +87,7 @@ $sortFields = $this->getSortFields();
 } ?>
 
 <form action="<?php echo JRoute::_('index.php?option=com_db8sitedev&view=checks'); ?>" method="post"
-	  name="adminForm" id="adminForm">
+      name="adminForm" id="adminForm">
 	<?php if (!empty($this->sidebar)): ?>
 	<div id="j-sidebar-container" class="span2">
 		<?php echo $this->sidebar; ?>
@@ -112,29 +106,29 @@ $sortFields = $this->getSortFields();
 				<tr>
 					<?php if (isset($this->items[0]->ordering)): ?>
 						<th width="1%" class="nowrap center hidden-phone">
-							<?php echo JHtml::_('grid.sort', '<i class="icon-menu-2"></i>', 'a.`ordering`', $listDirn, $listOrder, null, 'asc', 'JGRID_HEADING_ORDERING'); ?>
+							<?php echo JHtml::_('searchtools.sort', '', 'a.ordering', $listDirn, $listOrder, null, 'asc', 'JGRID_HEADING_ORDERING', 'icon-menu-2'); ?>
 						</th>
 					<?php endif; ?>
 					<th width="1%" class="hidden-phone">
 						<input type="checkbox" name="checkall-toggle" value=""
-							   title="<?php echo JText::_('JGLOBAL_CHECK_ALL'); ?>" onclick="Joomla.checkAll(this)"/>
+						       title="<?php echo JText::_('JGLOBAL_CHECK_ALL'); ?>" onclick="Joomla.checkAll(this)"/>
 					</th>
 					<?php if (isset($this->items[0]->state)): ?>
 						<th width="1%" class="nowrap center">
-							<?php echo JHtml::_('grid.sort', 'JSTATUS', 'a.`state`', $listDirn, $listOrder); ?>
+							<?php echo JHtml::_('searchtools.sort', 'JSTATUS', 'a.`state`', $listDirn, $listOrder); ?>
 						</th>
 					<?php endif; ?>
 					<th width="25%" class='left'>
-						<?php echo JHtml::_('grid.sort', 'COM_DB8SITEDEV_CHECKS_TITLE', 'a.`title`', $listDirn, $listOrder); ?>
+						<?php echo JHtml::_('searchtools.sort', 'COM_DB8SITEDEV_CHECKS_TITLE', 'a.`title`', $listDirn, $listOrder); ?>
 					</th>
 					<th width="45%" class='left'>
-						<?php echo JHtml::_('grid.sort', 'COM_DB8SITEDEV_CHECKS_DESCRIPTION', 'a.`description`', $listDirn, $listOrder); ?>
+						<?php echo JHtml::_('searchtools.sort', 'COM_DB8SITEDEV_CHECKS_DESCRIPTION', 'a.`description`', $listDirn, $listOrder); ?>
 					</th>
 					<th class='left'>
-						<?php echo JHtml::_('grid.sort', 'COM_DB8SITEDEV_CHECKS_CATID', 'a.`catid`', $listDirn, $listOrder); ?>
+						<?php echo JHtml::_('searchtools.sort', 'COM_DB8SITEDEV_CHECKS_CATID', 'a.`catid`', $listDirn, $listOrder); ?>
 					</th>
 					<th class='left'>
-						<?php echo JHtml::_('grid.sort', 'COM_DB8SITEDEV_CHECKS_ID', 'a.`id`', $listDirn, $listOrder); ?>
+						<?php echo JHtml::_('searchtools.sort', 'COM_DB8SITEDEV_CHECKS_ID', 'a.`id`', $listDirn, $listOrder); ?>
 					</th>
 
 				</tr>
@@ -157,27 +151,27 @@ $sortFields = $this->getSortFields();
 					<tr class="row<?php echo $i % 2; ?>">
 
 						<?php if (isset($this->items[0]->ordering)) : ?>
-						<td class="order nowrap center hidden-phone">
-							<?php if ($canChange) :
-								$disableClassName = '';
-								$disabledLabel = '';
+							<td class="order nowrap center hidden-phone">
+								<?php if ($canChange) :
+									$disableClassName = '';
+									$disabledLabel = '';
 
-								if (!$saveOrder) :
-									$disabledLabel = JText::_('JORDERINGDISABLED');
-									$disableClassName = 'inactive tip-top';
-								endif; ?>
-								<span class="sortable-handler hasTooltip <?php echo $disableClassName ?>"
-									  title="<?php echo $disabledLabel ?>">
+									if (!$saveOrder) :
+										$disabledLabel    = JText::_('JORDERINGDISABLED');
+										$disableClassName = 'inactive tip-top';
+									endif; ?>
+									<span class="sortable-handler hasTooltip <?php echo $disableClassName ?>"
+									      title="<?php echo $disabledLabel ?>">
 										<i class="icon-menu"></i>
 								</span>
-								<input type="text" style="display:none" name="order[]" size="5"
-									   value="<?php echo $item->ordering; ?>" class="width-20 text-area-order "/>
-							<?php else : ?>
-								<span class="sortable-handler inactive">
+									<input type="text" style="display:none" name="order[]" size="5"
+									       value="<?php echo $item->ordering; ?>" class="width-20 text-area-order "/>
+								<?php else : ?>
+									<span class="sortable-handler inactive">
 									<i class="icon-menu"></i>
 								</span>
-							<?php endif; ?>
-						</td>
+								<?php endif; ?>
+							</td>
 						<?php endif; ?>
 
 						<td class="hidden-phone">
@@ -193,7 +187,7 @@ $sortFields = $this->getSortFields();
 							<?php if (isset($item->checked_out) && $item->checked_out && ($canEdit || $canChange)) : ?>
 								<?php echo JHtml::_('jgrid.checkedout', $i, $item->editor, $item->checked_out_time, 'checks.', $canCheckin); ?>
 							<?php endif; ?>
-							
+
 							<?php if ($canEdit) : ?>
 								<a href="<?php echo JRoute::_('index.php?option=com_db8sitedev&task=check.edit&id=' . (int) $item->id); ?>">
 									<?php echo $this->escape($item->title); ?></a>
@@ -202,7 +196,7 @@ $sortFields = $this->getSortFields();
 							<?php endif; ?>
 						</td>
 						<td>
-							<?php if($item->description)
+							<?php if ($item->description)
 							{
 								echo $item->description;
 							} ?>
@@ -220,8 +214,6 @@ $sortFields = $this->getSortFields();
 
 			<input type="hidden" name="task" value=""/>
 			<input type="hidden" name="boxchecked" value="0"/>
-			<input type="hidden" name="filter_order" value="<?php echo $listOrder; ?>"/>
-			<input type="hidden" name="filter_order_Dir" value="<?php echo $listDirn; ?>"/>
 			<?php echo JHtml::_('form.token'); ?>
 		</div>
 </form>        

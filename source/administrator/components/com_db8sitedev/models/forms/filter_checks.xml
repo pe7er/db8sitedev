@@ -34,22 +34,6 @@
 
 	<fields name="list">
 		<field
-				name="fullordering"
-				type="list"
-				label="COM_DB8SITEDEV_LIST_FULL_ORDERING"
-				description="COM_DB8SITEDEV_LIST_FULL_ORDERING_DESC"
-				onchange="this.form.submit();"
-				default="a.id DESC"
-		>
-			<option value="">JGLOBAL_SORT_BY</option>
-			<option value="a.title ASC">COM_DB8SITEDEV_CHECKS_TITLE</option>
-			<option value="a.check ASC">COM_DB8SITEDEV_CHECKS_CHECKED</option>
-			<option value="a.catid ASC">COM_DB8SITEDEV_CHECKS_CATID</option>
-			<option value="a.order ASC">JGRID_HEADING_ORDERING</option>
-			<option value="a.state ASC">JSTATUS</option>
-			<option value="a.id ASC">JGRID_HEADING_ID</option>
-		</field>
-		<field
 				name="limit"
 				type="limitbox"
 				class="input-mini"
