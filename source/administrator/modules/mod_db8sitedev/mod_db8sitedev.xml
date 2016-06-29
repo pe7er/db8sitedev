@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2</license>
 	<authorEmail>joomla@db8.nl</authorEmail>
 	<authorUrl>www.db8.nl</authorUrl>
-	<version>0.9.3</version>
+	<version>0.9.4</version>
 	<description>MOD_DB8SITEDEV_XML_DESCRIPTION</description>
 
 	<scriptfile>script.php</scriptfile>

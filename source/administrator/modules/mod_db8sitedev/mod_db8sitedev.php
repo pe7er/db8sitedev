@@ -1,6 +1,6 @@
 <?php
 /**
- * @version    CVS: 0.9.3
+ * @version    CVS: 0.9.4
  * @package    Mod_Db8SiteDev
  * @author     Peter Martin <joomla@db8.nl>
  * @copyright  Copyright (C) 2016 Peter Martin. All rights reserved.

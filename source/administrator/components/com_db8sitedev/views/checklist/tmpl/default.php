@@ -1,6 +1,6 @@
 <?php
 /**
- * @version    CVS: 0.9.3
+ * @version    CVS: 0.9.4
  * @package    Com_Db8SiteDev
  * @author     Peter Martin <joomla@db8.nl>
  * @copyright  2016 by Peter Martin
@@ -98,7 +98,9 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/');
 							<?php echo JHtml::_('listhelper.toggle', $item->checked, 'checklist', 'checked', $i); ?>
 						</td>
 						<td>
-							<?php echo $this->escape($item->title); ?>
+							<strong>
+								<?php echo $this->escape($item->title); ?>
+							</strong>
 						</td>
 						<td>
 							<?php echo $item->description; ?>

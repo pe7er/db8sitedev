@@ -1,6 +1,6 @@
 <?php
 /**
- * @version    CVS: 0.9.3
+ * @version    CVS: 0.9.4
  * @package    Com_Db8SiteDev
  * @author     Peter Martin <joomla@db8.nl>
  * @copyright  2016 by Peter Martin
@@ -30,7 +30,7 @@ Y88b 888 888 d88P Y88b  d88P      Y88b  d88P 888 Y88b. Y8b.          888  .d88P 
  "Y88888 88888P"   "Y8888P"        "Y8888P"  888  "Y888 "Y8888       8888888P"   "Y8888    Y88P
 
 </pre>
-		<b>db8 Site Dev</b> v0.9.3 - A Joomla Site Development Tool to
+		<b>db8 Site Dev</b> v0.9.4 - A Joomla Site Development Tool to
 		<b>improve your workflow</b> with <b>Joomla website development</b><br>
 		(C) 2016 by Peter Martin, <a href="https://db8.nl" title="Joomla specialist db8.nl"
 									 target="_blank">db8.nl</a>.
