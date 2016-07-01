@@ -1,0 +1,554 @@
+[
+    {
+        "category": "Extras",
+        "title": "Configurer Google Analytics ?",
+        "checked": "0",
+        "description": "Une option aujourd'hui indispensable, attention toutefois de bien configurer afin d'obtenir des résultats proche de la réalité. ",
+        "ordering": "69",
+        "state": "1"
+    },
+    {
+        "category": "Extras",
+        "title": "Configuration Watchful.li? (Watchful.li)",
+        "checked": "0",
+        "description": "Pour gérer plusieurs sites, la solution watchful.li apporte un véritable soutien en terme de suivi et de monitoring de Joomla.",
+        "ordering": "70",
+        "state": "1"
+    },
+    {
+        "category": "Extras",
+        "title": "AeSecure Actif",
+        "checked": "0",
+        "description": "Agissant sur la sécurité, l'optimisation et la performance, aesecure utilise tout le potentiel du fichier htaccess. Son interface ergonomique offre un véritable outil accessible à chacun du débutant à l'expert.  https://www.aesecure.com/fr/",
+        "ordering": "71",
+        "state": "1"
+    },
+    {
+        "category": "Extras",
+        "title": "Analyse par myJoomla",
+        "checked": "0",
+        "description": "Pour effectuer un audit de sécurité, myJoomla propose un très bon service en ligne : https://myjoomla.com/",
+        "ordering": "72",
+        "state": "1"
+    },
+    {
+        "category": "Extras",
+        "title": "Y at-il un système de sauvegarde ?",
+        "checked": "0",
+        "description": "Avec ou sans solution serveur, akeeba backup est une solution leader dans la sauvegarde et la restauration de site. Il est important d'effectuer régulièrement des sauvegardes. https://www.akeebabackup.com/",
+        "ordering": "73",
+        "state": "1"
+    },
+    {
+        "category": "Extras",
+        "title": "Test de Sauvegarde et restauration effectué ?",
+        "checked": "0",
+        "description": "Le test consiste simplement à vérifier que l'archive soit valide en effectuant une restauration. La sauvegarde doit être faite depuis l'hebergement du site en prod afin que toutes les conditions soient réunies.",
+        "ordering": "74",
+        "state": "1"
+    },
+    {
+        "category": "Extras",
+        "title": "Connexion (S)FTP disponible pour le support ?",
+        "checked": "0",
+        "description": "Il est important de conserver un accès FTP (SFTP si possible) afin de pouvoir acceder aux fichiers directement.",
+        "ordering": "75",
+        "state": "1"
+    },
+    {
+        "category": "Extras",
+        "title": "Archive et exemple supprimé ?",
+        "checked": "0",
+        "description": "Les versions de test et d'exemple ne doivent pas être transféré. Il est préférable de supprimer les versions qui pourraient induire en erreur et de conserver une version proche du site. ",
+        "ordering": "76",
+        "state": "1"
+    },
+    {
+        "category": "Extras",
+        "title": "Site Web vérifié en dehors de votre propre réseau / dns ?",
+        "checked": "0",
+        "description": "Un site peut être accessible sur une ou plusieurs zone en attendant le deploiement complet via les dns. Il est important de contrôler le deploiement via des sites comme http://migrationdns.com/ ",
+        "ordering": "77",
+        "state": "1"
+    },
+    {
+        "category": "Extras",
+        "title": "Vitesse et performance du site? (YSlow), (PageSpeed ​​Insights), (WebPagetest)",
+        "checked": "0",
+        "description": "Plusieurs tests existent sur le marché, le plus courant étant PageSpeed ​​Insights : https://developers.google.com/speed/pagespeed/insights/?hl=fr",
+        "ordering": "78",
+        "state": "1"
+    },
+    {
+        "category": "Optimisation / SEO",
+        "title": "Les URLS SEO-friendly installées et configurées?",
+        "checked": "0",
+        "description": "L'activation de la réécriture est pratiquement nécessaire pour être référencé correctement. Le fichier htaccess doit être actif et la configuration du site doit comporter le SEF ainsi que la réécriture au Vol. On déconseille l'activation d'unicode qui s'adresse plus à des langues cyrilliques (menu système / configuration / Site)",
+        "ordering": "60",
+        "state": "1"
+    },
+    {
+        "category": "Optimisation / SEO",
+        "title": "Mootools actif? ",
+        "checked": "0",
+        "description": "a librairie mootools fut remplacé progressivement par jquery. De préference, il vaut mieux eviter d'utiliser cette librairie et toutes extensions susceptibles de l'utiliser pour des raisons de compatibilité.",
+        "ordering": "61",
+        "state": "1"
+    },
+    {
+        "category": "Optimisation / SEO",
+        "title": "La configuration de mise en cache est correct ?",
+        "checked": "0",
+        "description": "Le cache peut être désactivé lors du développement mais son utilisation est vivement conseillé lors de la mise en production car le site consommera moins de ressources. De préférence, choisissez un serveur qui utilise un cache opcode (memcache, apc..) qui peut être choisi à la place du cache de Joomla. Jotcache est une extension qui optimise la gestion du cache.",
+        "ordering": "62",
+        "state": "1"
+    },
+    {
+        "category": "Optimisation / SEO",
+        "title": "Les répertoires cache / tmp sont vides ?",
+        "checked": "0",
+        "description": "Certaines installations peuvent laisser des traces dans le repertoire tmp et des extensions peuvent utiliser le cache de Joomla même désactivé! Il est donc important de vider leur contenu avant la mise en ligne.",
+        "ordering": "63",
+        "state": "1"
+    },
+    {
+        "category": "Optimisation / SEO",
+        "title": "Configuration Varnish?",
+        "checked": "0",
+        "description": "Si l'hebergement choisi comporte le reverse proxy varnish. Le site peut optenir un gain de performance important. Fotis Evangelou propose un modèle de configuration pour cette solution : https://gist.github.com/fevangelou/84d2ce05896cab5f730a",
+        "ordering": "64",
+        "state": "1"
+    },
+    {
+        "category": "Optimisation / SEO",
+        "title": "Compression, minification et fusion CSS/Javascript installé et configuré ?",
+        "checked": "0",
+        "description": "L'extension JCH Optimize offre de nombreuses possibilités pour optimisés les fichiers css et javascript. Le temps de chargement est appréciable mais attention aux conflits avec d'autres solutions similaires ou une mauvais paramétrage : https://www.jch-optimize.net/",
+        "ordering": "65",
+        "state": "1"
+    },
+    {
+        "category": "Optimisation / SEO",
+        "title": "CDN activé?",
+        "checked": "0",
+        "description": "Cela consiste à répliquer vos données sur plusieurs serveurs afin d'optimiser le temps d'accès à vos fichiers. La plupart des hébergeurs ont choisi Cloudflare comme partenaire CDN car il offre une solution gratuite de base et peut être déployé rapidement. Des CDN plus performants sont également sur le marché et il faudra choisir suivant vos besoins.",
+        "ordering": "66",
+        "state": "1"
+    },
+    {
+        "category": "Optimisation / SEO",
+        "title": "Droit Cookie / alerte Cookie",
+        "checked": "0",
+        "description": "Une directive européenne oblige les sites à informer sur l'utilisation des cookies. Il est donc nécessaire d'installer une notification ainsi qu'une page sur les cookies.  Les extensions disponibles sur la JED : http://extensions.joomla.org/category/site-management/cookie-control et une solution complète fourni par iubenda intégrant la page sur la politique de confidentialité extremement bien faite : http://www.iubenda.com/en/help/posts/1323",
+        "ordering": "67",
+        "state": "1"
+    },
+    {
+        "category": "Optimisation / SEO",
+        "title": "Bouton de partage / AddThis installé et configuré?",
+        "checked": "0",
+        "description": "De nombreuses extensions proposent des boutons de partage. Addthis est une solution assez simple à installer. Pour optimiser votre contenu pour facebook, social meta est une fabuleuse extension Joomla qui offre de nombreux paramètres réservé à cet usage : https://github.com/vistamedia/socialmeta ",
+        "ordering": "68",
+        "state": "1"
+    },
+    {
+        "category": "HTTPS",
+        "title": "Le certificat SSL est actif (si nécessaire)?",
+        "checked": "0",
+        "description": "Pour obtenir une solution via let's encrypt, consulter notre tutoriel : http://cinnk.com/joomla/3/tutoriels/le-https-facilement-sur-son-site-joomla",
+        "ordering": "58",
+        "state": "1"
+    },
+    {
+        "category": "HTTPS",
+        "title": "HTTPS Activé (si nécessaire)?",
+        "checked": "0",
+        "description": "L'activation du https est expliqué dans notre tutoriel, pratiquement tous les nouveaux sites choisissent le https en partie du à la possibilité d'acquérir un certificat ssl gratuit. Mais aussi la volonté de Google de favoriser les sites sécurisés.",
+        "ordering": "59",
+        "state": "1"
+    },
+    {
+        "category": "OSMap (Plan de site)",
+        "title": "Plan du site créé pour tous les menus?",
+        "checked": "0",
+        "description": "OSMap est l'une extensions qui remplace Xmap et le fait évoluer. Les menus doivent être inclus dans le plan de site xml pour être pris en compte.",
+        "ordering": "55",
+        "state": "1"
+    },
+    {
+        "category": "OSMap (Plan de site)",
+        "title": "Ajouter une ligne à .htaccess pour montrer OSXMAP comme sitemap.xml?",
+        "checked": "0",
+        "description": "La plupart des systèmes reconnaisse le fichier sitemap.xml à la racine du site. Il est important de définir une redirection via le htaccess comme ceci : index.php?option=com_osmap&view=xml&tmpl=component&id=1 / le numéro id étant celui du plan de site Osmap. Attention : de préférence, utiliser une autre solution qu'OSmap pour les sites multilingues.",
+        "ordering": "56",
+        "state": "1"
+    },
+    {
+        "category": "OSMap (Plan de site)",
+        "title": " Le plan de site XML a été ajouté à Google Webmaster Tools?",
+        "checked": "0",
+        "description": "Le plan de site XML a été ajouté à Google Webmaster Tools?",
+        "ordering": "57",
+        "state": "1"
+    },
+    {
+        "category": "JCE Editor",
+        "title": "profil optimisé ajouté / configuré?",
+        "checked": "0",
+        "description": "Les options de l'éditeur peuvent être personnalisé par groupe ainsi vous pouvez limiter les interactions avec les utilisateurs ayant un accès minimum.",
+        "ordering": "53",
+        "state": "1"
+    },
+    {
+        "category": "JCE Editor",
+        "title": "Joomla! - plugin editeur étendu non publié?",
+        "checked": "0",
+        "description": "JCE dispose également d'extension commerciales spécifiques pour diverses fonctionnalités. Activer et utiliser ce qui est nécessaire sans oublier les mises à jour indispensable. Jce étant une extension suivi et très utilisé.",
+        "ordering": "54",
+        "state": "1"
+    },
+    {
+        "category": "La sécurité",
+        "title": "Admin Tools Pro / jHackGuard / AdminExile installé et configuré?",
+        "checked": "0",
+        "description": "Ces trois solutions proposent d'améliorer la sécurité de joomla ce qui est essentiel à la publication d'un site.",
+        "ordering": "50",
+        "state": "1"
+    },
+    {
+        "category": "La sécurité",
+        "title": "Empêcher le blacklistage du nom de domaine",
+        "checked": "0",
+        "description": "Empêcher le blacklistage du nom de domaine",
+        "ordering": "51",
+        "state": "1"
+    },
+    {
+        "category": "La sécurité",
+        "title": "Bloquer l'accès à administrateur avec un mot secret dans l'url ou via une liste d'ip autorisé",
+        "checked": "0",
+        "description": "Bloquer l'accès à administrateur avec un mot secret dans l'url ou via une liste d'ip autorisé",
+        "ordering": "52",
+        "state": "1"
+    },
+    {
+        "category": ".htaccess",
+        "title": "Rediriger sans les www vers l'adresse avec www dans .htaccess?",
+        "checked": "0",
+        "description": "Rediriger sans les www vers l'adresse avec www dans .htaccess?",
+        "ordering": "48",
+        "state": "1"
+    },
+    {
+        "category": ".htaccess",
+        "title": "Rediriger la connexion non sécurisé vers le https dans .htaccess ?",
+        "checked": "0",
+        "description": "Avec let's encrypt (ssl gratuit), les sites https ont progressé et c'est devenu une pratique courante. Le https doit être indiqué dans le htaccess (voir étape HTTPS).",
+        "ordering": "49",
+        "state": "1"
+    },
+    {
+        "category": "Template",
+        "title": "Site Web testé dans tous les principaux navigateurs (OSX: Safari, Chrome, Firefox / Windows: IE, EDGE, Chrome, Firefox)",
+        "checked": "0",
+        "description": "Une vérification est importante car le site doit fonctionner dans les dernières versions des navigateurs du marché. Des solutions comme testingbot.com offre un panel de test, y compris sur MacOs Sierra et le futur safari.",
+        "ordering": "46",
+        "state": "1"
+    },
+    {
+        "category": "Template",
+        "title": "Template mobile présent et testé?",
+        "checked": "0",
+        "description": "Théoriquement votre template doit être responsive (proposé nativement dans joomla 3). Dans le cas contraire, il est nécessaire d'avoir une solution d'un template pour mobile qui sera utilisé dans la détection du user-agent (navigateur android, ios). L'aspect mobile doit être testé et validé. Exemple : https://testmysite.thinkwithgoogle.com/",
+        "ordering": "47",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Le contenu d'exemple est supprimé ?",
+        "checked": "0",
+        "description": "A l'installation d'un site Joomla, les exemples et contenus qui ne seront pas utiles sont à supprimé, ce qui évitera à Google de les indexer et considérer comme du contenu dupliqué.",
+        "ordering": "29",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Tous les fichiers et images non utilisées, comme les images par défaut de Joomla?",
+        "checked": "0",
+        "description": "Comme les articles, les images peuvent être indexés dans google image. Il est donc important de supprimer les images pour éviter leur indexation ou détection.",
+        "ordering": "30",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Le faux contenu / Lorem Ipsum est remplacé ?",
+        "checked": "0",
+        "description": "Vérifier les pages pour ne pas avoir à indexer du contenu inutiles. Il faut savoir que malgré la suppression, le contenu des pages peut être conservé dans le cache de google ainsi que dans le projet wayback machine : https://archive.org/web",
+        "ordering": "31",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Suppression de tout le contenu supprimé ?",
+        "checked": "0",
+        "description": "Cela consiste à vider la corbeille dans article, catégories, liens de menu et modules, garantissant leur suppression définitive.",
+        "ordering": "32",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Remplacer URL de développement dans la base de données avec les URL du site en production?",
+        "checked": "0",
+        "description": "Bien que Joomla utilise des urls relatives, on peut aussi oublier la copie d'urls réécrites incluant l'url de développement. Un rechercher/remplacer depuis phpmyadmin permet de filtrer les urls et de les corriger.",
+        "ordering": "33",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Le fichier robots.txt est bien configuré ?",
+        "checked": "0",
+        "description": "Pour assurer d'une compatibilité vis à vis des mobiles, Google oblige l'indexation des fichiers css de différents répertoires dont template, modules. Il est important de vérifier si le fichier robots.txt ne bloque pas ces repertoires (dissalow). L'indication d'un plan de site xml dans le fichier robots.txt est optionnel.",
+        "ordering": "34",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "La Favicon est installée ?",
+        "checked": "0",
+        "description": "L'icône illustrant le site doit être défini afin d'éviter le logo joomla. Il existe bon nombre de générateur de favicon afin de mettre l'image à la bonne taille.",
+        "ordering": "35",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Les icônes mobiles sont installées ?",
+        "checked": "0",
+        "description": "Pour tous les types d'icônes incluant favicon et pour ios, android... le site http://realfavicongenerator.net/ offre bon nombre de formats.",
+        "ordering": "36",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "une redirection d'url de l'ancien site vers le nouveau nom de domaine du site est défini ?",
+        "checked": "0",
+        "description": "Dans le cas d'un changement d'adresse, il est important de définir une adresse de redirection permanente (301) afin que la nouvelle adresse soit prise en compte indépendamment de l'ancienne.",
+        "ordering": "37",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Ajout d'une page d'erreur 404 personnalisé ?",
+        "checked": "0",
+        "description": "Selon certain framework de template, l'erreur 404 peut être personnalisé depuis le template ce qui permet de conserver une charte graphique cohérente. A défaut, certaines extensions tierces proposent le même service notamment les extensions dédiés au SEO.",
+        "ordering": "38",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Les images sont optimisées?",
+        "checked": "0",
+        "description": "La compression d'image est importante, certains extensions peuvent gérer cela ou vous pouvez également décider de compresser le contenu des repertoires d'images à l'aide de logiciels disponibles comme Jpegmicro de RomeoLight : http://www.romeolight.com/products/jpegmicro/",
+        "ordering": "39",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Les plugins de recherche inutilisés sont désactivés, la recherche avancée également?",
+        "checked": "0",
+        "description": "Il est plus efficace de désactiver ces plugins afin d'optimiser les recherche, la recherche avancée est rarement activé car elle consomme énormément en performance et en base de données.",
+        "ordering": "40",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Les plugins de recherche sont dans le bon ordre?",
+        "checked": "0",
+        "description": "L'affichage des résultats dépendent également de l'ordre choisi des plugins de recherche.",
+        "ordering": "41",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Supprimer l'index de recherche avancé et le reconstruire (si la recherche avancée est utilisée)?",
+        "checked": "0",
+        "description": "Pour diminuer la taille de la base, il n'est pas utile de conserver le contenu indexé dans la recherche avancée.",
+        "ordering": "42",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Tous les formulaires ont bien la bonne adresse e-mail de destination ?",
+        "checked": "0",
+        "description": "Il est important de vérifier l'envoi des formulaires et vérifié si les messages transmis par les formulaires sont bien réceptionnés.",
+        "ordering": "43",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Supprimer les anciens envois de formulaire?",
+        "checked": "0",
+        "description": "Certains données peuvent être conservés et accessible depuis une extension tierce. Il est donc important de ne pas avoir de trace des essais effectués.",
+        "ordering": "44",
+        "state": "1"
+    },
+    {
+        "category": "Contenu",
+        "title": "Supprimer tous les tests de newsletter?",
+        "checked": "0",
+        "description": "Comme le stockage de formulaire, les envois de newsletter précédent ne sont pas à conserver.",
+        "ordering": "45",
+        "state": "1"
+    },
+    {
+        "category": "Utilisateurs",
+        "title": "Tous les comptes inutilisés du gestionnaire des utilisateurs sont supprimés ?",
+        "checked": "0",
+        "description": "Lors de l'achat d'un template commerciale, l'archive complète (contenant joomla, extension, exemple) peut contenir également des comptes laissés par défaut que l'on doit supprimer.",
+        "ordering": "25",
+        "state": "1"
+    },
+    {
+        "category": "Utilisateurs",
+        "title": "Tous les groupes d'utilisateurs qui ne sont pas utilisés sont supprimés également ?",
+        "checked": "0",
+        "description": "La hiérarchie initiale n'est pas figé et il vaut mieux adapter selon vos types de visiteurs et leurs droits.",
+        "ordering": "26",
+        "state": "1"
+    },
+    {
+        "category": "Utilisateurs",
+        "title": "Les utilisateurs sont autorisés à s'enregistrer ?",
+        "checked": "0",
+        "description": "L'activation de compte ne doit être défini que si c'est nécessaire. L'oubli peut parfois générer un nombre important de faux compte.",
+        "ordering": "27",
+        "state": "1"
+    },
+    {
+        "category": "Utilisateurs",
+        "title": "Les mot de passe sont assez compliqués ?",
+        "checked": "0",
+        "description": "Vous pouvez décider de la complexité du mot de passe allant du nombre de caractère minimum à l'obligation d'un minimum de chiffres, symboles et majuscules inclus.",
+        "ordering": "28",
+        "state": "1"
+    },
+    {
+        "category": "Configuration de Joomla",
+        "title": "ReCaptcha clés privées / publiques ?",
+        "checked": "0",
+        "description": "Pour chaque affichage de formulaire (contact, inscription), l'utilisation de ReCaptcha limite la réception de spams et l'inscription d'utilisateurs fantomes. N'hésitez pas à consulter cet article pour vous aider : http://cinnk.com/joomla/3/trucs-et-astuces/comment-activer-un-captcha-sur-le-formulaire-d-inscription",
+        "ordering": "15",
+        "state": "1"
+    },
+    {
+        "category": "Configuration de Joomla",
+        "title": "Par défaut, un Captcha est actif ?",
+        "checked": "0",
+        "description": "Recaptcha est l'une des solutions, installer de préférence un plugin qui consultera les bases de spams pour les bloquer avant même d'acceder au site. (ex: projet honey pot).",
+        "ordering": "16",
+        "state": "1"
+    },
+    {
+        "category": "Configuration de Joomla",
+        "title": "Le rapport d'erreur est désactivé ?",
+        "checked": "0",
+        "description": "Dans la configuration de Joomla, le rapport d'erreur par défaut peut générer un nombre important de ligne dans le journal d'erreur (logs) notamment si les extensions tierces utilisent des fonctions php obsolètes. Si les tests effectués n'ont pas relevé d'erreurs, vous pouvez désactiver la génération de rapport.",
+        "ordering": "17",
+        "state": "1"
+    },
+    {
+        "category": "Configuration de Joomla",
+        "title": "La configuration de l'adresse mail de la messagerie est correct ?",
+        "checked": "0",
+        "description": "Evitez l'utilisation de compte gmail, hotmail ou de FAI comme orange, sfr, free.. Vous devez définir une adresse principale liée à votre nom de domaine qui sera utilisé comme adresse d'expedition type contact@nomdevotresite.com ou no-reply@nomdevotresite.com. L'adresse est à préciser dans la configuration du site / onglet serveur.",
+        "ordering": "18",
+        "state": "1"
+    },
+    {
+        "category": "Configuration de Joomla",
+        "title": "La configuration des paramètres Mail et configuration du serveur SMTP est valide ?",
+        "checked": "0",
+        "description": "Testez l'envoi de mail, voir la fonction test dans configuration du site, onglet serveur. Si la solution phpmail ou sendmail ne fonctionne pas, la solution smtp peut être choisi et fourni par votre hébergeur. Vous pouvez aussi choisir un STMP de relais type mailjet, mandrill, sendinblue ce qui permet d'améliorer la qualité d'envoi de mail.",
+        "ordering": "19",
+        "state": "1"
+    },
+    {
+        "category": "Configuration de Joomla",
+        "title": "L'envoi de courrier en masse est désactivé ?",
+        "checked": "0",
+        "description": "Cette fonction est rarement utilisé (menu utilisateur / envoi mail en nombre) et il est préférable d'installer des solutions comme acymailing pour une meilleure gestion des mails. N'oubliez pas que l'envoi d'informations doit être soumis à une acceptation opt-in de la part des membres de votre site (case à cocher vierge et non pas pré-cochée par défaut). ",
+        "ordering": "20",
+        "state": "1"
+    },
+    {
+        "category": "Configuration de Joomla",
+        "title": "Le Fuseau horaire du serveur est correctement réglé ?",
+        "checked": "0",
+        "description": "Un serveur peut être en décalage, assurez-vous que l'heure soit correct notamment pour l'utilisation de fonctions comme la double authentification ou d'un cronjob (tâche planifié).",
+        "ordering": "21",
+        "state": "1"
+    },
+    {
+        "category": "Configuration de Joomla",
+        "title": "Les paramètres de session sont bien configurés ?",
+        "checked": "0",
+        "description": "Un temps de session plus long n'est vraiment utile que sur des sites avec identification et sur des serveurs pouvant supporter le nombre suffisant de connectés simultanés. Lors du développement, on augmente pour éviter de saisir trop souvent le mot de passe. Par défaut, le système php prévoit 1440s (24mn) mais défini à 15mn à l'installation de Joomla (Configuration / Onglet système)",
+        "ordering": "22",
+        "state": "1"
+    },
+    {
+        "category": "Configuration de Joomla",
+        "title": "L'aperçu des Positions de module est désactivé ?",
+        "checked": "0",
+        "description": "Cette option est désactivée par défaut dans les paramètres (Menu système/configuration/template) et ne doit être utilisé que pour s'aider dans le développement du site.",
+        "ordering": "23",
+        "state": "1"
+    },
+    {
+        "category": "Configuration de Joomla",
+        "title": "Modifier adresse e-mail des fils à sans e-mail ?",
+        "checked": "0",
+        "description": "Vous pouvez décider d'afficher publiquement l'adresse mail de l'auteur ou du site dans les Flux RSS, le risque étant la recrudescence de spam suite à cette publication. Sans nécessité, vous pouvez eviter de diffuser en selectionnant sans e-mail depuis la configuration du site, onglet site.",
+        "ordering": "24",
+        "state": "1"
+    },
+    {
+        "category": "Joomla! / Extensions",
+        "title": "Toutes les extensions qui ne sont pas utilisées sont DÉSACTIVÉES ou dépubliées.",
+        "checked": "0",
+        "description": "En principe, les fonctions d'une extension ne seront pas accessibles si elle est désactivée. Dans le menu Extension, choisissez Gérer puis Gestion des extensions. Sauf les extensions core (natif de joomla), il est préférable de supprimer extensions tierces inutiles pour des raisons de sécurité.",
+        "ordering": "11",
+        "state": "1"
+    },
+    {
+        "category": "Joomla! / Extensions",
+        "title": "Joomla et toutes les extensions sont bien à jour ?",
+        "checked": "0",
+        "description": "Vérifier si les sites de mises à jour sont bien actifs. Dans le menu Extension, choisissez Gérer, Mise à jour puis site de mise à jour. Il est préférable d'appliquer les mises à jour régulièrement en prenant soin d'effectuer également les sauvegardes et informez-vous de l'évolution des extensions installées (site de l'auteur, newsletter...).",
+        "ordering": "12",
+        "state": "1"
+    },
+    {
+        "category": "Joomla! / Extensions",
+        "title": "Désinstaller tous les templates inutilisés?",
+        "checked": "0",
+        "description": "Mis à part les templates par défaut, les templates non utilisés sont des cibles potentielles à supprimer. Si vous souhaitez utiliser l'un des templates du package joomla, n'oubliez pas de le dupliquer et le renommer afin que vos modifications ne soient pas écrasées par une mise à jour.",
+        "ordering": "13",
+        "state": "1"
+    },
+    {
+        "category": "Joomla! / Extensions",
+        "title": "ACL Manager est installé et configuré?",
+        "checked": "0",
+        "description": "ACL Manager est une extension tierce qui peut être utile lors d'une gestion particulières des droits. Elle permet d'obtenir une vision accessible des droits de Joomla et de toutes les extensions. https://www.aclmanager.net/fr/",
+        "ordering": "14",
+        "state": "1"
+    },
+    {
+        "category": "db8 Site Dev",
+        "title": null,
+        "checked": null,
+        "description": null,
+        "ordering": null,
+        "state": null
+    }
+]

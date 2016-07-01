@@ -63,3 +63,8 @@ This extension is available with the following translations, thanks to my fellow
 - Dutch (nl-NL)
 - French (fr-FR) by Marc-Antoine Thevenet
 - German (de-DE)
+
+#### Default Live Site Checklists
+- db8-site-dev-default-checklist-en.json
+- db8-site-dev-default-checklist-fr.json by Yann Gomiero 
+- db8-site-dev-default-checklist-nl.json
