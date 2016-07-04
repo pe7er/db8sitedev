@@ -9,9 +9,9 @@
     },
     {
         "category": "Extras",
-        "title": "Configuration Watchful.li? (Watchful.li)",
+        "title": "Configuration Watchful.li ? (Watchful.li)",
         "checked": "0",
-        "description": "Pour gérer plusieurs sites, la solution watchful.li apporte un véritable soutien en terme de suivi et de monitoring de Joomla.",
+        "description": "Pour gérer plusieurs sites, la solution Watchful.li apporte un véritable soutien en terme de suivi et de monitoring de Joomla.",
         "ordering": "70",
         "state": "1"
     },
@@ -19,7 +19,7 @@
         "category": "Extras",
         "title": "AeSecure Actif",
         "checked": "0",
-        "description": "Agissant sur la sécurité, l'optimisation et la performance, aesecure utilise tout le potentiel du fichier htaccess. Son interface ergonomique offre un véritable outil accessible à chacun du débutant à l'expert.  https://www.aesecure.com/fr/",
+        "description": "Agissant sur la sécurité, l'optimisation et la performance, aeSecure utilise tout le potentiel du fichier htaccess. Son interface ergonomique offre un véritable outil accessible à chacun du débutant à l'expert.  https://www.aesecure.com/fr/",
         "ordering": "71",
         "state": "1"
     },
@@ -33,17 +33,17 @@
     },
     {
         "category": "Extras",
-        "title": "Y at-il un système de sauvegarde ?",
+        "title": "Y a-t-il un système de sauvegarde ?",
         "checked": "0",
-        "description": "Avec ou sans solution serveur, akeeba backup est une solution leader dans la sauvegarde et la restauration de site. Il est important d'effectuer régulièrement des sauvegardes. https://www.akeebabackup.com/",
+        "description": "Avec ou sans solution serveur, Akeeba Backup est une solution leader dans la sauvegarde et la restauration de site. Il est important d'effectuer régulièrement des sauvegardes. https://www.akeebabackup.com/",
         "ordering": "73",
         "state": "1"
     },
     {
         "category": "Extras",
-        "title": "Test de Sauvegarde et restauration effectué ?",
+        "title": "Test de sauvegarde et restauration effectué ?",
         "checked": "0",
-        "description": "Le test consiste simplement à vérifier que l'archive soit valide en effectuant une restauration. La sauvegarde doit être faite depuis l'hebergement du site en prod afin que toutes les conditions soient réunies.",
+        "description": "Le test consiste simplement à vérifier que l'archive soit valide en effectuant une restauration. La sauvegarde doit être faite depuis l'hébergement du site en production afin que toutes les conditions soient réunies.",
         "ordering": "74",
         "state": "1"
     },
@@ -51,15 +51,15 @@
         "category": "Extras",
         "title": "Connexion (S)FTP disponible pour le support ?",
         "checked": "0",
-        "description": "Il est important de conserver un accès FTP (SFTP si possible) afin de pouvoir acceder aux fichiers directement.",
+        "description": "Il est important de conserver un accès FTP (SFTP si possible) afin de pouvoir acceder directement aux fichiers.",
         "ordering": "75",
         "state": "1"
     },
     {
         "category": "Extras",
-        "title": "Archive et exemple supprimé ?",
+        "title": "Archive et exemple supprimés ?",
         "checked": "0",
-        "description": "Les versions de test et d'exemple ne doivent pas être transféré. Il est préférable de supprimer les versions qui pourraient induire en erreur et de conserver une version proche du site. ",
+        "description": "Les versions de test et d'exemple ne doivent pas être transférées. Il est préférable de supprimer les versions qui pourraient induire en erreur et de conserver une version proche de celle du site. ",
         "ordering": "76",
         "state": "1"
     },
@@ -67,13 +67,13 @@
         "category": "Extras",
         "title": "Site Web vérifié en dehors de votre propre réseau / dns ?",
         "checked": "0",
-        "description": "Un site peut être accessible sur une ou plusieurs zone en attendant le deploiement complet via les dns. Il est important de contrôler le deploiement via des sites comme http://migrationdns.com/ ",
+        "description": "Un site peut être accessible sur une ou plusieurs zones en attendant le deploiement complet via les dns. Il est important de contrôler le deploiement via des sites comme http://migrationdns.com/ ",
         "ordering": "77",
         "state": "1"
     },
     {
         "category": "Extras",
-        "title": "Vitesse et performance du site? (YSlow), (PageSpeed ​​Insights), (WebPagetest)",
+        "title": "Vitesse et performance du site ? (YSlow), (PageSpeed ​​Insights), (WebPagetest)",
         "checked": "0",
         "description": "Plusieurs tests existent sur le marché, le plus courant étant PageSpeed ​​Insights : https://developers.google.com/speed/pagespeed/insights/?hl=fr",
         "ordering": "78",
@@ -81,17 +81,17 @@
     },
     {
         "category": "Optimisation / SEO",
-        "title": "Les URLS SEO-friendly installées et configurées?",
+        "title": "Les URL SEO-friendly installées et configurées ?",
         "checked": "0",
-        "description": "L'activation de la réécriture est pratiquement nécessaire pour être référencé correctement. Le fichier htaccess doit être actif et la configuration du site doit comporter le SEF ainsi que la réécriture au Vol. On déconseille l'activation d'unicode qui s'adresse plus à des langues cyrilliques (menu système / configuration / Site)",
+        "description": "L'activation de la réécriture est pratiquement nécessaire pour être référencé correctement. Le fichier htaccess doit être actif et la configuration du site doit comporter le SEF ainsi que la réécriture au Vol. L'activation d'unicode qui s'adresse plus à des langues cyrilliques est déconseillée (menu système / configuration / Site)",
         "ordering": "60",
         "state": "1"
     },
     {
         "category": "Optimisation / SEO",
-        "title": "Mootools actif? ",
+        "title": "Mootools actif ?",
         "checked": "0",
-        "description": "a librairie mootools fut remplacé progressivement par jquery. De préference, il vaut mieux eviter d'utiliser cette librairie et toutes extensions susceptibles de l'utiliser pour des raisons de compatibilité.",
+        "description": "La librairie MooTools fut progressivement remplacée par jQuery. De préference, il vaut mieux éviter d'utiliser cette librairie et toutes extensions susceptibles de l'utiliser pour des raisons de compatibilité.",
         "ordering": "61",
         "state": "1"
     },
@@ -107,15 +107,15 @@
         "category": "Optimisation / SEO",
         "title": "Les répertoires cache / tmp sont vides ?",
         "checked": "0",
-        "description": "Certaines installations peuvent laisser des traces dans le repertoire tmp et des extensions peuvent utiliser le cache de Joomla même désactivé! Il est donc important de vider leur contenu avant la mise en ligne.",
+        "description": "Certaines installations peuvent laisser des traces dans le répertoire tmp et des extensions peuvent utiliser le cache de Joomla même désactivé ! Il est donc important de vider leur contenu avant la mise en ligne.",
         "ordering": "63",
         "state": "1"
     },
     {
         "category": "Optimisation / SEO",
-        "title": "Configuration Varnish?",
+        "title": "Configuration Varnish ?",
         "checked": "0",
-        "description": "Si l'hebergement choisi comporte le reverse proxy varnish. Le site peut optenir un gain de performance important. Fotis Evangelou propose un modèle de configuration pour cette solution : https://gist.github.com/fevangelou/84d2ce05896cab5f730a",
+        "description": "Si l'hébergement choisi comporte le reverse proxy varnish. Le site peut obtenir un gain de performance important. Fotis Evangelou propose un modèle de configuration pour cette solution : https://gist.github.com/fevangelou/84d2ce05896cab5f730a",
         "ordering": "64",
         "state": "1"
     },
@@ -123,13 +123,13 @@
         "category": "Optimisation / SEO",
         "title": "Compression, minification et fusion CSS/Javascript installé et configuré ?",
         "checked": "0",
-        "description": "L'extension JCH Optimize offre de nombreuses possibilités pour optimisés les fichiers css et javascript. Le temps de chargement est appréciable mais attention aux conflits avec d'autres solutions similaires ou une mauvais paramétrage : https://www.jch-optimize.net/",
+        "description": "L'extension JCH Optimize offre de nombreuses possibilités pour optimiser les fichiers CSS et javaScript. Le temps de chargement est appréciable mais attention aux conflits avec d'autres solutions similaires ou un mauvais paramétrage : https://www.jch-optimize.net/",
         "ordering": "65",
         "state": "1"
     },
     {
         "category": "Optimisation / SEO",
-        "title": "CDN activé?",
+        "title": "CDN activé ?",
         "checked": "0",
         "description": "Cela consiste à répliquer vos données sur plusieurs serveurs afin d'optimiser le temps d'accès à vos fichiers. La plupart des hébergeurs ont choisi Cloudflare comme partenaire CDN car il offre une solution gratuite de base et peut être déployé rapidement. Des CDN plus performants sont également sur le marché et il faudra choisir suivant vos besoins.",
         "ordering": "66",
@@ -145,7 +145,7 @@
     },
     {
         "category": "Optimisation / SEO",
-        "title": "Bouton de partage / AddThis installé et configuré?",
+        "title": "Bouton de partage / AddThis installé et configuré ?",
         "checked": "0",
         "description": "De nombreuses extensions proposent des boutons de partage. Addthis est une solution assez simple à installer. Pour optimiser votre contenu pour facebook, social meta est une fabuleuse extension Joomla qui offre de nombreux paramètres réservé à cet usage : https://github.com/vistamedia/socialmeta ",
         "ordering": "68",
