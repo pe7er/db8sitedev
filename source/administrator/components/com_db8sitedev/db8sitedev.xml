@@ -82,7 +82,7 @@
     </config>
 
     <updateservers>
-        <server type="extension" priority="1" name="com_db8sitedev">http://www.db8.nl/updates/com_db8sitedev.xml</server>
+        <server type="extension" priority="1" name="com_db8sitedev">https://www.db8.nl/updates/com_db8sitedev.xml</server>
     </updateservers>
 
 </extension>
