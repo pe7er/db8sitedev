@@ -54,6 +54,18 @@ class Db8sitedevHelpersDb8sitedev
 			JToolbarHelper::title('COM_DB8SITEDEV: JCATEGORIES (COM_DB8SITEDEV_TITLE_CHECKS)');
 		}
 
+        JHtmlSidebar::addEntry(
+            JText::_('COM_DB8SITEDEV_TITLE_IMEXPORT'),
+            'index.php?option=com_db8sitedev&view=imexport',
+            $vName == 'imexport'
+        );
+
+		JHtmlSidebar::addEntry(
+			JText::_('COM_DB8SITEDEV_TITLE_HELP'),
+			'index.php?option=com_db8sitedev&view=help',
+			$vName == 'help'
+		);
+
 		JHtmlSidebar::addEntry(
 			JText::_('COM_DB8SITEDEV_TITLE_ABOUT'),
 			'index.php?option=com_db8sitedev&view=about',

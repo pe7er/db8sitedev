@@ -36,6 +36,8 @@
             <menu link="option=com_db8sitedev&amp;view=checklist" view="checklist" alt="db8sitedev/Checklist">COM_DB8SITEDEV_TITLE_CHECKLIST</menu>
 			<menu link="option=com_db8sitedev&amp;view=checks" view="checks" alt="db8sitedev/Checks">COM_DB8SITEDEV_TITLE_CHECKS</menu>
 			<menu link="option=com_categories&amp;extension=com_db8sitedev" view="categories" alt="db8sitedev/Categories">COM_DB8SITEDEV_CHECKS_CATID</menu>
+            <menu link="option=com_db8sitedev&amp;view=imexport" view="imexport" alt="db8sitedev/ImExport">COM_DB8SITEDEV_TITLE_IMEXPORT</menu>
+            <menu link="option=com_categories&amp;view=help" view="help" alt="db8sitedev/Help">COM_DB8SITEDEV_TITLE_HELP</menu>
             <menu link="option=com_db8sitedev&amp;view=about" view="about" alt="db8sitedev/About">COM_DB8SITEDEV_TITLE_ABOUT</menu>
         </submenu>
 
