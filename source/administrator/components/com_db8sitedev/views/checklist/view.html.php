@@ -79,6 +79,15 @@ class Db8sitedevViewChecklist extends JViewLegacy
 			JToolbarHelper::custom('checklist.toggle_off', 'unpublish.png', 'unpublish_f2.png', 'COM_DB8SITEDEV_TOGGLE_OFF', true);
 		}
 
+		$layout = JFactory::getApplication()->input->get('layout');
+
+		if ($layout <> "import")
+		{
+			JToolbarHelper::divider();
+			JToolbarHelper::custom('checklist.import', 'upload.png', 'upload_f2.png', 'COM_DB8SITEDEV_IMPORT', false);
+			JToolbarHelper::custom('checklist.export', 'download.png', 'download_f2.png', 'COM_DB8SITEDEV_EXPORT', false);
+		}
+
 		if ($canDo->get('core.admin'))
 		{
 			JToolbarHelper::preferences('com_db8sitedev');
