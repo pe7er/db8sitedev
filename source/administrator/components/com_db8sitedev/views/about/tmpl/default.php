@@ -40,6 +40,8 @@ Y88b 888 888 d88P Y88b  d88P      Y88b  d88P 888 Y88b. Y8b.          888  .d88P 
 			<li>Create a Checklist for your own workflow</li>
 			<li>Export your Checklist and import it in all the websites that you develop</li>
 			<li>Keep a full overview of everything that you have done and anything that still needs to be done</li>
+			<li>The default English Checklist <a href="https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-en.json" target="_blank">db8-site-dev-default-checklist-en.json</a>
+				has shortcuts to configuration options in the Joomla admin panel</li>
 		</ul>
 
 		<h2>Features</h2>
