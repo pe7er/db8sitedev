@@ -89,7 +89,7 @@ class Db8sitedevModelDashboard extends JModelList
 			->leftJoin('#__categories AS cat ON cat.id = c.catid')
 			->where('c.state = 1')
 			->where('cat.published = 1')
-			->order('cat.lft ASC')
+			->order('cat.lft DESC')
 			->group('c.catid');
 
 		return $query;

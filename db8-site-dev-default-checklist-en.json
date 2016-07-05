@@ -3,64 +3,64 @@
     "category": "Configuration",
     "title": "Unpublish or uninstalled all unused extensions?",
     "checked": "0",
-    "description": "",
-    "ordering": "15",
+    "description": "<p>See: Extensions &gt; Manage &gt; <a href=\"index.php?option=com_installer&amp;view=manage\">Manage<\/a><\/p>",
+    "ordering": "1",
     "state": "1"
   },
   {
     "category": "Configuration",
     "title": "Joomla up-to-date?",
     "checked": "0",
-    "description": "",
-    "ordering": "16",
+    "description": "<p>See: Components &gt; <a href=\"index.php?option=com_joomlaupdate\">Joomla! Update<\/a> &nbsp;<\/p>",
+    "ordering": "2",
     "state": "1"
   },
   {
     "category": "Configuration",
     "title": "General email address setup?",
     "checked": "0",
-    "description": "",
-    "ordering": "17",
+    "description": "<p>See: System &gt; <a href=\"index.php?option=com_config\">Global Configuration<\/a> &gt; [Server] &gt;&nbsp;Mail Settings<\/p>",
+    "ordering": "3",
     "state": "1"
   },
   {
     "category": "Configuration",
     "title": "Mail Settings setup and SMTP server setup?",
     "checked": "0",
-    "description": "",
-    "ordering": "18",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [Server] &gt;&nbsp;Mail Settings<\/p>",
+    "ordering": "4",
     "state": "1"
   },
   {
     "category": "Configuration",
     "title": "Mass Mail disabled?",
     "checked": "0",
-    "description": "",
-    "ordering": "19",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [Server] &gt;&nbsp;Mail Settings &gt; Disable Mass Mail: <strong>Yes<\/strong><\/p>",
+    "ordering": "5",
     "state": "1"
   },
   {
     "category": "Configuration",
     "title": "Server timezone set correctly?",
     "checked": "0",
-    "description": "",
-    "ordering": "20",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [Server] &gt; Location Settings &gt;&nbsp;<strong>Server Time Zone<\/strong><\/p>",
+    "ordering": "6",
     "state": "1"
   },
   {
     "category": "Configuration",
     "title": "Session settings setup?",
     "checked": "0",
-    "description": "",
-    "ordering": "21",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [System] &gt; Session Settings<\/p>",
+    "ordering": "7",
     "state": "1"
   },
   {
     "category": "Configuration",
     "title": "Feed Email Address to `No Email`?",
     "checked": "0",
-    "description": "",
-    "ordering": "22",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [Site] &gt;&nbsp;Site Settings &gt; Feed Email Address: <strong>No Email<\/strong><\/p>",
+    "ordering": "8",
     "state": "1"
   },
   {
@@ -68,79 +68,87 @@
     "title": "Do all web forms have email handling and email adresses setup correctly?",
     "checked": "0",
     "description": "",
-    "ordering": "23",
+    "ordering": "9",
     "state": "1"
   },
   {
     "category": "Configuration",
     "title": "Activated HTTPS (if necessary)?",
     "checked": "0",
-    "description": "",
-    "ordering": "24",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [Server] &gt;&nbsp;Server Settings &gt; <strong>Force SSL<\/strong><\/p>",
+    "ordering": "10",
     "state": "1"
   },
   {
     "category": "Configuration",
     "title": "Caching setup?",
     "checked": "0",
-    "description": "",
-    "ordering": "25",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [System] &gt; Cache Settings<\/p>",
+    "ordering": "11",
+    "state": "1"
+  },
+  {
+    "category": "Configuration",
+    "title": "Gzip enabled?",
+    "checked": "0",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [Server] &gt; Server Settings &gt; Gzip Page Compression: <strong>Yes<\/strong><\/p>",
+    "ordering": "12",
     "state": "1"
   },
   {
     "category": "Security",
     "title": "Error reporting disabled?",
     "checked": "0",
-    "description": "",
-    "ordering": "1",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [Server] &gt; Server Settings &gt; Error Reporting:&nbsp;<strong>None<\/strong><\/p>",
+    "ordering": "13",
     "state": "1"
   },
   {
     "category": "Security",
     "title": "ReCaptcha private\/public keys?",
     "checked": "0",
-    "description": "",
-    "ordering": "2",
+    "description": "<p>See: Extensions &gt;<a href=\"index.php?option=com_plugins&amp;view=plugins\"> Plugins<\/a> &gt;&nbsp;Captcha - ReCaptcha: Enabled + Site key + Secret key from <a href=\"http:\/\/recaptcha.net\" target=\"_blank\" title=\"Get reCAPTCHA\">recaptcha.net<\/a> &nbsp;<\/p>",
+    "ordering": "14",
     "state": "1"
   },
   {
     "category": "Security",
     "title": "Default Captcha set?",
     "checked": "0",
-    "description": "",
-    "ordering": "3",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [Site] &gt; Site Settings &gt; Default Captcha: <strong>Captcha ReCaptcha<\/strong><\/p>",
+    "ordering": "15",
     "state": "1"
   },
   {
     "category": "Security",
     "title": "Removed all unused Users from User Manager?",
     "checked": "0",
-    "description": "",
-    "ordering": "4",
+    "description": "<p>See: Users &gt; <a href=\"index.php?option=com_users&amp;view=users\">Manage<\/a><\/p>",
+    "ordering": "16",
     "state": "1"
   },
   {
     "category": "Security",
     "title": "Removed all unused User Groups?",
     "checked": "0",
-    "description": "",
-    "ordering": "5",
+    "description": "<p>See: Users &gt;&nbsp;<a href=\"index.php?option=com_users&amp;view=groups\">Groups<\/a><\/p>",
+    "ordering": "17",
     "state": "1"
   },
   {
     "category": "Security",
     "title": "Allow User Registration: No (if necessary)?",
     "checked": "0",
-    "description": "",
-    "ordering": "6",
+    "description": "<p>See: Users &gt;&nbsp;<a href=\"index.php?option=com_config&amp;view=component&amp;component=com_users&amp;path=&amp;return=\">[Options]<\/a>&nbsp;&gt; Component &gt;&nbsp;Allow User Registration: <strong>No<\/strong><\/p>",
+    "ordering": "18",
     "state": "1"
   },
   {
     "category": "Security",
     "title": "Password complexity setup?",
     "checked": "0",
-    "description": "",
-    "ordering": "7",
+    "description": "<p>See: Users &gt;&nbsp;<a href=\"index.php?option=com_config&amp;view=component&amp;component=com_users&amp;path=&amp;return=\">[Options]<\/a>&nbsp;&gt; Component &gt;&nbsp;Password Minimum Length\/Integers\/Symbols\/Upper Case<\/p>",
+    "ordering": "19",
     "state": "1"
   },
   {
@@ -148,7 +156,7 @@
     "title": "Redirect non-ssl to ssl setup in .htaccess?",
     "checked": "0",
     "description": "",
-    "ordering": "8",
+    "ordering": "20",
     "state": "1"
   },
   {
@@ -156,7 +164,7 @@
     "title": "Prevent blocking own IP-addresses?",
     "checked": "0",
     "description": "",
-    "ordering": "9",
+    "ordering": "21",
     "state": "1"
   },
   {
@@ -164,7 +172,7 @@
     "title": "Block access to administrator folder with admin secret URL parameter?",
     "checked": "0",
     "description": "",
-    "ordering": "10",
+    "ordering": "22",
     "state": "1"
   },
   {
@@ -172,7 +180,7 @@
     "title": "HTTPS:\/\/ Certificate setup (if necessary)?",
     "checked": "0",
     "description": "",
-    "ordering": "11",
+    "ordering": "23",
     "state": "1"
   },
   {
@@ -180,7 +188,7 @@
     "title": "Is there a backup scheme?",
     "checked": "0",
     "description": "",
-    "ordering": "12",
+    "ordering": "24",
     "state": "1"
   },
   {
@@ -188,7 +196,7 @@
     "title": "Backup AND restore tested?",
     "checked": "0",
     "description": "",
-    "ordering": "13",
+    "ordering": "25",
     "state": "1"
   },
   {
@@ -196,63 +204,63 @@
     "title": "(S)FTP login created for support?",
     "checked": "0",
     "description": "",
-    "ordering": "14",
+    "ordering": "26",
     "state": "1"
   },
   {
     "category": "Content",
     "title": "Removed all unused content?",
     "checked": "0",
-    "description": "",
-    "ordering": "39",
+    "description": "<p>See: Content &gt; <strong><a href=\"index.php?option=com_content\">Articles<\/a><\/strong><\/p>",
+    "ordering": "27",
     "state": "1"
   },
   {
     "category": "Content",
     "title": "Removed all unused files and images like default Joomla images?",
     "checked": "0",
-    "description": "",
-    "ordering": "40",
+    "description": "<p>See: Content &gt; <strong><a href=\"index.php?option=com_media\">Media<\/a><\/strong><\/p>",
+    "ordering": "28",
     "state": "1"
   },
   {
     "category": "Content",
     "title": "All Lorem Ipsum \/ dummy content has been removed?",
     "checked": "0",
-    "description": "",
-    "ordering": "41",
+    "description": "<p>See: Content &gt;&nbsp;<strong><a href=\"index.php?option=com_content\">Articles<\/a><\/strong><\/p>",
+    "ordering": "29",
     "state": "1"
   },
   {
     "category": "Content",
     "title": "Removed all deleted Articles from trash?",
     "checked": "0",
-    "description": "",
-    "ordering": "42",
+    "description": "<p>See: Content &gt; Articles &gt; <a href=\"index.php?option=com_content&amp;view=articles&amp;filter_published=-2\">[Search Tools &gt; Select Status: <strong>Trashed<\/strong>]<\/a><\/p>",
+    "ordering": "30",
     "state": "1"
   },
   {
     "category": "Content",
     "title": "Removed all deleted Categories from trash?",
     "checked": "0",
-    "description": "",
-    "ordering": "43",
+    "description": "<p>See: Content &gt; Categories &gt;&nbsp;<a href=\"index.php?option=com_categories&amp;view=categories&amp;filter_published=-2\">[Search Tools &gt; Select Status:&nbsp;<strong>Trashed<\/strong>]<\/a><\/p>",
+    "ordering": "31",
     "state": "1"
   },
   {
     "category": "Content",
     "title": "Removed all deleted Menu items from trash?",
     "checked": "0",
-    "description": "",
-    "ordering": "44",
+    "description": "<p>See: Menus &gt; Manage &gt;&nbsp;<a href=\"index.php?option=com_menus&amp;view=items&amp;menutype=mainmenu&amp;filter[published]=-2\"><strong>Trashed<\/strong><br \/><\/a><\/p>",
+    "ordering": "32",
     "state": "1"
   },
   {
     "category": "Content",
     "title": "Removed all deleted Modules from trash?",
     "checked": "0",
-    "description": "",
-    "ordering": "45",
+    "description": "<p>See: Extensions &gt; Modules &gt;&nbsp;<a href=\"index.php?option=com_modules&amp;filter_state=-2\">[Search Tools &gt; Select Status:&nbsp;<strong>Trashed<\/strong>]<\/a><\/p>",
+    "ordering": "33",
     "state": "1"
   },
   {
@@ -260,103 +268,71 @@
     "title": "Replaced development URLs in the database with production URLs?",
     "checked": "0",
     "description": "",
-    "ordering": "46",
-    "state": "1"
-  },
-  {
-    "category": "Template",
-    "title": "Unpublished or uninstalled all unused templates?",
-    "checked": "0",
-    "description": "",
-    "ordering": "32",
-    "state": "1"
-  },
-  {
-    "category": "Template",
-    "title": "Template `Preview Module Positions` disabled?",
-    "checked": "0",
-    "description": "",
-    "ordering": "33",
-    "state": "1"
-  },
-  {
-    "category": "Template",
-    "title": "Favicon installed and tested?",
-    "checked": "0",
-    "description": "",
     "ordering": "34",
     "state": "1"
   },
   {
-    "category": "Template",
-    "title": "Mobile icons installed and tested?",
+    "category": "Usability",
+    "title": "Unpublish unused Search Plugins?",
     "checked": "0",
-    "description": "",
+    "description": "<p>See: Extensions &gt; Plugins &gt;&nbsp;&nbsp;<a href=\"index.php?option=com_plugins&amp;view=plugins&amp;filter_folder=search\">[Search Tools &gt; Select Type:&nbsp;<strong>search<\/strong>]<\/a><\/p>",
     "ordering": "35",
     "state": "1"
   },
   {
-    "category": "Template",
-    "title": "Added a custom 404 page?",
+    "category": "Usability",
+    "title": "Unpublish unused Smart Search Plugins?",
     "checked": "0",
-    "description": "",
+    "description": "<p>See: Extensions &gt; Plugins &gt;&nbsp;&nbsp;<a href=\"index.php?option=com_plugins&amp;view=plugins&amp;filter_folder=finder\">[Search Tools &gt; Select Type:&nbsp;<strong>finder<\/strong>]<\/a><\/p>",
     "ordering": "36",
-    "state": "1"
-  },
-  {
-    "category": "Template",
-    "title": "Has the website been tested in all major browsers?",
-    "checked": "0",
-    "description": "",
-    "ordering": "37",
-    "state": "1"
-  },
-  {
-    "category": "Template",
-    "title": "Is a Mobile template present and tested?",
-    "checked": "0",
-    "description": "",
-    "ordering": "38",
-    "state": "1"
-  },
-  {
-    "category": "Usability",
-    "title": "Unpublished unused Search Plugins?",
-    "checked": "0",
-    "description": "",
-    "ordering": "63",
-    "state": "1"
-  },
-  {
-    "category": "Usability",
-    "title": "Unpublished unused Smart Search Plugins?",
-    "checked": "0",
-    "description": "",
-    "ordering": "64",
     "state": "1"
   },
   {
     "category": "Usability",
     "title": "Are search plugins in correct order?",
     "checked": "0",
-    "description": "",
-    "ordering": "65",
+    "description": "<p>See: Extensions &gt; Plugins &gt;&nbsp;&nbsp;<a href=\"index.php?option=com_plugins&amp;view=plugins&amp;filter_folder=search\">[Search Tools &gt; Select Type:&nbsp;<strong>search<\/strong>]<\/a><\/p>",
+    "ordering": "37",
     "state": "1"
   },
   {
     "category": "Usability",
     "title": "JCE editor - Optimized profile added\/configured?",
     "checked": "0",
-    "description": "",
-    "ordering": "66",
+    "description": "<p>See: Components &gt; JCE Editor &gt; <strong><a href=\"index.php?option=com_jce&amp;view=profiles\">Profiles<\/a><\/strong><\/p>",
+    "ordering": "38",
     "state": "1"
   },
   {
     "category": "Usability",
     "title": "JCE editor - editors-xtd plugins unpublished?",
     "checked": "0",
-    "description": "",
-    "ordering": "67",
+    "description": "<p>See: Extensions &gt; Plugins &gt;&nbsp;&nbsp;<a href=\"index.php?option=com_plugins&amp;view=plugins&amp;filter_folder=editors-xtd\">[Search Tools &gt; Select Type:&nbsp;<strong>editors-xtd<\/strong>]<\/a><\/p>",
+    "ordering": "39",
+    "state": "1"
+  },
+  {
+    "category": "Usability",
+    "title": "Unpublished Banner Component (if not necessary)?",
+    "checked": "0",
+    "description": "<p>See: Extensions &gt; Manage &gt;&nbsp;<a href=\"index.php?option=com_installer&amp;view=manage&amp;filter_client_id=1&amp;filter_type=component&amp;filter_status=3\">Manage<\/a><\/p>",
+    "ordering": "40",
+    "state": "1"
+  },
+  {
+    "category": "Usability",
+    "title": "Unpublished Contacts Component (if not necessary)?",
+    "checked": "0",
+    "description": "<p>See: Extensions &gt; Manage &gt;&nbsp;<a href=\"index.php?option=com_installer&amp;view=manage&amp;filter_client_id=1&amp;filter_type=component&amp;filter_status=3\">Manage<\/a><\/p>",
+    "ordering": "41",
+    "state": "1"
+  },
+  {
+    "category": "Usability",
+    "title": "Unpublished News Feeds Component (if not necessary)?",
+    "checked": "0",
+    "description": "<p>See: Extensions &gt; Manage &gt;&nbsp;<a href=\"index.php?option=com_installer&amp;view=manage&amp;filter_client_id=1&amp;filter_type=component&amp;filter_status=3\">Manage<\/a><\/p>",
+    "ordering": "42",
     "state": "1"
   },
   {
@@ -364,7 +340,7 @@
     "title": "Optimized images?",
     "checked": "0",
     "description": "",
-    "ordering": "55",
+    "ordering": "43",
     "state": "1"
   },
   {
@@ -372,15 +348,15 @@
     "title": "Mootools enabler\/disabler active?",
     "checked": "0",
     "description": "",
-    "ordering": "56",
+    "ordering": "44",
     "state": "1"
   },
   {
     "category": "Performance",
     "title": "Cleared cache\/tmp folders?",
     "checked": "0",
-    "description": "",
-    "ordering": "57",
+    "description": "<p>See: System &gt; <strong><a href=\"index.php?option=com_cache\">Clear Cache<\/a><\/strong><\/p>",
+    "ordering": "45",
     "state": "1"
   },
   {
@@ -388,7 +364,7 @@
     "title": "Varnish setup?",
     "checked": "0",
     "description": "",
-    "ordering": "58",
+    "ordering": "46",
     "state": "1"
   },
   {
@@ -396,7 +372,7 @@
     "title": "CSS\/Javascript compress\/merge installed and configured?",
     "checked": "0",
     "description": "",
-    "ordering": "59",
+    "ordering": "47",
     "state": "1"
   },
   {
@@ -404,7 +380,7 @@
     "title": "CDN activated?",
     "checked": "0",
     "description": "",
-    "ordering": "60",
+    "ordering": "48",
     "state": "1"
   },
   {
@@ -412,31 +388,31 @@
     "title": "Website checked outside your own network\/DNS?",
     "checked": "0",
     "description": "",
-    "ordering": "61",
+    "ordering": "49",
     "state": "1"
   },
   {
     "category": "Performance",
     "title": "Website speed checked?",
     "checked": "0",
-    "description": "",
-    "ordering": "62",
+    "description": "<p>Performance checked at (<a href=\"http:\/\/yslow.org\/\" target=\"_blank\">YSLOW<\/a>), (<a href=\"http:\/\/developers.google.com\/speed\/pagespeed\/insights\/\" target=\"_blank\">PageSpeed Insights<\/a>), (<a href=\"http:\/\/www.webpagetest.org\/ target=\" _blank=\"\">webpagetest<\/a>), (<a href=\"http:\/\/yellowlab.tools\/\" target=\"_blank\">yellowlab.tools<\/a>)<\/p>",
+    "ordering": "50",
     "state": "1"
   },
   {
     "category": "SEO",
     "title": "Robots.txt setup",
     "checked": "0",
-    "description": "",
-    "ordering": "47",
+    "description": "<p>Make sure \/images\/ \/templates\/ \/media\/ are all accessible<\/p>",
+    "ordering": "51",
     "state": "1"
   },
   {
     "category": "SEO",
     "title": "URL redirects from old site to new site setup?",
     "checked": "0",
-    "description": "",
-    "ordering": "48",
+    "description": "<p>See: Components &gt; <a href=\"index.php?option=com_redirect\">Redirect<\/a><\/p>",
+    "ordering": "52",
     "state": "1"
   },
   {
@@ -444,7 +420,7 @@
     "title": "Redirect www to non-www in .htaccess?",
     "checked": "0",
     "description": "",
-    "ordering": "49",
+    "ordering": "53",
     "state": "1"
   },
   {
@@ -452,7 +428,7 @@
     "title": "Sitemap created for all menus?",
     "checked": "0",
     "description": "",
-    "ordering": "50",
+    "ordering": "54",
     "state": "1"
   },
   {
@@ -460,23 +436,23 @@
     "title": "Add line to .htaccess to show OSMAP sitemap as sitemap.xml?",
     "checked": "0",
     "description": "",
-    "ordering": "51",
+    "ordering": "55",
     "state": "1"
   },
   {
     "category": "SEO",
     "title": "XML Sitemap added to Google Webmaster Tools?",
     "checked": "0",
-    "description": "",
-    "ordering": "52",
+    "description": "<p>sitemap.xml added to <a href=\"https:\/\/www.google.com\/webmasters\/tools\/home\" target=\"_blank\">Google Webmaster Tools<\/a>?<\/p>",
+    "ordering": "56",
     "state": "1"
   },
   {
     "category": "SEO",
     "title": "Search-engine friendly URLs installed and configured?",
     "checked": "0",
-    "description": "",
-    "ordering": "53",
+    "description": "<p>See: System &gt;&nbsp;<a href=\"index.php?option=com_config\">Global Configuration<\/a>&nbsp;&gt; [Site] &gt; SEO Settings &gt;&nbsp;Search Engine Friendly URLs: <strong>Yes<\/strong> + Use URL Rewriting: <strong>Yes<\/strong><\/p>",
+    "ordering": "57",
     "state": "1"
   },
   {
@@ -484,47 +460,87 @@
     "title": "Social Share installed and configured?",
     "checked": "0",
     "description": "",
-    "ordering": "54",
+    "ordering": "58",
     "state": "1"
   },
   {
-    "category": "Extras",
-    "title": "Clear + Rebuild Smart Search indexes (if used)?",
+    "category": "SEO",
+    "title": "Redirect Plugin enabled?",
+    "checked": "0",
+    "description": "<p>See: Extensions &gt; Plugins &gt; Search:&nbsp;<strong><a href=\"index.php?option=com_plugins&amp;view=plugins&amp;filter_search=System%20-%20Redirect\">System - Redirect<\/a><\/strong><\/p>",
+    "ordering": "59",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Unpublish or uninstall all unused templates?",
+    "checked": "0",
+    "description": "<p>See: Extensions &gt; Manage &gt; Manage &gt; <a href=\"index.php?option=com_installer&amp;view=manage&amp;filter_type=template\">[Search Tools &gt; Select Type:&nbsp;<strong>Template<\/strong>]<\/a><\/p>",
+    "ordering": "60",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Template `Preview Module Positions` disabled?",
+    "checked": "0",
+    "description": "<p>See: Extensions &gt; Templates &gt; <a href=\"index.php?option=com_config&amp;view=component&amp;component=com_templates&amp;path=&amp;return=\">[Options]<\/a> &gt;&nbsp;[Templates] &gt; Preview Module Positions: <strong>Disabled<\/strong><\/p>",
+    "ordering": "61",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Favicon installed and tested?",
+    "checked": "0",
+    "description": "<p>Generate Favicon at&nbsp;<a href=\"http:\/\/tools.dynamicdrive.com\/favicon\/\" target=\"_blank\">http:\/\/tools.dynamicdrive.com\/favicon\/<\/a>&nbsp;+&nbsp;Check Favicon at&nbsp;<a href=\"http:\/\/realfavicongenerator.net\/\" target=\"_blank\">http:\/\/realfavicongenerator.net\/<\/a><\/p>",
+    "ordering": "62",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Mobile icons installed and tested?",
+    "checked": "0",
+    "description": "<p>Generate +&nbsp;Check Mobile Icons at&nbsp;<a href=\"http:\/\/realfavicongenerator.net\/\" target=\"_blank\">http:\/\/realfavicongenerator.net\/<\/a><\/p>",
+    "ordering": "63",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Added a custom 404 page?",
     "checked": "0",
     "description": "",
+    "ordering": "64",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Has the website been tested in all major browsers?",
+    "checked": "0",
+    "description": "",
+    "ordering": "65",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Is a Mobile template present and tested?",
+    "checked": "0",
+    "description": "<p>Check Mobile template at&nbsp;<a href=\"https:\/\/developers.google.com\/speed\/pagespeed\/insights\/\" target=\"_blank\">https:\/\/developers.google.com\/speed\/pagespeed\/insights\/<\/a><\/p>",
+    "ordering": "66",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Check HTML markup of template",
+    "checked": "0",
+    "description": "<p>Check at&nbsp;<a href=\"https:\/\/validator.w3.org\/\" target=\"_blank\">https:\/\/validator.w3.org\/<\/a><\/p>",
+    "ordering": "67",
+    "state": "1"
+  },
+  {
+    "category": "Template",
+    "title": "Check CSS of website",
+    "checked": "0",
+    "description": "<p>Check at&nbsp;<a href=\"https:\/\/jigsaw.w3.org\/css-validator\/\" target=\"_blank\">https:\/\/jigsaw.w3.org\/css-validator\/<\/a><\/p>",
     "ordering": "68",
-    "state": "1"
-  },
-  {
-    "category": "Extras",
-    "title": "Cookie Law \/ Cookie alert?",
-    "checked": "0",
-    "description": "",
-    "ordering": "69",
-    "state": "1"
-  },
-  {
-    "category": "Extras",
-    "title": "Watchful.li setup?",
-    "checked": "0",
-    "description": "",
-    "ordering": "70",
-    "state": "1"
-  },
-  {
-    "category": "Extras",
-    "title": "myJoomla.com audit done?",
-    "checked": "0",
-    "description": "",
-    "ordering": "71",
-    "state": "1"
-  },
-  {
-    "category": "Extras",
-    "title": "Training website archived and removed?",
-    "checked": "0",
-    "description": "",
-    "ordering": "72",
     "state": "1"
   },
   {
@@ -532,7 +548,7 @@
     "title": "All 3rd party Extensions up-to-date?",
     "checked": "0",
     "description": "",
-    "ordering": "26",
+    "ordering": "69",
     "state": "1"
   },
   {
@@ -540,7 +556,7 @@
     "title": "ACL Manager installed and configured?",
     "checked": "0",
     "description": "",
-    "ordering": "27",
+    "ordering": "70",
     "state": "1"
   },
   {
@@ -548,7 +564,7 @@
     "title": "Cleaned form submissions?",
     "checked": "0",
     "description": "",
-    "ordering": "28",
+    "ordering": "71",
     "state": "1"
   },
   {
@@ -556,7 +572,7 @@
     "title": "Cleaned all test Newsletters?",
     "checked": "0",
     "description": "",
-    "ordering": "29",
+    "ordering": "72",
     "state": "1"
   },
   {
@@ -564,7 +580,7 @@
     "title": "Back-end login form security installed and enabled ?",
     "checked": "0",
     "description": "",
-    "ordering": "30",
+    "ordering": "73",
     "state": "1"
   },
   {
@@ -572,15 +588,55 @@
     "title": "Sitemap extension installed?",
     "checked": "0",
     "description": "",
-    "ordering": "31",
+    "ordering": "74",
+    "state": "1"
+  },
+  {
+    "category": "Extras",
+    "title": "Clear + Rebuild Smart Search indexes (if used)?",
+    "checked": "0",
+    "description": "<p>See: Component &gt; Smart Search &gt; <a href=\"index.php?option=com_finder\">Indexed Content<\/a>&nbsp;&gt; [Clear Index] + [Index]<\/p>",
+    "ordering": "75",
+    "state": "1"
+  },
+  {
+    "category": "Extras",
+    "title": "Cookie Law \/ Cookie alert?",
+    "checked": "0",
+    "description": "",
+    "ordering": "76",
+    "state": "1"
+  },
+  {
+    "category": "Extras",
+    "title": "Watchful.li setup?",
+    "checked": "0",
+    "description": "<p>Website added to&nbsp;<a href=\"https:\/\/watchful.li\/\" target=\"_blank\">https:\/\/watchful.li\/<\/a>&nbsp;?<\/p>",
+    "ordering": "77",
+    "state": "1"
+  },
+  {
+    "category": "Extras",
+    "title": "myJoomla.com audit done?",
+    "checked": "0",
+    "description": "<p>Website audit done with&nbsp;<a href=\"https:\/\/myjoomla.com\/\" target=\"_blank\">https:\/\/myjoomla.com\/<\/a>&nbsp;?<\/p>",
+    "ordering": "78",
+    "state": "1"
+  },
+  {
+    "category": "Extras",
+    "title": "Training website archived and removed?",
+    "checked": "0",
+    "description": "",
+    "ordering": "79",
     "state": "1"
   },
   {
     "category": "Marketing",
     "title": "Google Analytics setup?",
     "checked": "0",
-    "description": "",
-    "ordering": "73",
+    "description": "<p>Get Analytics code from <a href=\"https:\/\/analytics.google.com\/\" target=\"_blank\">Google Analytics<\/a><\/p>",
+    "ordering": "80",
     "state": "1"
   }
 ]

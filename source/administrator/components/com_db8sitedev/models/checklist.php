@@ -179,8 +179,8 @@ class Db8sitedevModelChecklist extends JModelList
 			$query->where("a.`catid` = '" . $db->escape($filter_catid) . "'");
 		}
 		// Add the list ordering clause.
-		$orderCol  = 'a.catid';
-		$orderDirn = $this->state->get('list.direction');
+		$orderCol  = 'catid.lft';
+		$orderDirn = 'DESC';
 
 		if ($orderCol && $orderDirn)
 		{
