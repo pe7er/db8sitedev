@@ -125,7 +125,7 @@ Y88b 888 888 d88P Y88b  d88P      Y88b  d88P 888 Y88b. Y8b.          888  .d88P 
 		</ul>
 		<h3>Suggestions and Improvements</h3>
 		<p>
-			Wilco Alsemgeest, Markus Hermann, Joris Lange, Nico van Leeuwen, Ric Raftis, Brian Teeman, Marc-Antoine Thevenet, John Wood.
+			Wilco Alsemgeest, Ludo Arts, Anja Hage, Markus Hermann, Joris Lange, Nico van Leeuwen, Ric Raftis, Brian Teeman, Marc-Antoine Thevenet, John Wood.
 		</p>
 		</div>
 </div>

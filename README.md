@@ -70,4 +70,4 @@ This extension is available with the following translations, thanks to my fellow
 - db8-site-dev-default-checklist-nl.json
 
 #### Suggestions and Improvements
-Wilco Alsemgeest, Markus Hermann, Joris Lange, Nico van Leeuwen, Ric Raftis, Brian Teeman, Marc-Antoine Thevenet, John Wood.
+Wilco Alsemgeest, Ludo Arts, Anja Hage, Markus Hermann, Joris Lange, Nico van Leeuwen, Ric Raftis, Brian Teeman, Marc-Antoine Thevenet, John Wood.
