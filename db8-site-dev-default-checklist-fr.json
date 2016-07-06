@@ -139,7 +139,7 @@
         "category": "Optimisation / SEO",
         "title": "Droit Cookie / alerte Cookie",
         "checked": "0",
-        "description": "Une directive européenne oblige les sites à informer sur l'utilisation des cookies. Il est donc nécessaire d'installer une notification ainsi qu'une page sur les cookies.  Les extensions disponibles sur la JED : http://extensions.joomla.org/category/site-management/cookie-control et une solution complète fourni par iubenda intégrant la page sur la politique de confidentialité extremement bien faite : http://www.iubenda.com/en/help/posts/1323",
+        "description": "Une directive européenne oblige les sites à informer sur l'utilisation des cookies. Il est donc nécessaire d'installer une notification ainsi qu'une page relative aux cookies. Des extensions sont disponibles sur le JED : http://extensions.joomla.org/category/site-management/cookie-control. Une solution complète est proposée par iubenda intégrant la page sur la politique de confidentialité : http://www.iubenda.com/en/help/posts/1323",
         "ordering": "67",
         "state": "1"
     },
@@ -147,47 +147,47 @@
         "category": "Optimisation / SEO",
         "title": "Bouton de partage / AddThis installé et configuré ?",
         "checked": "0",
-        "description": "De nombreuses extensions proposent des boutons de partage. Addthis est une solution assez simple à installer. Pour optimiser votre contenu pour facebook, social meta est une fabuleuse extension Joomla qui offre de nombreux paramètres réservé à cet usage : https://github.com/vistamedia/socialmeta ",
+        "description": "De nombreuses extensions proposent des boutons de partage. AddThis est une solution assez simple à installer. Pour optimiser votre contenu pour facebook, Social Meta est une fabuleuse extension Joomla! qui offre de nombreux paramètres réservés à cet usage : https://github.com/vistamedia/socialmeta ",
         "ordering": "68",
         "state": "1"
     },
     {
         "category": "HTTPS",
-        "title": "Le certificat SSL est actif (si nécessaire)?",
+        "title": "Le certificat SSL est actif (si nécessaire) ?",
         "checked": "0",
-        "description": "Pour obtenir une solution via let's encrypt, consulter notre tutoriel : http://cinnk.com/joomla/3/tutoriels/le-https-facilement-sur-son-site-joomla",
+        "description": "Pour obtenir une solution via let's encrypt, consultez notre tutoriel : http://cinnk.com/joomla/3/tutoriels/le-https-facilement-sur-son-site-joomla",
         "ordering": "58",
         "state": "1"
     },
     {
         "category": "HTTPS",
-        "title": "HTTPS Activé (si nécessaire)?",
+        "title": "HTTPS Activé (si nécessaire) ?",
         "checked": "0",
-        "description": "L'activation du https est expliqué dans notre tutoriel, pratiquement tous les nouveaux sites choisissent le https en partie du à la possibilité d'acquérir un certificat ssl gratuit. Mais aussi la volonté de Google de favoriser les sites sécurisés.",
+        "description": "L'activation du https est expliquée dans notre tutoriel. La majeure partie des nouveaux sites choisissent le https afin de bénéficier d'un certificat SSL gratuit et de répondre au souhait de Google de favoriser les sites sécurisés.",
         "ordering": "59",
         "state": "1"
     },
     {
         "category": "OSMap (Plan de site)",
-        "title": "Plan du site créé pour tous les menus?",
+        "title": "Plan du site créé pour tous les menus ?",
         "checked": "0",
-        "description": "OSMap est l'une extensions qui remplace Xmap et le fait évoluer. Les menus doivent être inclus dans le plan de site xml pour être pris en compte.",
+        "description": "OSMap est l'une extensions qui remplace Xmap. Les menus doivent être inclus dans le plan de site xml pour être pris en compte.",
         "ordering": "55",
         "state": "1"
     },
     {
         "category": "OSMap (Plan de site)",
-        "title": "Ajouter une ligne à .htaccess pour montrer OSXMAP comme sitemap.xml?",
+        "title": "Ajouter une ligne au .htaccess pour afficher OSMap en tant que sitemap.xml ?",
         "checked": "0",
-        "description": "La plupart des systèmes reconnaisse le fichier sitemap.xml à la racine du site. Il est important de définir une redirection via le htaccess comme ceci : index.php?option=com_osmap&view=xml&tmpl=component&id=1 / le numéro id étant celui du plan de site Osmap. Attention : de préférence, utiliser une autre solution qu'OSmap pour les sites multilingues.",
+        "description": "La plupart des systèmes reconnaisse le fichier sitemap.xml à la racine du site. Il est important de définir une redirection via le htaccess comme ceci : index.php?option=com_osmap&view=xml&tmpl=component&id=1 / le numéro d'ID étant celui du plan de site OSMap. Attention : de préférence, utiliser une autre solution qu'OSMap pour les sites multilingues.",
         "ordering": "56",
         "state": "1"
     },
     {
         "category": "OSMap (Plan de site)",
-        "title": " Le plan de site XML a été ajouté à Google Webmaster Tools?",
+        "title": "Le plan de site XML a été ajouté à Google Webmaster Tools ?",
         "checked": "0",
-        "description": "Le plan de site XML a été ajouté à Google Webmaster Tools?",
+        "description": "Le plan de site XML a été ajouté à Google Webmaster Tools ?",
         "ordering": "57",
         "state": "1"
     },
