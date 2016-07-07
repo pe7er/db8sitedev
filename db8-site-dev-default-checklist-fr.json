@@ -139,7 +139,7 @@
         "category": "Optimisation / SEO",
         "title": "Droit Cookie / alerte Cookie",
         "checked": "0",
-        "description": "Une directive européenne oblige les sites à informer sur l'utilisation des cookies. Il est donc nécessaire d'installer une notification ainsi qu'une page sur les cookies.  Les extensions disponibles sur la JED : http://extensions.joomla.org/category/site-management/cookie-control et une solution complète fourni par iubenda intégrant la page sur la politique de confidentialité extremement bien faite : http://www.iubenda.com/en/help/posts/1323",
+        "description": "Une directive européenne oblige les sites à informer sur l'utilisation des cookies. Il est donc nécessaire d'installer une notification ainsi qu'une page relative aux cookies. Des extensions sont disponibles sur le JED : http://extensions.joomla.org/category/site-management/cookie-control. Une solution complète est proposée par iubenda intégrant la page sur la politique de confidentialité : http://www.iubenda.com/en/help/posts/1323",
         "ordering": "67",
         "state": "1"
     },
@@ -147,71 +147,71 @@
         "category": "Optimisation / SEO",
         "title": "Bouton de partage / AddThis installé et configuré ?",
         "checked": "0",
-        "description": "De nombreuses extensions proposent des boutons de partage. Addthis est une solution assez simple à installer. Pour optimiser votre contenu pour facebook, social meta est une fabuleuse extension Joomla qui offre de nombreux paramètres réservé à cet usage : https://github.com/vistamedia/socialmeta ",
+        "description": "De nombreuses extensions proposent des boutons de partage. AddThis est une solution assez simple à installer. Pour optimiser votre contenu pour facebook, Social Meta est une fabuleuse extension Joomla! qui offre de nombreux paramètres réservés à cet usage : https://github.com/vistamedia/socialmeta ",
         "ordering": "68",
         "state": "1"
     },
     {
         "category": "HTTPS",
-        "title": "Le certificat SSL est actif (si nécessaire)?",
+        "title": "Le certificat SSL est actif (si nécessaire) ?",
         "checked": "0",
-        "description": "Pour obtenir une solution via let's encrypt, consulter notre tutoriel : http://cinnk.com/joomla/3/tutoriels/le-https-facilement-sur-son-site-joomla",
+        "description": "Pour obtenir une solution via let's encrypt, consultez notre tutoriel : http://cinnk.com/joomla/3/tutoriels/le-https-facilement-sur-son-site-joomla",
         "ordering": "58",
         "state": "1"
     },
     {
         "category": "HTTPS",
-        "title": "HTTPS Activé (si nécessaire)?",
+        "title": "HTTPS Activé (si nécessaire) ?",
         "checked": "0",
-        "description": "L'activation du https est expliqué dans notre tutoriel, pratiquement tous les nouveaux sites choisissent le https en partie du à la possibilité d'acquérir un certificat ssl gratuit. Mais aussi la volonté de Google de favoriser les sites sécurisés.",
+        "description": "L'activation du https est expliquée dans notre tutoriel. La majeure partie des nouveaux sites choisissent le https afin de bénéficier d'un certificat SSL gratuit et de répondre au souhait de Google de favoriser les sites sécurisés.",
         "ordering": "59",
         "state": "1"
     },
     {
         "category": "OSMap (Plan de site)",
-        "title": "Plan du site créé pour tous les menus?",
+        "title": "Plan du site créé pour tous les menus ?",
         "checked": "0",
-        "description": "OSMap est l'une extensions qui remplace Xmap et le fait évoluer. Les menus doivent être inclus dans le plan de site xml pour être pris en compte.",
+        "description": "OSMap est l'une extensions qui remplace Xmap. Les menus doivent être inclus dans le plan de site xml pour être pris en compte.",
         "ordering": "55",
         "state": "1"
     },
     {
         "category": "OSMap (Plan de site)",
-        "title": "Ajouter une ligne à .htaccess pour montrer OSXMAP comme sitemap.xml?",
+        "title": "Ajouter une ligne au .htaccess pour afficher OSMap en tant que sitemap.xml ?",
         "checked": "0",
-        "description": "La plupart des systèmes reconnaisse le fichier sitemap.xml à la racine du site. Il est important de définir une redirection via le htaccess comme ceci : index.php?option=com_osmap&view=xml&tmpl=component&id=1 / le numéro id étant celui du plan de site Osmap. Attention : de préférence, utiliser une autre solution qu'OSmap pour les sites multilingues.",
+        "description": "La plupart des systèmes reconnaisse le fichier sitemap.xml à la racine du site. Il est important de définir une redirection via le htaccess comme ceci : index.php?option=com_osmap&view=xml&tmpl=component&id=1 / le numéro d'ID étant celui du plan de site OSMap. Attention : de préférence, utiliser une autre solution qu'OSMap pour les sites multilingues.",
         "ordering": "56",
         "state": "1"
     },
     {
         "category": "OSMap (Plan de site)",
-        "title": " Le plan de site XML a été ajouté à Google Webmaster Tools?",
+        "title": "Le plan de site XML a été ajouté à Google Webmaster Tools ?",
         "checked": "0",
-        "description": "Le plan de site XML a été ajouté à Google Webmaster Tools?",
+        "description": "Le plan de site XML a été ajouté à Google Webmaster Tools ?",
         "ordering": "57",
         "state": "1"
     },
     {
         "category": "JCE Editor",
-        "title": "profil optimisé ajouté / configuré?",
+        "title": "profil optimisé ajouté / configuré ?",
         "checked": "0",
-        "description": "Les options de l'éditeur peuvent être personnalisé par groupe ainsi vous pouvez limiter les interactions avec les utilisateurs ayant un accès minimum.",
+        "description": "Les options de l'éditeur peuvent être personnalisées par groupe, ainsi vous pouvez limiter les interactions avec les utilisateurs ayant un accès minimum.",
         "ordering": "53",
         "state": "1"
     },
     {
         "category": "JCE Editor",
-        "title": "Joomla! - plugin editeur étendu non publié?",
+        "title": "Joomla! - plugin éditeur étendu non publié ?",
         "checked": "0",
-        "description": "JCE dispose également d'extension commerciales spécifiques pour diverses fonctionnalités. Activer et utiliser ce qui est nécessaire sans oublier les mises à jour indispensable. Jce étant une extension suivi et très utilisé.",
+        "description": "JCE dispose également d'extensions commerciales spécifiques pour diverses fonctionnalités. Activez et utilisez ce qui est nécessaire sans oublier les mises à jour indispensables. JCE est une extension suivie et très utilisée.",
         "ordering": "54",
         "state": "1"
     },
     {
         "category": "La sécurité",
-        "title": "Admin Tools Pro / jHackGuard / AdminExile installé et configuré?",
+        "title": "AdminTools Pro / jHackGuard / AdminExile installé et configuré ?",
         "checked": "0",
-        "description": "Ces trois solutions proposent d'améliorer la sécurité de joomla ce qui est essentiel à la publication d'un site.",
+        "description": "Ces trois solutions proposent d'améliorer la sécurité de Joomla.",
         "ordering": "50",
         "state": "1"
     },
@@ -225,41 +225,41 @@
     },
     {
         "category": "La sécurité",
-        "title": "Bloquer l'accès à administrateur avec un mot secret dans l'url ou via une liste d'ip autorisé",
+        "title": "Bloquer l'accès à l'administration avec un mot secret dans l'url ou via une liste d'IP autorisées",
         "checked": "0",
-        "description": "Bloquer l'accès à administrateur avec un mot secret dans l'url ou via une liste d'ip autorisé",
+        "description": "Bloquer l'accès à l'administration avec un mot secret dans l'url ou via une liste d'IP autorisées",
         "ordering": "52",
         "state": "1"
     },
     {
         "category": ".htaccess",
-        "title": "Rediriger sans les www vers l'adresse avec www dans .htaccess?",
+        "title": "Rediriger sans les www vers l'adresse avec www dans le .htaccess ?",
         "checked": "0",
-        "description": "Rediriger sans les www vers l'adresse avec www dans .htaccess?",
+        "description": "Rediriger sans les www vers l'adresse avec www dans le .htaccess ?",
         "ordering": "48",
         "state": "1"
     },
     {
         "category": ".htaccess",
-        "title": "Rediriger la connexion non sécurisé vers le https dans .htaccess ?",
+        "title": "Rediriger la connexion non sécurisée vers le https dans le .htaccess ?",
         "checked": "0",
-        "description": "Avec let's encrypt (ssl gratuit), les sites https ont progressé et c'est devenu une pratique courante. Le https doit être indiqué dans le htaccess (voir étape HTTPS).",
+        "description": "Avec Let's Encrypt (SSL gratuit), les sites https ont progressé et sont devenus une pratique courante. Le https doit être indiqué dans le htaccess (voir étape HTTPS).",
         "ordering": "49",
         "state": "1"
     },
     {
         "category": "Template",
-        "title": "Site Web testé dans tous les principaux navigateurs (OSX: Safari, Chrome, Firefox / Windows: IE, EDGE, Chrome, Firefox)",
+        "title": "Site Web testé avec tous les principaux navigateurs (OSX: Safari, Chrome, Firefox / Windows: IE, EDGE, Chrome, Firefox)",
         "checked": "0",
-        "description": "Une vérification est importante car le site doit fonctionner dans les dernières versions des navigateurs du marché. Des solutions comme testingbot.com offre un panel de test, y compris sur MacOs Sierra et le futur safari.",
+        "description": "Une vérification s'impose car le site doit pouvoir fonctionner dans les dernières versions des navigateurs du marché. Des solutions comme testingbot.com offrent un panel de tests y compris sur MacOs Sierra et le futur Safari.",
         "ordering": "46",
         "state": "1"
     },
     {
         "category": "Template",
-        "title": "Template mobile présent et testé?",
+        "title": "Template mobile présent et testé ?",
         "checked": "0",
-        "description": "Théoriquement votre template doit être responsive (proposé nativement dans joomla 3). Dans le cas contraire, il est nécessaire d'avoir une solution d'un template pour mobile qui sera utilisé dans la détection du user-agent (navigateur android, ios). L'aspect mobile doit être testé et validé. Exemple : https://testmysite.thinkwithgoogle.com/",
+        "description": "Théoriquement votre template doit être responsive (proposé nativement dans Joomla! 3). Dans le cas contraire, il est nécessaire d'utiliser la solution d'un template pour mobile qui sera utilisé par la détection du user-agent (navigateur android, ios). L'affichage mobile doit être testé et validé. Exemple : https://testmysite.thinkwithgoogle.com/",
         "ordering": "47",
         "state": "1"
     },
@@ -267,31 +267,31 @@
         "category": "Contenu",
         "title": "Le contenu d'exemple est supprimé ?",
         "checked": "0",
-        "description": "A l'installation d'un site Joomla, les exemples et contenus qui ne seront pas utiles sont à supprimé, ce qui évitera à Google de les indexer et considérer comme du contenu dupliqué.",
+        "description": "À l'installation d'un site Joomla, les exemples et contenus qui ne seront pas utilisés doivent être supprimés ce qui évitera à Google de les indexer et de les considérer comme du contenu dupliqué.",
         "ordering": "29",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Tous les fichiers et images non utilisées, comme les images par défaut de Joomla?",
+        "title": "Tous les fichiers et images non utilisés, comme les images par défaut de Joomla ?",
         "checked": "0",
-        "description": "Comme les articles, les images peuvent être indexés dans google image. Il est donc important de supprimer les images pour éviter leur indexation ou détection.",
+        "description": "Comme les articles, les images peuvent être indexées dans Google image. Il est donc important de supprimer les images pour éviter leur indexation ou détection.",
         "ordering": "30",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Le faux contenu / Lorem Ipsum est remplacé ?",
+        "title": "Le faux contenu / Lorem Ipsum est-il remplacé ?",
         "checked": "0",
-        "description": "Vérifier les pages pour ne pas avoir à indexer du contenu inutiles. Il faut savoir que malgré la suppression, le contenu des pages peut être conservé dans le cache de google ainsi que dans le projet wayback machine : https://archive.org/web",
+        "description": "Vérifier les pages pour ne pas avoir à indexer du contenu inutiles. Il faut savoir que malgré la suppression, le contenu des pages peut être conservé dans le cache Google ainsi que dans le projet wayback machine : https://archive.org/web",
         "ordering": "31",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Suppression de tout le contenu supprimé ?",
+        "title": "Suppression définitive du contenu supprimé ?",
         "checked": "0",
-        "description": "Cela consiste à vider la corbeille dans article, catégories, liens de menu et modules, garantissant leur suppression définitive.",
+        "description": "Cela consiste à vider la corbeille dans les sections Articles, Catégories, Liens de menu et Modules, garantissant ainsi leur suppression définitive.",
         "ordering": "32",
         "state": "1"
     },
