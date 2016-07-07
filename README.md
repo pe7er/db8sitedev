@@ -6,7 +6,7 @@ A Joomla Site Development Tool to **improve your workflow** with **Joomla websit
 - Export your Checklist and import it in all the websites that you develop
 - Keep a full overview of everything that you have done and anything that still needs to be done
 - The default English Checklist [db8-site-dev-default-checklist-en.json](https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-en.json) 
-has shortcuts to configuration options in the Joomla admin panel
+has **shortcuts to** configuration options in the **Joomla admin panel**
 
 ### Features
 - Easily manage your own Checklist of everything you have to do before a website can be put online
@@ -67,9 +67,10 @@ This extension is available with the following translations, thanks to my fellow
 - German (de-DE)
 
 #### Default Live Site Checklists
-- db8-site-dev-default-checklist-en.json
-- db8-site-dev-default-checklist-fr.json by Yann Gomiero and Marc-Antoine Thevenet
-- db8-site-dev-default-checklist-nl.json
+- [db8-site-dev-default-checklist-en.json](https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-en.json)
+- [db8-site-dev-default-checklist-fr.json](https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-fr.json)
+ by Yann Gomiero and Marc-Antoine Thevenet
+- [db8-site-dev-default-checklist-nl.json](https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-nl.json)
 
 #### Suggestions and Improvements
 Wilco Alsemgeest, Ludo Arts, Anja Hage, Markus Hermann, Joris Lange, Nico van Leeuwen, Matthew Philogene, 
