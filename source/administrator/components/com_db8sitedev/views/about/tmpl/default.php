@@ -40,7 +40,8 @@ Y88b 888 888 d88P Y88b  d88P      Y88b  d88P 888 Y88b. Y8b.          888  .d88P 
 			<li>Create a Checklist for your own workflow</li>
 			<li>Export your Checklist and import it in all the websites that you develop</li>
 			<li>Keep a full overview of everything that you have done and anything that still needs to be done</li>
-			<li>The default English Checklist <a href="https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-en.json" target="_blank">db8-site-dev-default-checklist-en.json</a>
+			<li>The default English Checklist <a href="https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-en.json"
+			                                     target="_blank">db8-site-dev-default-checklist-en.json</a>
 				has shortcuts to configuration options in the Joomla admin panel</li>
 		</ul>
 
@@ -121,13 +122,17 @@ Y88b 888 888 d88P Y88b  d88P      Y88b  d88P 888 Y88b. Y8b.          888  .d88P 
 		</ul>
 		<h3>Default Live Site Checklists</h3>
 		<ul>
-			<li>db8-site-dev-default-checklist-en.json</li>
-			<li>db8-site-dev-default-checklist-fr.json by Yann Gomiero & Marc-Antoine Thevenet</li>
-			<li>db8-site-dev-default-checklist-nl.json</li>
+			<li><a href="https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-en.json" target="_blank">
+					db8-site-dev-default-checklist-en.json</a></li>
+			<li><a href="https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-fr.json" target="_blank">
+					db8-site-dev-default-checklist-fr.json</a> by Yann Gomiero and Marc-Antoine Thevenet</li>
+			<li><a href="https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-nl.json" target="_blank">
+					db8-site-dev-default-checklist-nl.json</a></li>
 		</ul>
 		<h3>Suggestions and Improvements</h3>
 		<p>
-			Wilco Alsemgeest, Ludo Arts, Anja Hage, Markus Hermann, Joris Lange, Nico van Leeuwen, Ric Raftis, Brian Teeman, Marc-Antoine Thevenet, John Wood.
+			Wilco Alsemgeest, Ludo Arts, Anja Hage, Markus Hermann, Joris Lange, Nico van Leeuwen, Matthew Philogene,
+			Ric Raftis, Brian Teeman, Marc-Antoine Thevenet, John Wood.
 		</p>
 		</div>
 </div>

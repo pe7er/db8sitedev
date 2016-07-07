@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="3.0" method="upgrade">
     <name>com_db8sitedev</name>
-    <creationDate>June 2016</creationDate>
+    <creationDate>July 2016</creationDate>
     <copyright>2016 by Peter Martin</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <author>Peter Martin</author>
@@ -54,32 +54,6 @@
         </files>
 
     </administration>
-
-    <config>
-        <fields name="params">
-
-            <fieldset
-                    label="COM_DB8SITEDEV"
-                    name="db8sitedev">
-
-                <field
-                        name="generate_site_checklist_button"
-                        type="radio"
-                        label="COM_DB8SITEDEV_GENERATE_SITE_CHECKLIST_BUTTON"
-                        description="COM_DB8SITEDEV_GENERATE_SITE_CHECKLIST_BUTTON_DESC"
-                        buttons="true"
-                        class="btn-group btn-group-yesno"
-                        size="1"
-                        default="1"
-                >
-                    <option value="0">JNO</option>
-                    <option value="1">JYES</option>
-                </field>
-
-            </fieldset>
-
-        </fields>
-    </config>
 
     <updateservers>
         <server type="extension" priority="1" name="com_db8sitedev">https://www.db8.nl/updates/com_db8sitedev.xml</server>

@@ -68,8 +68,9 @@ This extension is available with the following translations, thanks to my fellow
 
 #### Default Live Site Checklists
 - db8-site-dev-default-checklist-en.json
-- db8-site-dev-default-checklist-fr.json by Yann Gomiero & Marc-Antoine Thevenet
+- db8-site-dev-default-checklist-fr.json by Yann Gomiero and Marc-Antoine Thevenet
 - db8-site-dev-default-checklist-nl.json
 
 #### Suggestions and Improvements
-Wilco Alsemgeest, Ludo Arts, Anja Hage, Markus Hermann, Joris Lange, Nico van Leeuwen, Ric Raftis, Brian Teeman, Marc-Antoine Thevenet, John Wood.
+Wilco Alsemgeest, Ludo Arts, Anja Hage, Markus Hermann, Joris Lange, Nico van Leeuwen, Matthew Philogene, 
+Ric Raftis, Brian Teeman, Marc-Antoine Thevenet, John Wood.
