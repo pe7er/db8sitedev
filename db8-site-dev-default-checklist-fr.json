@@ -251,7 +251,7 @@
         "category": "Template",
         "title": "Site Web testé avec tous les principaux navigateurs (OSX: Safari, Chrome, Firefox / Windows: IE, EDGE, Chrome, Firefox)",
         "checked": "0",
-        "description": "Une vérification s'impose car le site doit pouvoir fonctionner dans les dernières versions des navigateurs du marché. Des solutions comme testingbot.com offrent un panel de tests y compris sur MacOs Sierra et le futur Safari.",
+        "description": "Une vérification s’impose car le site doit pouvoir fonctionner dans les dernières versions des navigateurs du marché. Des solutions comme testingbot.com offrent un panel de tests y compris sur MacOs Sierra et le futur Safari.",
         "ordering": "46",
         "state": "1"
     },
@@ -267,7 +267,7 @@
         "category": "Contenu",
         "title": "Le contenu d'exemple est supprimé ?",
         "checked": "0",
-        "description": "À l'installation d'un site Joomla, les exemples et contenus qui ne seront pas utilisés doivent être supprimés ce qui évitera à Google de les indexer et de les considérer comme du contenu dupliqué.",
+        "description": "À l’installation d'un site Joomla, les exemples et contenus qui ne seront pas utilisés doivent être supprimés ce qui évitera à Google de les indexer et de les considérer comme du contenu dupliqué.",
         "ordering": "29",
         "state": "1"
     },
@@ -297,9 +297,9 @@
     },
     {
         "category": "Contenu",
-        "title": "Remplacer URL de développement dans la base de données avec les URL du site en production?",
+        "title": "Remplacer l’URL de développement dans la base de données avec les URL du site en production ?",
         "checked": "0",
-        "description": "Bien que Joomla utilise des urls relatives, on peut aussi oublier la copie d'urls réécrites incluant l'url de développement. Un rechercher/remplacer depuis phpmyadmin permet de filtrer les urls et de les corriger.",
+        "description": "Bien que Joomla! utilise des URL relatives, on peut aussi oublier la copie d’URL réécrites incluant l’URL de développement. Un rechercher/remplacer depuis phpMyAdmin permet de filtrer les URL et de les corriger.",
         "ordering": "33",
         "state": "1"
     },
@@ -307,71 +307,71 @@
         "category": "Contenu",
         "title": "Le fichier robots.txt est bien configuré ?",
         "checked": "0",
-        "description": "Pour assurer d'une compatibilité vis à vis des mobiles, Google oblige l'indexation des fichiers css de différents répertoires dont template, modules. Il est important de vérifier si le fichier robots.txt ne bloque pas ces repertoires (dissalow). L'indication d'un plan de site xml dans le fichier robots.txt est optionnel.",
+        "description": "Pour assurer une compatibilité avec les mobiles, Google oblige l’indexation des fichiers CSS de différents répertoires dont template et modules. Il est important de vérifier si le fichier robots.txt ne bloque pas ces repertoires (dissalow). L’indication d’un plan de site XML dans le fichier robots.txt est optionnel.",
         "ordering": "34",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "La Favicon est installée ?",
+        "title": "La favicon est-elle installée ?",
         "checked": "0",
-        "description": "L'icône illustrant le site doit être défini afin d'éviter le logo joomla. Il existe bon nombre de générateur de favicon afin de mettre l'image à la bonne taille.",
+        "description": "L’icône illustrant le site doit être définie afin d’éviter l’affichage du logo Joomla. Il existe bon nombre de générateur de favicon afin de mettre l'image aux bonnes dimensions.",
         "ordering": "35",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Les icônes mobiles sont installées ?",
+        "title": "Les icônes mobiles sont-elles installées ?",
         "checked": "0",
-        "description": "Pour tous les types d'icônes incluant favicon et pour ios, android... le site http://realfavicongenerator.net/ offre bon nombre de formats.",
+        "description": "Pour tous les types d’icônes y compris les favicon et autres iOs, android... le site http://realfavicongenerator.net/ propose différents formats.",
         "ordering": "36",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "une redirection d'url de l'ancien site vers le nouveau nom de domaine du site est défini ?",
+        "title": "Une redirection d’URL de l’ancien site vers le nouveau nom de domaine du site est-elle définie ?",
         "checked": "0",
-        "description": "Dans le cas d'un changement d'adresse, il est important de définir une adresse de redirection permanente (301) afin que la nouvelle adresse soit prise en compte indépendamment de l'ancienne.",
+        "description": "Dans le cas d’un changement d’adresse, il est important de définir une adresse de redirection permanente (301) afin que la nouvelle adresse soit prise en compte indépendamment de l’ancienne.",
         "ordering": "37",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Ajout d'une page d'erreur 404 personnalisé ?",
+        "title": "Ajout d’une page d’erreur 404 personnalisée ?",
         "checked": "0",
-        "description": "Selon certain framework de template, l'erreur 404 peut être personnalisé depuis le template ce qui permet de conserver une charte graphique cohérente. A défaut, certaines extensions tierces proposent le même service notamment les extensions dédiés au SEO.",
+        "description": "Pour certains Frameworks de template, l’erreur 404 peut-être personnalisée depuis le template ce qui permet de conserver une charte graphique cohérente. À défaut, certaines extensions tierces proposent le même service notamment les extensions dédiées au SEO.",
         "ordering": "38",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Les images sont optimisées?",
+        "title": "Les images sont-elles optimisées ?",
         "checked": "0",
-        "description": "La compression d'image est importante, certains extensions peuvent gérer cela ou vous pouvez également décider de compresser le contenu des repertoires d'images à l'aide de logiciels disponibles comme Jpegmicro de RomeoLight : http://www.romeolight.com/products/jpegmicro/",
+        "description": "La compression d’image est importante, certaines extensions peuvent gérer celà mais vous pouvez également décider de compresser le contenu des repertoires d’images à l’aide de logiciels disponibles comme Jpegmicro de RomeoLight : http://www.romeolight.com/products/jpegmicro/",
         "ordering": "39",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Les plugins de recherche inutilisés sont désactivés, la recherche avancée également?",
+        "title": "Les plugins de recherche inutilisés sont-ils désactivés, la recherche avancée également ?",
         "checked": "0",
-        "description": "Il est plus efficace de désactiver ces plugins afin d'optimiser les recherche, la recherche avancée est rarement activé car elle consomme énormément en performance et en base de données.",
+        "description": "Il est plus efficace de désactiver ces plugins afin d’optimiser les recherche, la recherche avancée est rarement activée car elle consomme énormément de ressources et en base de données.",
         "ordering": "40",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Les plugins de recherche sont dans le bon ordre?",
+        "title": "Les plugins de recherche sont-ils dans le bon ordre ?",
         "checked": "0",
-        "description": "L'affichage des résultats dépendent également de l'ordre choisi des plugins de recherche.",
+        "description": "L’affichage des résultats dépend également de l’ordre des plugins de recherche.",
         "ordering": "41",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Supprimer l'index de recherche avancé et le reconstruire (si la recherche avancée est utilisée)?",
+        "title": "Supprimer l’index de recherche avancée et le reconstruire (si la recherche avancée est utilisée) ?",
         "checked": "0",
-        "description": "Pour diminuer la taille de la base, il n'est pas utile de conserver le contenu indexé dans la recherche avancée.",
+        "description": "Pour diminuer le poids de la base de données, il n’est pas utile de conserver le contenu indexé dans la recherche avancée.",
         "ordering": "42",
         "state": "1"
     },
