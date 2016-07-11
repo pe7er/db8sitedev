@@ -377,49 +377,49 @@
     },
     {
         "category": "Contenu",
-        "title": "Tous les formulaires ont bien la bonne adresse e-mail de destination ?",
+        "title": "Tous les formulaires disposent de la bonne adresse e-mail de destination ?",
         "checked": "0",
-        "description": "Il est important de vérifier l'envoi des formulaires et vérifié si les messages transmis par les formulaires sont bien réceptionnés.",
+        "description": "Il est important de vérifier l’envoi des formulaires et si les messages transmis via les formulaires sont correctement réceptionnés.",
         "ordering": "43",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Supprimer les anciens envois de formulaire?",
+        "title": "Supprimer les anciens envois de formulaire ?",
         "checked": "0",
-        "description": "Certains données peuvent être conservés et accessible depuis une extension tierce. Il est donc important de ne pas avoir de trace des essais effectués.",
+        "description": "Certaines données peuvent être conservées et accessibles depuis une extension tierce. Il est donc important de ne pas laisser de traces des tests effectués.",
         "ordering": "44",
         "state": "1"
     },
     {
         "category": "Contenu",
-        "title": "Supprimer tous les tests de newsletter?",
+        "title": "Supprimer les tests des newsletters ?",
         "checked": "0",
-        "description": "Comme le stockage de formulaire, les envois de newsletter précédent ne sont pas à conserver.",
+        "description": "Comme pour le stockage de formulaires, les envois de précédentes newsletters ne doivent pas être conservés.",
         "ordering": "45",
         "state": "1"
     },
     {
         "category": "Utilisateurs",
-        "title": "Tous les comptes inutilisés du gestionnaire des utilisateurs sont supprimés ?",
+        "title": "Tous les comptes inutilisés et présents dans le gestionnaire des utilisateurs doivent être supprimés ?",
         "checked": "0",
-        "description": "Lors de l'achat d'un template commerciale, l'archive complète (contenant joomla, extension, exemple) peut contenir également des comptes laissés par défaut que l'on doit supprimer.",
+        "description": "Lors de l’achat d’un template commerciale, l’archive complète (contenant Joomla, les extensions et exemples) peut contenir également des comptes laissés par défaut q’il convient de supprimer.",
         "ordering": "25",
         "state": "1"
     },
     {
         "category": "Utilisateurs",
-        "title": "Tous les groupes d'utilisateurs qui ne sont pas utilisés sont supprimés également ?",
+        "title": "Tous les groupes d’utilisateurs qui ne sont pas utilisés sont-ils supprimés ?",
         "checked": "0",
-        "description": "La hiérarchie initiale n'est pas figé et il vaut mieux adapter selon vos types de visiteurs et leurs droits.",
+        "description": "La hiérarchie initiale n’est pas figée et il convient de l’adapter en fonction de vos propres types de visiteurs et des droits à leur octroyer.",
         "ordering": "26",
         "state": "1"
     },
     {
         "category": "Utilisateurs",
-        "title": "Les utilisateurs sont autorisés à s'enregistrer ?",
+        "title": "Les utilisateurs sont-ils autorisés à s’enregistrer ?",
         "checked": "0",
-        "description": "L'activation de compte ne doit être défini que si c'est nécessaire. L'oubli peut parfois générer un nombre important de faux compte.",
+        "description": "L’activation de compte ne doit être définie que si cela est nécessaire. L'oublier peut parfois générer la création d’un nombre important de faux comptes.",
         "ordering": "27",
         "state": "1"
     },
