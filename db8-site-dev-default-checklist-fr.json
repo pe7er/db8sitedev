@@ -419,55 +419,55 @@
         "category": "Utilisateurs",
         "title": "Les utilisateurs sont-ils autorisés à s’enregistrer ?",
         "checked": "0",
-        "description": "L’activation de compte ne doit être définie que si cela est nécessaire. L'oublier peut parfois générer la création d’un nombre important de faux comptes.",
+        "description": "L’activation de compte ne doit être définie que si cela est nécessaire. L’oublier peut parfois générer la création d’un nombre important de faux comptes.",
         "ordering": "27",
         "state": "1"
     },
     {
         "category": "Utilisateurs",
-        "title": "Les mot de passe sont assez compliqués ?",
+        "title": "Les mots de passe sont-ils assez compliqués ?",
         "checked": "0",
-        "description": "Vous pouvez décider de la complexité du mot de passe allant du nombre de caractère minimum à l'obligation d'un minimum de chiffres, symboles et majuscules inclus.",
+        "description": "Vous pouvez déterminer la complexité du mot de passe en fixant le nombre de caractères minimum ou encore l’obligation d’utiliser un minimum de chiffres, symboles et majuscules.",
         "ordering": "28",
         "state": "1"
     },
     {
-        "category": "Configuration de Joomla",
-        "title": "ReCaptcha clés privées / publiques ?",
+        "category": "Configuration de Joomla!",
+        "title": "ReCaptcha clés privées/publiques ?",
         "checked": "0",
-        "description": "Pour chaque affichage de formulaire (contact, inscription), l'utilisation de ReCaptcha limite la réception de spams et l'inscription d'utilisateurs fantomes. N'hésitez pas à consulter cet article pour vous aider : http://cinnk.com/joomla/3/trucs-et-astuces/comment-activer-un-captcha-sur-le-formulaire-d-inscription",
+        "description": "Pour chaque affichage de formulaire (contact, inscription), l’utilisation de ReCaptcha limite la réception de spams et l’inscription de faux utilisateurs. N’hésitez pas à consulter cet article pour vous aider : http://cinnk.com/joomla/3/trucs-et-astuces/comment-activer-un-captcha-sur-le-formulaire-d-inscription",
         "ordering": "15",
         "state": "1"
     },
     {
-        "category": "Configuration de Joomla",
-        "title": "Par défaut, un Captcha est actif ?",
+        "category": "Configuration de Joomla!",
+        "title": "Par défaut, un Captcha est-il actif ?",
         "checked": "0",
-        "description": "Recaptcha est l'une des solutions, installer de préférence un plugin qui consultera les bases de spams pour les bloquer avant même d'acceder au site. (ex: projet honey pot).",
+        "description": "Recaptcha est l’une des solutions. Installez de préférence un plugin qui va consulter les bases de données de spams pour pouvoir les bloquer avant même d’acceder au site (ex : projet honey pot).",
         "ordering": "16",
         "state": "1"
     },
     {
-        "category": "Configuration de Joomla",
-        "title": "Le rapport d'erreur est désactivé ?",
+        "category": "Configuration de Joomla!",
+        "title": "Le rapport d’erreur est-il désactivé ?",
         "checked": "0",
-        "description": "Dans la configuration de Joomla, le rapport d'erreur par défaut peut générer un nombre important de ligne dans le journal d'erreur (logs) notamment si les extensions tierces utilisent des fonctions php obsolètes. Si les tests effectués n'ont pas relevé d'erreurs, vous pouvez désactiver la génération de rapport.",
+        "description": "Dans la configuration de Joomla, le rapport d’erreur par défaut peut générer un nombre important de lignes dans le journal des erreurs (logs) notamment si les extensions tierces utilisent des fonctions PHP obsolètes. Si les tests effectués n'ont pas relevé d’erreurs, vous pouvez désactiver la génération de rapport.",
         "ordering": "17",
         "state": "1"
     },
     {
-        "category": "Configuration de Joomla",
-        "title": "La configuration de l'adresse mail de la messagerie est correct ?",
+        "category": "Configuration de Joomla!",
+        "title": "La configuration de l’adresse e-mail de la messagerie est-elle correcte ?",
         "checked": "0",
-        "description": "Evitez l'utilisation de compte gmail, hotmail ou de FAI comme orange, sfr, free.. Vous devez définir une adresse principale liée à votre nom de domaine qui sera utilisé comme adresse d'expedition type contact@nomdevotresite.com ou no-reply@nomdevotresite.com. L'adresse est à préciser dans la configuration du site / onglet serveur.",
+        "description": "Évitez l’utilisation de compte Gmail, Hotmail ou de FAI comme Orange, SFR ou Free. Vous devez définir une adresse principale liée à votre nom de domaine qui sera utilisée comme adresse d’expedition du type contact@nomdevotresite.com ou no-reply@nomdevotresite.com. L’adresse est à indiquer dans la configuration du site / onglet serveur.",
         "ordering": "18",
         "state": "1"
     },
     {
-        "category": "Configuration de Joomla",
-        "title": "La configuration des paramètres Mail et configuration du serveur SMTP est valide ?",
+        "category": "Configuration de Joomla!",
+        "title": "La configuration des paramètres e-mail et configuration du serveur SMTP est-elle valide ?",
         "checked": "0",
-        "description": "Testez l'envoi de mail, voir la fonction test dans configuration du site, onglet serveur. Si la solution phpmail ou sendmail ne fonctionne pas, la solution smtp peut être choisi et fourni par votre hébergeur. Vous pouvez aussi choisir un STMP de relais type mailjet, mandrill, sendinblue ce qui permet d'améliorer la qualité d'envoi de mail.",
+        "description": "Testez l’envoi d’e-mail. Voir la fonction test dans configuration du site, onglet serveur. Si la solution `phpmail` ou `sendmail` ne fonctionne pas, la solution SMTP peut être choisie et proposée par votre hébergeur. Vous pouvez également choisir un STMP de relais type Mailjet, Mandrill, Sendinblue qui permetent d’améliorer la qualité des envois d’e-mail.",
         "ordering": "19",
         "state": "1"
     },
