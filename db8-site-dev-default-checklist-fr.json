@@ -472,42 +472,42 @@
         "state": "1"
     },
     {
-        "category": "Configuration de Joomla",
-        "title": "L'envoi de courrier en masse est désactivé ?",
+        "category": "Configuration de Joomla!",
+        "title": "L’envoi de courrier en masse est-il désactivé ?",
         "checked": "0",
-        "description": "Cette fonction est rarement utilisé (menu utilisateur / envoi mail en nombre) et il est préférable d'installer des solutions comme acymailing pour une meilleure gestion des mails. N'oubliez pas que l'envoi d'informations doit être soumis à une acceptation opt-in de la part des membres de votre site (case à cocher vierge et non pas pré-cochée par défaut). ",
+        "description": "Cette fonction n’est que rarement utilisée (menu Utilisateur / Envoi d’e-mails en nombre) et il est préférable d’installer des solutions comme Acymailing pour une meilleure gestion des e-mails. N'oubliez pas que l'envoi d’informations doit être soumis à une acceptation opt-in de la part des membres de votre site (case à cocher vierge et non pas pré-cochée par défaut).",
         "ordering": "20",
         "state": "1"
     },
     {
-        "category": "Configuration de Joomla",
-        "title": "Le Fuseau horaire du serveur est correctement réglé ?",
+        "category": "Configuration de Joomla!",
+        "title": "Le fuseau horaire du serveur est-il correctement paramétré ?",
         "checked": "0",
-        "description": "Un serveur peut être en décalage, assurez-vous que l'heure soit correct notamment pour l'utilisation de fonctions comme la double authentification ou d'un cronjob (tâche planifié).",
+        "description": "Un serveur peut être paramétré sur un fuseau horaire différent de celui désiré. Assurez-vous que l’heure soit correcte notamment pour l’utilisation de fonctions comme la double authentification ou de cronjob (tâche planifiée).",
         "ordering": "21",
         "state": "1"
     },
     {
-        "category": "Configuration de Joomla",
-        "title": "Les paramètres de session sont bien configurés ?",
+        "category": "Configuration de Joomla!",
+        "title": "Les paramètres de session sont-ils bien configurés ?",
         "checked": "0",
-        "description": "Un temps de session plus long n'est vraiment utile que sur des sites avec identification et sur des serveurs pouvant supporter le nombre suffisant de connectés simultanés. Lors du développement, on augmente pour éviter de saisir trop souvent le mot de passe. Par défaut, le système php prévoit 1440s (24mn) mais défini à 15mn à l'installation de Joomla (Configuration / Onglet système)",
+        "description": "Une durée de session longue n’est vraiment utile que sur des sites avec identification et pour des serveurs pouvant supporter un nombre suffisant d’utilisateurs connectés simultanément. En phase de développement, on augmente cette durée pour éviter d’avoir à saisir trop souvent le mot de passe. Par défaut, le système PHP prévoit 1440s (24mn) mais il est défini sur 15 minutes lors de l’installation de Joomla! (Configuration / Onglet système)",
         "ordering": "22",
         "state": "1"
     },
     {
-        "category": "Configuration de Joomla",
-        "title": "L'aperçu des Positions de module est désactivé ?",
+        "category": "Configuration de Joomla!",
+        "title": "L’aperçu des positions de module est-il désactivé ?",
         "checked": "0",
-        "description": "Cette option est désactivée par défaut dans les paramètres (Menu système/configuration/template) et ne doit être utilisé que pour s'aider dans le développement du site.",
+        "description": "Cette option est désactivée par défaut dans les paramètres (Menu système/configuration/template) et ne doit être utilisée que pour aider en phase de développement du site.",
         "ordering": "23",
         "state": "1"
     },
     {
-        "category": "Configuration de Joomla",
-        "title": "Modifier adresse e-mail des fils à sans e-mail ?",
+        "category": "Configuration de Joomla!",
+        "title": "Modifier l’adresse e-mail des fils sur sans e-mail ?",
         "checked": "0",
-        "description": "Vous pouvez décider d'afficher publiquement l'adresse mail de l'auteur ou du site dans les Flux RSS, le risque étant la recrudescence de spam suite à cette publication. Sans nécessité, vous pouvez eviter de diffuser en selectionnant sans e-mail depuis la configuration du site, onglet site.",
+        "description": "Vous pouvez décider d'afficher publiquement l’adresse e-mail de l’auteur ou du site dans les Flux RSS, le risque étant une multiplication des messages spams suite à cette publication. Vous pouvez eviter de diffuser cette adresse en selectionnant `sans e-mail` depuis la configuration du site, onglet site.",
         "ordering": "24",
         "state": "1"
     },
