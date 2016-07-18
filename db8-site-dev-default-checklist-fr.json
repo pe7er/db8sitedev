@@ -507,39 +507,39 @@
         "category": "Configuration de Joomla!",
         "title": "Modifier l’adresse e-mail des fils sur sans e-mail ?",
         "checked": "0",
-        "description": "Vous pouvez décider d'afficher publiquement l’adresse e-mail de l’auteur ou du site dans les Flux RSS, le risque étant une multiplication des messages spams suite à cette publication. Vous pouvez eviter de diffuser cette adresse en selectionnant `sans e-mail` depuis la configuration du site, onglet site.",
+        "description": "Vous pouvez décider d’afficher publiquement l’adresse e-mail de l’auteur ou du site dans les Flux RSS, le risque étant une multiplication des messages spams suite à cette publication. Vous pouvez eviter de diffuser cette adresse en sélectionnant `sans e-mail` depuis la configuration du site, onglet site.",
         "ordering": "24",
         "state": "1"
     },
     {
         "category": "Joomla! / Extensions",
-        "title": "Toutes les extensions qui ne sont pas utilisées sont DÉSACTIVÉES ou dépubliées.",
+        "title": "Toutes les extensions qui ne sont pas utilisées sont-elles désactivées ou dépubliées.",
         "checked": "0",
-        "description": "En principe, les fonctions d'une extension ne seront pas accessibles si elle est désactivée. Dans le menu Extension, choisissez Gérer puis Gestion des extensions. Sauf les extensions core (natif de joomla), il est préférable de supprimer extensions tierces inutiles pour des raisons de sécurité.",
+        "description": "En principe, si une extension est désactivée, ses fonctions ne seront pas accessibles. Dans le menu Extension, choisissez Gérer puis Gestion des extensions. Pour des raisons de sécurité et exception faite pour les extensions du core (natives), il est conseillé de supprimer les extensions tierces inutiles.",
         "ordering": "11",
         "state": "1"
     },
     {
         "category": "Joomla! / Extensions",
-        "title": "Joomla et toutes les extensions sont bien à jour ?",
+        "title": "Joomla! et toutes les extensions sont-elles bien à jour ?",
         "checked": "0",
-        "description": "Vérifier si les sites de mises à jour sont bien actifs. Dans le menu Extension, choisissez Gérer, Mise à jour puis site de mise à jour. Il est préférable d'appliquer les mises à jour régulièrement en prenant soin d'effectuer également les sauvegardes et informez-vous de l'évolution des extensions installées (site de l'auteur, newsletter...).",
+        "description": "Vérifier si les sites de mises à jour sont bien actifs. Dans le menu Extension, choisissez Gérer, Mise à jour puis site de mise à jour. Il est préférable d’appliquer les mises à jour régulièrement en prenant soin d’effectuer également les sauvegardes et de vous informer quant à l’évolution des extensions installées (site de l’auteur, newsletter...).",
         "ordering": "12",
         "state": "1"
     },
     {
         "category": "Joomla! / Extensions",
-        "title": "Désinstaller tous les templates inutilisés?",
+        "title": "Désinstaller tous les templates inutilisés",
         "checked": "0",
-        "description": "Mis à part les templates par défaut, les templates non utilisés sont des cibles potentielles à supprimer. Si vous souhaitez utiliser l'un des templates du package joomla, n'oubliez pas de le dupliquer et le renommer afin que vos modifications ne soient pas écrasées par une mise à jour.",
+        "description": "À l’exception des templates par défaut, les templates non utilisés sont des failles potentielles à supprimer. Si vous souhaitez utiliser l’un des templates Joomla, n’oubliez pas de le dupliquer et le renommer afin que vos modifications ne soient pas écrasées lors une mise à jour.",
         "ordering": "13",
         "state": "1"
     },
     {
         "category": "Joomla! / Extensions",
-        "title": "ACL Manager est installé et configuré?",
+        "title": "ACL Manager est-il installé et configuré ?",
         "checked": "0",
-        "description": "ACL Manager est une extension tierce qui peut être utile lors d'une gestion particulières des droits. Elle permet d'obtenir une vision accessible des droits de Joomla et de toutes les extensions. https://www.aclmanager.net/fr/",
+        "description": "ACL Manager est une extension tierce qui peut s’avérer utile pour la gestion particulière des droits. Elle permet d’avoir une vision globale des droits concernant Joomla! ainsi que de toutes les extensions. https://www.aclmanager.net/fr/",
         "ordering": "14",
         "state": "1"
     },
