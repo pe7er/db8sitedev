@@ -85,7 +85,8 @@ class Db8sitedevModelDashboard extends JModelList
 		$db	= $this->getDbo();
 		$query	= $db->getQuery(true);
 
-		$query->select('cat.title, cat.id as catid, cat.description as note, COUNT(IF(c.checked = 1, 1, NULL)) AS checked_on, COUNT(IF(c.checked = 0, 1, NULL)) AS checked_off ')
+		$query->select('cat.title, cat.id as catid, cat.description as note, COUNT(IF(c.checked = 1, 1, NULL)) AS checked_on, '
+			. 'COUNT(IF(c.checked = 0, 1, NULL)) AS checked_off ')
 			->from('#__db8sitedev_checks AS c')
 			->leftJoin('#__categories AS cat ON cat.id = c.catid')
 			->where('c.state = 1')
@@ -99,7 +100,8 @@ class Db8sitedevModelDashboard extends JModelList
 	/**
 	 * Get an array of data items
 	 *
-	 * @return mixed Array of data items on success, false on failure.
+	 * @return  mixed  Array of data items on success, false on failure.
+	 *
 	 * @since
 	 */
 	public function getItems()

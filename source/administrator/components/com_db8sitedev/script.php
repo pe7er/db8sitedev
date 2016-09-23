@@ -19,7 +19,7 @@ class Com_Db8sitedevInstallerScript
 	/**
 	 * Method to create a sample category + some sample check items.
 	 *
-	 * @param   string $parent Parent is the class calling this method
+	 * @param   string  $parent  Parent is the class calling this method
 	 *
 	 * @return void
 	 *
@@ -59,16 +59,22 @@ class Com_Db8sitedevInstallerScript
 			// Check to make sure our data is valid
 			if (!$category->check())
 			{
-				JFactory::getApplication()->enqueueMessage(JText::sprintf('COM_DB8SITEDEV_ERROR_SAVING_DATA_CATEGORY',
-					$category->getError()));
+				JFactory::getApplication()->enqueueMessage(
+					JText::sprintf(
+						'COM_DB8SITEDEV_ERROR_SAVING_DATA_CATEGORY', $category->getError()
+					)
+				);
 
 				return;
 			}
 			// Now store the category
 			if (!$category->store(true))
 			{
-				JFactory::getApplication()->enqueueMessage(JText::sprintf('COM_DB8SITEDEV_ERROR_SAVING_DATA_CATEGORY',
-					$category->getError()));
+				JFactory::getApplication()->enqueueMessage(
+					JText::sprintf(
+						'COM_DB8SITEDEV_ERROR_SAVING_DATA_CATEGORY', $category->getError()
+					)
+				);
 
 				return;
 			}
@@ -137,9 +143,10 @@ class Com_Db8sitedevInstallerScript
 	/**
 	 * Method to remove old language files from /administrator/language/
 	 *
-	 * @param $parent
+	 * @param   $parent
 	 *
 	 * @return void
+	 *
 	 * @since
 	 */
 	public function update ($parent)
@@ -161,11 +168,11 @@ class Com_Db8sitedevInstallerScript
 			"nl-NL/nl-NL.com_db8sitedev.sys.ini",
 		);
 
-		foreach( $languageFiles AS $languageFile)
+		foreach ($languageFiles AS $languageFile)
 		{
-			if (JFile::exists( JPATH_ROOT. '/administrator/language/' . $languageFile))
+			if (JFile::exists(JPATH_ROOT . '/administrator/language/' . $languageFile))
 			{
-				JFile::delete(JPATH_ROOT. '/administrator/language/' . $languageFile);
+				JFile::delete(JPATH_ROOT . '/administrator/language/' . $languageFile);
 			}
 		}
 	}

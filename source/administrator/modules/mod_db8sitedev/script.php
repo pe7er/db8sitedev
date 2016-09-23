@@ -19,9 +19,10 @@ class Mod_Db8sitedevInstallerScript
 	/**
 	 * Method to remove old language files from /administrator/language/
 	 *
-	 * @param $parent
+	 * @param  $parent
 	 *
 	 * @return void
+	 *
 	 * @since
 	 */
 	public function update ($parent)
@@ -43,11 +44,11 @@ class Mod_Db8sitedevInstallerScript
 			"nl-NL/nl-NL.mod_db8sitedev.sys.ini"
 		);
 
-		foreach( $languageFiles AS $languageFile)
+		foreach ($languageFiles AS $languageFile)
 		{
-			if (JFile::exists( JPATH_ROOT. '/administrator/language/' . $languageFile))
+			if (JFile::exists(JPATH_ROOT . '/administrator/language/' . $languageFile))
 			{
-				JFile::delete(JPATH_ROOT. '/administrator/language/' . $languageFile);
+				JFile::delete(JPATH_ROOT . '/administrator/language/' . $languageFile);
 			}
 		}
 	}
@@ -99,9 +100,10 @@ class Mod_Db8sitedevInstallerScript
 		$query->where($db->quoteName('position') . ' = ' . $db->quote('cpanel'));
 		$db->setQuery($query);
 		$moduleId = $db->loadResult();
-		
+
 		// If the Module has not been published, publish + assign it
-		if(empty($moduleId))
+
+		if (empty($moduleId))
 		{
 			// Change Module settings to auto publish it on position cpanel
 			$query = $db->getQuery(true);

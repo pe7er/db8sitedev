@@ -65,7 +65,7 @@ class Db8sitedevModelCheck extends JModelAdmin
 	public function getForm($data = array(), $loadData = true)
 	{
 		// Initialise variables.
-		$app = JFactory::getApplication();
+		// $app = JFactory::getApplication();
 
 		// Get the form.
 		$form = $this->loadForm(
@@ -135,7 +135,8 @@ class Db8sitedevModelCheck extends JModelAdmin
 	 * @return  boolean  True if successful.
 	 *
 	 * @throws  Exception
-     * @since
+	 *
+	 * @since
 	 */
 	public function duplicate(&$pks)
 	{
@@ -229,8 +230,9 @@ class Db8sitedevModelCheck extends JModelAdmin
 	 * @param   string  $field  Name of the field to toggle
 	 *
 	 * @return bool
-     * @since
-     */
+	 *
+	 * @since
+	 */
 	public function toggle($pk, $field)
 	{
 		$result = false;

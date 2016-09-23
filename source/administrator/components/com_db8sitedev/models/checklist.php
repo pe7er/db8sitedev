@@ -18,14 +18,14 @@ jimport('joomla.application.component.modellist');
  */
 class Db8sitedevModelChecklist extends JModelList
 {
-/**
-	* Constructor.
-	*
-	* @param   array  $config  An optional associative array of configuration settings.
-	*
-	* @see        JController
-	* @since      1.6
-	*/
+	/**
+	 * Constructor.
+	 *
+	 * @param   array  $config  An optional associative array of configuration settings.
+	 *
+	 * @see        JController
+	 * @since      1.6
+	 */
 	public function __construct($config = array())
 	{
 		if (empty($config['filter_fields']))
@@ -145,7 +145,7 @@ class Db8sitedevModelChecklist extends JModelList
 		$query->join('LEFT', '#__users AS `modified_by` ON `modified_by`.id = a.`modified_by`');
 
 		// Filter by published state
-		$published = $this->getState('filter.published');
+		// $published = $this->getState('filter.published');
 
 		$query->where('a.state = 1');
 
@@ -168,7 +168,7 @@ class Db8sitedevModelChecklist extends JModelList
 			}
 			else
 			{
-				$query->where('a.title LIKE ' . $db->Quote('%' . $db->escape($search, true) . '%'));
+				$query->where('a.title LIKE ' . $db->quote('%' . $db->escape($search, true) . '%'));
 			}
 		}
 

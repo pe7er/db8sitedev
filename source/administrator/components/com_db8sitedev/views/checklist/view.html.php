@@ -105,6 +105,7 @@ class Db8sitedevViewChecklist extends JViewLegacy
 	 * Method to order fields 
 	 *
 	 * @return array
+	 *
 	 * @since
 	 */
 	protected function getSortFields()

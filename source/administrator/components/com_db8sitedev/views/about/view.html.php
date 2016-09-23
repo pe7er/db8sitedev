@@ -49,7 +49,7 @@ class Db8sitedevViewAbout extends JViewLegacy
 		$this->addToolbar();
 
 		$this->sidebar = JHtmlSidebar::render();
-		
+
 		parent::display($tpl);
 	}
 
@@ -63,8 +63,8 @@ class Db8sitedevViewAbout extends JViewLegacy
 	protected function addToolbar()
 	{
 		$canDo = Db8sitedevHelpersDb8sitedev::getActions();
-		
-		$bar = JToolbar::getInstance('toolbar');
+
+		// $bar = JToolbar::getInstance('toolbar');
 
 		JToolbarHelper::title(JText::_('COM_DB8SITEDEV') . ": " . JText::_('COM_DB8SITEDEV_TITLE_ABOUT'), 'info.png');
 

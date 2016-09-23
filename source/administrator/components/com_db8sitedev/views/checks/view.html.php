@@ -113,16 +113,13 @@ class Db8sitedevViewChecks extends JViewLegacy
 			}
 		}
 
-
 			if ($state->get('filter.published') == -2 && $canDo->get('core.delete'))
 			{
 				JToolbarHelper::deleteList('JGLOBAL_CONFIRM_DELETE', 'checks.delete', 'JTOOLBAR_EMPTY_TRASH');
-
 			}
 			elseif ($canDo->get('core.edit.state'))
 			{
 				JToolbarHelper::trash('checks.trash', 'JTOOLBAR_TRASH');
-
 			}
 
 		if ($canDo->get('core.admin'))
@@ -140,6 +137,7 @@ class Db8sitedevViewChecks extends JViewLegacy
 	 * Method to order fields 
 	 *
 	 * @return array
+	 *
 	 * @since
 	 */
 	protected function getSortFields()

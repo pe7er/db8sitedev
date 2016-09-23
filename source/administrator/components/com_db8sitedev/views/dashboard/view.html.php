@@ -38,9 +38,10 @@ class Db8sitedevViewDashboard extends JViewLegacy
 	{
 		$this->state = $this->get('State');
 		$this->items = $this->get('Items');
-//		$this->pagination = $this->get('Pagination');
-//		$this->filterForm    = $this->get('FilterForm');
-//		$this->activeFilters = $this->get('ActiveFilters');
+
+		/* $this->pagination = $this->get('Pagination');
+		$this->filterForm    = $this->get('FilterForm');
+		$this->activeFilters = $this->get('ActiveFilters'); */
 
 		// Check for errors.
 		if (count($errors = $this->get('Errors')))
@@ -65,7 +66,7 @@ class Db8sitedevViewDashboard extends JViewLegacy
 	 */
 	protected function addToolbar()
 	{
-		$state = $this->get('State');
+		// $state = $this->get('State');
 		$canDo = Db8sitedevHelpersDb8sitedev::getActions();
 
 		JToolbarHelper::title(JText::_('COM_DB8SITEDEV') . ": " . JText::_('COM_DB8SITEDEV_TITLE_DASHBOARD'), 'dashboard.png');
@@ -85,6 +86,7 @@ class Db8sitedevViewDashboard extends JViewLegacy
 	 * Method to order fields 
 	 *
 	 * @return array
+	 *
 	 * @since
 	 */
 	protected function getSortFields()

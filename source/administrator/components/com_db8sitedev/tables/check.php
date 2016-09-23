@@ -22,6 +22,7 @@ class Db8sitedevTablecheck extends JTable
 	 * Constructor
 	 *
 	 * @param   JDatabase  &$db  A database connector object
+	 *
 	 * @since
 	 */
 	public function __construct(&$db)
@@ -102,6 +103,7 @@ class Db8sitedevTablecheck extends JTable
 	 * @param   array  $jaccessrules  An array of JAccessRule objects.
 	 *
 	 * @return  array
+	 *
 	 * @since
 	 */
 	private function JAccessRulestoArray($jaccessrules)
@@ -127,6 +129,7 @@ class Db8sitedevTablecheck extends JTable
 	 * Overloaded check function
 	 *
 	 * @return bool
+	 *
 	 * @since
 	 */
 	public function check()
@@ -244,7 +247,8 @@ class Db8sitedevTablecheck extends JTable
 	 *
 	 * @see JTable::_getAssetParentId
 	 *
-	 * @return mixed The id on success, false on failure.
+	 * @return  mixed  The id on success, false on failure.
+	 *
 	 * @since
 	 */
 	protected function _getAssetParentId(JTable $table = null, $id = null)
@@ -273,6 +277,7 @@ class Db8sitedevTablecheck extends JTable
 	 * @param   mixed  $pk  Primary key value to delete. Optional
 	 *
 	 * @return bool
+	 *
 	 * @since
 	 */
 	public function delete($pk = null)

@@ -202,6 +202,7 @@ class Db8sitedevModelChecks extends JModelList
 	 * Get an array of data items
 	 *
 	 * @return mixed Array of data items on success, false on failure.
+	 *
 	 * @since
 	 */
 	public function getItems()
