@@ -135,6 +135,7 @@ class Db8sitedevModelCheck extends JModelAdmin
 	 * @return  boolean  True if successful.
 	 *
 	 * @throws  Exception
+     * @since
 	 */
 	public function duplicate(&$pks)
 	{
@@ -228,7 +229,8 @@ class Db8sitedevModelCheck extends JModelAdmin
 	 * @param   string  $field  Name of the field to toggle
 	 *
 	 * @return bool
-	 */
+     * @since
+     */
 	public function toggle($pk, $field)
 	{
 		$result = false;

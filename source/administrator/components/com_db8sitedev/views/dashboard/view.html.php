@@ -32,6 +32,7 @@ class Db8sitedevViewDashboard extends JViewLegacy
 	 * @return void
 	 *
 	 * @throws Exception
+	 * @since
 	 */
 	public function display($tpl = null)
 	{
@@ -84,6 +85,7 @@ class Db8sitedevViewDashboard extends JViewLegacy
 	 * Method to order fields 
 	 *
 	 * @return array
+	 * @since
 	 */
 	protected function getSortFields()
 	{

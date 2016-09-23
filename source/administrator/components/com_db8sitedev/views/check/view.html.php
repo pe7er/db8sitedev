@@ -32,6 +32,7 @@ class Db8sitedevViewCheck extends JViewLegacy
 	 * @return void
 	 *
 	 * @throws Exception
+	 * @since
 	 */
 	public function display($tpl = null)
 	{
@@ -55,6 +56,7 @@ class Db8sitedevViewCheck extends JViewLegacy
 	 * @return void
 	 *
 	 * @throws Exception
+	 * @since
 	 */
 	protected function addToolbar()
 	{

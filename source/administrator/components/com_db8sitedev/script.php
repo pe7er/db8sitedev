@@ -24,6 +24,7 @@ class Com_Db8sitedevInstallerScript
 	 * @return void
 	 *
 	 * @throws Exception
+	 * @since
 	 */
 	public function install($parent)
 	{
@@ -139,6 +140,7 @@ class Com_Db8sitedevInstallerScript
 	 * @param $parent
 	 *
 	 * @return void
+	 * @since
 	 */
 	public function update ($parent)
 	{

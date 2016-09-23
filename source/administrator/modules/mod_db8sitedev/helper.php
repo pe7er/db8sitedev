@@ -11,6 +11,7 @@ defined('_JEXEC') or die;
 
 /**
  * Helper for mod_db8sitedev
+ * @since
  */
 abstract class ModDb8sitedevHelper
 {
@@ -21,6 +22,8 @@ abstract class ModDb8sitedevHelper
 	 * @param   $params
 	 *
 	 * @return   mixed
+	 * 
+	 * @since
 	 */
 	public static function getItems(&$params)
 	{
@@ -57,6 +60,8 @@ abstract class ModDb8sitedevHelper
 	 * @param   $categories
 	 * 
 	 * @return mixed
+	 * 
+	 * @since
 	 */
 	public static function countItems(&$categories)
 	{

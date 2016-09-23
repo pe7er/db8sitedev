@@ -57,6 +57,7 @@ class Db8sitedevModelChecklist extends JModelList
 	 * @return void
 	 *
 	 * @throws Exception
+	 * @since
 	 */
 	protected function populateState($ordering = null, $direction = null)
 	{
@@ -194,6 +195,8 @@ class Db8sitedevModelChecklist extends JModelList
 	 * Get an array of data items
 	 *
 	 * @return mixed Array of data items on success, false on failure.
+	 *
+	 * @since
 	 */
 	public function getItems()
 	{

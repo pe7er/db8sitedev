@@ -32,6 +32,7 @@ class Db8sitedevViewAbout extends JViewLegacy
 	 * @return void
 	 *
 	 * @throws Exception
+	 * @since
 	 */
 	public function display($tpl = null)
 	{

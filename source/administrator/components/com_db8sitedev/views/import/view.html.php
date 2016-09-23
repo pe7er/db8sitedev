@@ -24,7 +24,7 @@ class Db8sitedevViewImport extends JViewLegacy
 	 * @param   string  $tpl  Template name
 	 *
 	 * @return void
-	 *
+	 * @since
 	 */
 	public function display($tpl = null)
 	{
