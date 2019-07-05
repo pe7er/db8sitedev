@@ -65,6 +65,7 @@ This extension is available with the following translations, thanks to my fellow
 - Dutch (nl-NL)
 - French (fr-FR) by Marc-Antoine Thevenet
 - German (de-DE)
+- Russian (ru-RU) by Maxim Belousov
 
 #### Default Live Site Checklists
 - [db8-site-dev-default-checklist-en.json](https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-en.json)
