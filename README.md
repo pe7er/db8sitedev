@@ -63,7 +63,7 @@ This extension is available with the following translations, thanks to my fellow
 - English (en-GB)
 - Danish (da-DK) by Ole Bang Ottosen
 - Dutch (nl-NL)
-- French (fr-FR) by Marc-Antoine Thevenet
+- French (fr-FR) by Yann Gomiero and Marc-Antoine Thevenet
 - German (de-DE)
 - Russian (ru-RU) by Maxim Belousov
 
@@ -74,5 +74,5 @@ This extension is available with the following translations, thanks to my fellow
 - [db8-site-dev-default-checklist-nl.json](https://raw.githubusercontent.com/pe7er/db8sitedev/master/db8-site-dev-default-checklist-nl.json)
 
 #### Suggestions and Improvements
-Wilco Alsemgeest, Ludo Arts, Anja Hage, Markus Hermann, Joris Lange, Nico van Leeuwen, Matthew Philogene, 
+Wilco Alsemgeest, Ludo Arts, Maxim Belousov, Yann Gomiero, Anja Hage, Markus Hermann, Joris Lange, Nico van Leeuwen, Ole Bang Ottosen, Matthew Philogene, 
 Ric Raftis, Brian Teeman, Marc-Antoine Thevenet, John Wood.

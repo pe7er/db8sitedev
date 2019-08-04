@@ -117,7 +117,7 @@ Y88b 888 888 d88P Y88b  d88P      Y88b  d88P 888 Y88b. Y8b.          888  .d88P 
 			<li>English (en-GB)</li>
 			<li>Danish (da-DK) by Ole Bang Ottosen</li>
 			<li>Dutch (nl-NL)</li>
-			<li>French (fr-FR) by Marc-Antoine Thevenet</li>
+			<li>French (fr-FR) by Yann Gomiero and Marc-Antoine Thevenet</li>
 			<li>German (de-DE)</li>
 		</ul>
 		<h3>Default Live Site Checklists</h3>
